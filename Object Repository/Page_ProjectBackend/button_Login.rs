@@ -4,6 +4,12 @@
    <name>button_Login</name>
    <tag></tag>
    <elementGuidId>814950b3-28be-4292-89f8-93f028551220</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[(text() = 'Login' or . = 'Login')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
