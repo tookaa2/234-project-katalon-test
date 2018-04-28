@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login incorrect user or pass error,Firefox 59.0,Incorrect login test,2018-04-28 23:46:13,2018-04-28 23:46:35,22.033s,PASSED
+,,,,,,
+Test Cases/Navigate to web,Firefox 59.0,Use to navigate to certain urls,2018-04-28 23:46:14,2018-04-28 23:46:33,19.160s,PASSED
+openBrowser,Firefox 59.0,,2018-04-28 23:46:14,2018-04-28 23:46:20,5.560s,PASSED
+navigateToUrl,Firefox 59.0,,2018-04-28 23:46:20,2018-04-28 23:46:33,13.142s,PASSED
+,,,,,,
+Test Cases/Login with credentials,Firefox 59.0,This test case will login with given infos,2018-04-28 23:46:33,2018-04-28 23:46:34,0.984s,PASSED
+setText,Firefox 59.0,,2018-04-28 23:46:33,2018-04-28 23:46:33,0.207s,PASSED
+setText,Firefox 59.0,,2018-04-28 23:46:33,2018-04-28 23:46:33,0.096s,PASSED
+click,Firefox 59.0,,2018-04-28 23:46:33,2018-04-28 23:46:34,0.358s,PASSED
+,,,,,,
+Test Cases/Login error verify,Firefox 59.0,Verify if login provides error,2018-04-28 23:46:34,2018-04-28 23:46:34,0.778s,PASSED
+verifyElementPresent,Firefox 59.0,,2018-04-28 23:46:34,2018-04-28 23:46:34,0.552s,PASSED
+,,,,,,
+Test Cases/Exit browser,Firefox 59.0,use to terminate browser when testcase is done,2018-04-28 23:46:34,2018-04-28 23:46:35,0.481s,PASSED
+closeBrowser,Firefox 59.0,,2018-04-28 23:46:35,2018-04-28 23:46:35,0.282s,PASSED

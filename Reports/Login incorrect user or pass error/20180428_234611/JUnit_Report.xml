@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login incorrect user or pass error" time="22" tests="4" failures="0" errors="0">
+   <testsuite name="Login incorrect user or pass error" tests="4" failures="0" errors="0" time="22" timestamp="2018-04-28 23:46:13" hostname="Donut - DESKTOP-IGTTMO3" id="Test Suites/Login incorrect user or pass error">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Login incorrect user or pass error\\20180428_234611"/>
+         <property name="logFiles" value="C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Login incorrect user or pass error\\20180428_234611\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Donut - DESKTOP-IGTTMO3"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Firefox 59.0"/>
+         <property name="hostAddress" value="172.20.10.2"/>
+         <property name="sessionId" value="38f20766-d8aa-45c4-a3a3-f27d8e636e46"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Navigate to web" classname="Test Cases/Navigate to web" status="PASSED">
+         <system-out><![CDATA[2018-04-28 23:46:14 - [TEST_CASE][PASSED] - Test Cases/Navigate to web: Test Cases/Navigate to web
+
+2018-04-28 23:46:14 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-28 23:46:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-28 23:46:20 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.71.80.147:8086/' successfully
+
+2018-04-28 23:46:33 - [MESSAGE][PASSED] - Navigate to 'http://54.71.80.147:8086/' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login with credentials" classname="Test Cases/Login with credentials" status="PASSED">
+         <system-out><![CDATA[2018-04-28 23:46:33 - [TEST_CASE][PASSED] - Test Cases/Login with credentials: Test Cases/Login with credentials
+
+2018-04-28 23:46:33 - [TEST_STEP][PASSED] - setText: Text 'abc' is set on object 'Object Repository/Page_ProjectBackend/input_username'
+
+2018-04-28 23:46:33 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Page_ProjectBackend/input_username'
+
+2018-04-28 23:46:33 - [TEST_STEP][PASSED] - setText: Text 'abc' is set on object 'Object Repository/Page_ProjectBackend/input_password'
+
+2018-04-28 23:46:33 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Page_ProjectBackend/input_password'
+
+2018-04-28 23:46:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend/button_Login' is clicked on
+
+2018-04-28 23:46:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login error verify" classname="Test Cases/Login error verify" status="PASSED">
+         <system-out><![CDATA[2018-04-28 23:46:34 - [TEST_CASE][PASSED] - Test Cases/Login error verify: Test Cases/Login error verify
+
+2018-04-28 23:46:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_ProjectBackend/label_Usernamepassword is inco' is present
+
+2018-04-28 23:46:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-28 23:46:34 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ProjectBackend/label_Usernamepassword is inco' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Exit browser" classname="Test Cases/Exit browser" status="PASSED">
+         <system-out><![CDATA[2018-04-28 23:46:34 - [TEST_CASE][PASSED] - Test Cases/Exit browser: Test Cases/Exit browser
+
+2018-04-28 23:46:35 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-28 23:46:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-28 23:46:13 - [TEST_SUITE][PASSED] - Login incorrect user or pass error: Test Cases/Exit browser]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
