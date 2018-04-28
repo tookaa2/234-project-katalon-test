@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Total Transaction</name>
+   <name>a_Carts</name>
    <tag></tag>
-   <elementGuidId>cecbf6e0-e764-41c6-852a-70b5ae714710</elementGuidId>
+   <elementGuidId>c6c352be-9b55-4384-844b-8c912863423d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;navbarSupportedContent&quot;)/ul[@class=&quot;navbar-nav mr-auto&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;][count(. | //a[@routerlink = '/total']) = count(//a[@routerlink = '/total'])]</value>
+         <value>id(&quot;navbarSupportedContent&quot;)/ul[@class=&quot;navbar-nav mr-auto&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;][count(. | //a[@href = '/cart']) = count(//a[@href = '/cart'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -27,32 +27,34 @@
       <value>nav-link</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>routerlink</name>
       <type>Main</type>
-      <value>/total</value>
+      <value>/cart</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-reflect-router-link</name>
       <type>Main</type>
-      <value>/total</value>
+      <value>/cart</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/total</value>
+      <value>/cart</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Total Transaction</value>
+      <value>Carts
+            
+          </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

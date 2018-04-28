@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login as admin,Firefox 59.0,,2018-04-28 16:51:02,2018-04-28 16:51:23,21.143s,FAILED
+,,,,,,
+Test Cases/Navigate to web,Firefox 59.0,Use to navigate to certain urls,2018-04-28 16:51:03,2018-04-28 16:51:22,19.648s,PASSED
+openBrowser,Firefox 59.0,,2018-04-28 16:51:03,2018-04-28 16:51:09,5.930s,PASSED
+navigateToUrl,Firefox 59.0,,2018-04-28 16:51:09,2018-04-28 16:51:22,13.280s,PASSED
+,,,,,,
+Test Cases/Login with credentials,Firefox 59.0,This test case will login with given infos,2018-04-28 16:51:22,2018-04-28 16:51:23,0.709s,FAILED
+setText,Firefox 59.0,,2018-04-28 16:51:23,2018-04-28 16:51:23,0.189s,PASSED
+setText,Firefox 59.0,,2018-04-28 16:51:23,2018-04-28 16:51:23,0.228s,FAILED

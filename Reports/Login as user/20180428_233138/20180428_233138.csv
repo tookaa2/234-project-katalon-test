@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login as user,Firefox 59.0,,2018-04-28 23:31:41,2018-04-28 23:32:20,39.069s,FAILED
+,,,,,,
+Test Cases/Navigate to web,Firefox 59.0,Use to navigate to certain urls,2018-04-28 23:31:41,2018-04-28 23:32:03,22.012s,PASSED
+openBrowser,Firefox 59.0,,2018-04-28 23:31:42,2018-04-28 23:31:48,6.267s,PASSED
+navigateToUrl,Firefox 59.0,,2018-04-28 23:31:48,2018-04-28 23:32:03,15.274s,PASSED
+,,,,,,
+Test Cases/Login with credentials,Firefox 59.0,This test case will login with given infos,2018-04-28 23:32:03,2018-04-28 23:32:04,0.955s,PASSED
+setText,Firefox 59.0,,2018-04-28 23:32:04,2018-04-28 23:32:04,0.157s,PASSED
+setText,Firefox 59.0,,2018-04-28 23:32:04,2018-04-28 23:32:04,0.084s,PASSED
+click,Firefox 59.0,,2018-04-28 23:32:04,2018-04-28 23:32:04,0.298s,PASSED
+,,,,,,
+Test Cases/Verify user landing page,Firefox 59.0,,2018-04-28 23:32:04,2018-04-28 23:32:19,15.228s,FAILED
+verifyElementText,Firefox 59.0,,2018-04-28 23:32:04,2018-04-28 23:32:19,14.997s,FAILED
+,,,,,,
+Test Cases/Exit browser,Firefox 59.0,use to terminate browser when testcase is done,2018-04-28 23:32:19,2018-04-28 23:32:20,0.290s,FAILED
+closeBrowser,Firefox 59.0,,2018-04-28 23:32:20,2018-04-28 23:32:20,0.087s,FAILED

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login as admin" time="23" tests="2" failures="1" errors="0">
+   <testsuite name="Login as admin" tests="2" failures="1" errors="0" time="23" timestamp="2018-04-28 17:30:50" hostname="Donut - DESKTOP-IGTTMO3" id="Test Suites/Login as admin">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Login as admin\\20180428_173048"/>
+         <property name="logFiles" value="C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Login as admin\\20180428_173048\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Login as admin\\20180428_173048\\1524911472988.png, C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Login as admin\\20180428_173048\\1524911473116.png"/>
+         <property name="hostName" value="Donut - DESKTOP-IGTTMO3"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Firefox 59.0"/>
+         <property name="hostAddress" value="172.20.10.2"/>
+         <property name="sessionId" value="cd1e4702-40af-4d1f-895b-f0733ebbb349"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Navigate to web" classname="Test Cases/Navigate to web" status="PASSED">
+         <system-out><![CDATA[2018-04-28 17:30:51 - [TEST_CASE][PASSED] - Test Cases/Navigate to web: Test Cases/Navigate to web
+
+2018-04-28 17:30:51 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-28 17:30:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-28 17:30:57 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.71.80.147:8086/' successfully
+
+2018-04-28 17:31:10 - [MESSAGE][PASSED] - Navigate to 'http://54.71.80.147:8086/' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login with credentials" classname="Test Cases/Login with credentials" status="PASSED">
+         <system-out><![CDATA[2018-04-28 17:31:10 - [TEST_CASE][PASSED] - Test Cases/Login with credentials: Test Cases/Login with credentials
+
+2018-04-28 17:31:11 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_ProjectBackend/input_username'
+
+2018-04-28 17:31:11 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_ProjectBackend/input_username'
+
+2018-04-28 17:31:11 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_ProjectBackend/input_password'
+
+2018-04-28 17:31:11 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_ProjectBackend/input_password'
+
+2018-04-28 17:31:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend/button_Login' is clicked on
+
+2018-04-28 17:31:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Verify admin landing page" classname="Test Cases/Verify admin landing page" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/Page_ProjectBackend/a_Total Transaction' FAILED. (Root cause: Actual text 'Total Transaction' and expected text 'Total Transactions' of test object 'Object Repository/Page_ProjectBackend/a_Total Transaction' are NOT matched.)"/>
+         <system-out><![CDATA[2018-04-28 17:31:11 - [TEST_CASE][FAILED] - Test Cases/Verify admin landing page: Test Cases/Verify admin landing page FAILED because (of) Verify element text of test object 'Object Repository/Page_ProjectBackend/a_Total Transaction' FAILED. (Root cause: Actual text 'Total Transaction' and expected text 'Total Transactions' of test object 'Object Repository/Page_ProjectBackend/a_Total Transaction' are NOT matched.)
+
+2018-04-28 17:31:11 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_ProjectBackend/a_Products' are matched.
+
+2018-04-28 17:31:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_ProjectBackend/a_Products' are matched.
+
+2018-04-28 17:31:12 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/Page_ProjectBackend/a_Total Transaction' FAILED. (Root cause: Actual text 'Total Transaction' and expected text 'Total Transactions' of test object 'Object Repository/Page_ProjectBackend/a_Total Transaction' are NOT matched.)
+
+2018-04-28 17:31:13 - [MESSAGE][FAILED] - Actual text 'Total Transaction' and expected text 'Total Transactions' of test object 'Object Repository/Page_ProjectBackend/a_Total Transaction' are NOT matched.
+[[ATTACHMENT|C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Login as admin\\20180428_173048\\1524911472988.png]]
+
+2018-04-28 17:31:13 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Page_ProjectBackend/a_Total Transaction' FAILED. (Root cause: Actual text 'Total Transaction' and expected text 'Total Transactions' of test object 'Object Repository/Page_ProjectBackend/a_Total Transaction' are NOT matched.)
+[[ATTACHMENT|C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Login as admin\\20180428_173048\\1524911473116.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-28 17:31:11 - [TEST_CASE][FAILED] - Test Cases/Verify admin landing page: Test Cases/Verify admin landing page FAILED because (of) Verify element text of test object 'Object Repository/Page_ProjectBackend/a_Total Transaction' FAILED. (Root cause: Actual text 'Total Transaction' and expected text 'Total Transactions' of test object 'Object Repository/Page_ProjectBackend/a_Total Transaction' are NOT matched.)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-28 17:30:50 - [TEST_SUITE][FAILED] - Login as admin: Test Cases/Verify admin landing page FAILED because (of) Verify element text of test object 'Object Repository/Page_ProjectBackend/a_Total Transaction' FAILED. (Root cause: Actual text 'Total Transaction' and expected text 'Total Transactions' of test object 'Object Repository/Page_ProjectBackend/a_Total Transaction' are NOT matched.)]]></system-out>
+      <system-err><![CDATA[2018-04-28 17:30:50 - [TEST_SUITE][FAILED] - Login as admin: Test Cases/Verify admin landing page FAILED because (of) Verify element text of test object 'Object Repository/Page_ProjectBackend/a_Total Transaction' FAILED. (Root cause: Actual text 'Total Transaction' and expected text 'Total Transactions' of test object 'Object Repository/Page_ProjectBackend/a_Total Transaction' are NOT matched.)]]></system-err>
+   </testsuite>
+</testsuites>
