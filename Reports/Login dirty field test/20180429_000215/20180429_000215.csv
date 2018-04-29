@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login dirty field test,Firefox 59.0,Test if error is shown when input is dirty,2018-04-29 00:02:17,2018-04-29 00:03:11,54.361s,FAILED
+,,,,,,
+Test Cases/Navigate to web,Firefox 59.0,Use to navigate to certain urls,2018-04-29 00:02:17,2018-04-29 00:02:37,19.149s,PASSED
+openBrowser,Firefox 59.0,,2018-04-29 00:02:18,2018-04-29 00:02:24,5.607s,PASSED
+navigateToUrl,Firefox 59.0,,2018-04-29 00:02:24,2018-04-29 00:02:37,13.087s,PASSED
+,,,,,,
+Test Cases/Login with credentials,Firefox 59.0,This test case will login with given infos,2018-04-29 00:02:37,2018-04-29 00:02:38,1.010s,PASSED
+setText,Firefox 59.0,,2018-04-29 00:02:37,2018-04-29 00:02:37,0.184s,PASSED
+setText,Firefox 59.0,,2018-04-29 00:02:37,2018-04-29 00:02:37,0.104s,PASSED
+click,Firefox 59.0,,2018-04-29 00:02:37,2018-04-29 00:02:38,0.382s,PASSED
+,,,,,,
+Test Cases/Empty and check dirty messages for form,Firefox 59.0,Use to check if dirty emptied input error is shown,2018-04-29 00:02:38,2018-04-29 00:03:11,33.181s,FAILED
+delay,Firefox 59.0,,2018-04-29 00:02:38,2018-04-29 00:02:40,2.027s,PASSED
+setText,Firefox 59.0,,2018-04-29 00:02:40,2018-04-29 00:02:40,0.071s,PASSED
+setText,Firefox 59.0,,2018-04-29 00:02:40,2018-04-29 00:02:40,0.067s,PASSED
+verifyElementPresent,Firefox 59.0,,2018-04-29 00:02:40,2018-04-29 00:03:11,30.797s,FAILED
+,,,,,,
+Test Cases/Exit browser,Firefox 59.0,use to terminate browser when testcase is done,2018-04-29 00:03:11,2018-04-29 00:03:11,0.472s,PASSED
+closeBrowser,Firefox 59.0,,2018-04-29 00:03:11,2018-04-29 00:03:11,0.258s,PASSED

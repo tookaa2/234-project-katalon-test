@@ -19,5 +19,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementPresent(findTestObject('Page_ProjectBackend/label_Usernamepassword is inco'), 0)
+WebUI.verifyElementPresent(findTestObject('Login_Page/label_Usernamepassword is inco'), 0)
 

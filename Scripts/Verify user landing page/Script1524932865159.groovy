@@ -20,7 +20,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementText(findTestObject('Page_ProjectBackend (1)/a_Products'), 'Products')
+WebUI.verifyElementText(findTestObject('Main_Page/a_Products'), 'Products')
 
-WebUI.verifyElementText(findTestObject('Page_ProjectBackend (1)/a_Carts'), 'Carts')
+WebUI.verifyElementText(findTestObject('Main_Page/a_Carts'), 'Carts')
 

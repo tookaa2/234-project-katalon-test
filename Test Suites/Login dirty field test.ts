@@ -1,48 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description></description>
-   <name>Login as admin</name>
+   <description>Test if error is shown when input is dirty</description>
+   <name>Login dirty field test</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-04-28T23:51:01</lastRun>
+   <lastRun>2018-04-29T11:47:39</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>1adc4650-a9a3-408f-b700-183b38f71d5f</testSuiteGuid>
+   <testSuiteGuid>5dbd67f0-f0b6-4234-ad47-dcd7142f1956</testSuiteGuid>
    <testCaseLink>
-      <guid>f8d8d865-2bc3-4244-987b-cdcba7ac38c1</guid>
+      <guid>603c17f3-fa34-4529-9c94-d88e637e6207</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Navigate to web</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>a33d0a7c-f515-41df-83be-4cd964c3709f</guid>
+      <guid>c108719b-ee39-400d-a219-3311bd785b4d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login with credentials</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>SCRIPT_VARIABLE</type>
-         <value>&quot;admin&quot;</value>
+         <value>&quot;&quot;</value>
          <variableId>d23196c2-519d-4e28-96bb-05a21bdb9cf9</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>SCRIPT_VARIABLE</type>
-         <value>&quot;admin&quot;</value>
+         <value>&quot;&quot;</value>
          <variableId>0bc0a367-2c7b-477e-8476-6d9e80ef7936</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>36919a15-b909-4b98-8d57-a62890716220</guid>
+      <guid>1531ccef-a4dd-4915-9f85-3645d4fef315</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Verify admin landing page</testCaseId>
+      <testCaseId>Test Cases/Empty and check dirty messages for form</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>ba67a37e-9fa7-4190-adb1-dec71b264784</guid>
+      <guid>eee773c3-dfe0-4a38-aea3-21de6329680e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Exit browser</testCaseId>

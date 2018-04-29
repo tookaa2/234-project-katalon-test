@@ -19,9 +19,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.setText(findTestObject('Page_ProjectBackend/input_username'), Username)
+WebUI.setText(findTestObject('Login_Page/input_username'), Username)
 
-WebUI.setText(findTestObject('Page_ProjectBackend/input_password'), Password)
+WebUI.setText(findTestObject('Login_Page/input_password'), Password)
 
-WebUI.click(findTestObject('Page_ProjectBackend/button_Login'))
+WebUI.click(findTestObject('Login_Page/button_Login'))
 

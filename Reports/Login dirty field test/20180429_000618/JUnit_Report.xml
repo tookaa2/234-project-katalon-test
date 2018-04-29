@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login dirty field test" time="38" tests="4" failures="0" errors="0">
+   <testsuite name="Login dirty field test" tests="4" failures="0" errors="0" time="38" timestamp="2018-04-29 00:06:20" hostname="Donut - DESKTOP-IGTTMO3" id="Test Suites/Login dirty field test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Login dirty field test\\20180429_000618"/>
+         <property name="logFiles" value="C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Login dirty field test\\20180429_000618\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Donut - DESKTOP-IGTTMO3"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Firefox 59.0"/>
+         <property name="hostAddress" value="172.20.10.2"/>
+         <property name="sessionId" value="e14b9b8a-0827-4159-a6ee-18729b1f913a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Navigate to web" classname="Test Cases/Navigate to web" status="PASSED">
+         <system-out><![CDATA[2018-04-29 00:06:21 - [TEST_CASE][PASSED] - Test Cases/Navigate to web: Test Cases/Navigate to web
+
+2018-04-29 00:06:21 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-29 00:06:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-29 00:06:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.71.80.147:8086/' successfully
+
+2018-04-29 00:06:40 - [MESSAGE][PASSED] - Navigate to 'http://54.71.80.147:8086/' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login with credentials" classname="Test Cases/Login with credentials" status="PASSED">
+         <system-out><![CDATA[2018-04-29 00:06:40 - [TEST_CASE][PASSED] - Test Cases/Login with credentials: Test Cases/Login with credentials
+
+2018-04-29 00:06:41 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Login_Page/input_username'
+
+2018-04-29 00:06:41 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Login_Page/input_username'
+
+2018-04-29 00:06:41 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Login_Page/input_password'
+
+2018-04-29 00:06:41 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Login_Page/input_password'
+
+2018-04-29 00:06:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_Page/button_Login' is clicked on
+
+2018-04-29 00:06:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Empty and check dirty messages for form" classname="Test Cases/Empty and check dirty messages for form" status="PASSED">
+         <system-out><![CDATA[2018-04-29 00:06:41 - [TEST_CASE][PASSED] - Test Cases/Empty and check dirty messages for form: Test Cases/Empty and check dirty messages for form
+
+2018-04-29 00:06:42 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-29 00:06:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-29 00:06:44 - [TEST_STEP][PASSED] - sendKeys: Keys 'BACK_SPACE + BACK_SPACE + BACK_SPACE + ' sent to object: 'Object Repository/Login_Page/input_username'
+
+2018-04-29 00:06:44 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + BACK_SPACE + BACK_SPACE + ' sent to object: 'Object Repository/Login_Page/input_username'
+
+2018-04-29 00:06:44 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-29 00:06:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-29 00:06:45 - [TEST_STEP][PASSED] - sendKeys: Keys 'BACK_SPACE + BACK_SPACE + BACK_SPACE + ' sent to object: 'Object Repository/Login_Page/input_password'
+
+2018-04-29 00:06:45 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + BACK_SPACE + BACK_SPACE + ' sent to object: 'Object Repository/Login_Page/input_password'
+
+2018-04-29 00:06:45 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-29 00:06:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-29 00:06:46 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login_Page/label_Username is required' is present
+
+2018-04-29 00:06:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-29 00:06:57 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/label_Username is required' is present
+
+2018-04-29 00:06:57 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login_Page/label_Password is required' is present
+
+2018-04-29 00:06:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-29 00:06:58 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/label_Password is required' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Exit browser" classname="Test Cases/Exit browser" status="PASSED">
+         <system-out><![CDATA[2018-04-29 00:06:58 - [TEST_CASE][PASSED] - Test Cases/Exit browser: Test Cases/Exit browser
+
+2018-04-29 00:06:58 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-29 00:06:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-29 00:06:20 - [TEST_SUITE][PASSED] - Login dirty field test: Test Cases/Exit browser]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

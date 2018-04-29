@@ -20,17 +20,25 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.delay(2)
 
-WebUI.navigateToUrl('http://54.71.80.147:8086/')
+WebUI.doubleClick(findTestObject('Login_Page/input_username'))
 
-WebUI.verifyElementText(findTestObject('Login_Page/Login Header'), 'Login')
+WebUI.delay(1)
 
-WebUI.verifyElementPresent(findTestObject('Login_Page/input_username'), 0)
+WebUI.doubleClick(findTestObject('Login_Page/input_password'))
 
-WebUI.verifyElementPresent(findTestObject('Login_Page/input_password'), 0)
+WebUI.delay(1)
 
-WebUI.verifyElementText(findTestObject('Login_Page/button_Login'), 'Login')
+WebUI.doubleClick(findTestObject('Login_Page/input_username'))
 
-WebUI.closeBrowser()
+WebUI.delay(1)
+
+WebUI.doubleClick(findTestObject('Login_Page/input_password'))
+
+WebUI.delay(1)
+
+WebUI.verifyElementPresent(findTestObject('Login_Page/label_Username is required'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Login_Page/label_Password is required'), 0)
 

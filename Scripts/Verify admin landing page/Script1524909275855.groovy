@@ -19,7 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementText(findTestObject('Page_ProjectBackend/a_Products'), 'Products')
+WebUI.verifyElementText(findTestObject('Main_Page/a_Products'), 'Products')
 
-WebUI.verifyElementText(findTestObject('Page_ProjectBackend/a_Total Transaction'), 'Total Transaction')
+WebUI.verifyElementText(findTestObject('Main_Page/a_Total Transaction'), 'Total Transaction')
 

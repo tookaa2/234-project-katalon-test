@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Use to check if dirty emptied input error is shown</description>
+   <name>Empty and check dirty messages for form</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2c18473b-53bd-4416-b809-69195bbbae9e</testCaseGuid>
+</TestCaseEntity>

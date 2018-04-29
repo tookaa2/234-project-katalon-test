@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login dirty field test" time="56" tests="3" failures="1" errors="0">
+   <testsuite name="Login dirty field test" tests="3" failures="1" errors="0" time="56" timestamp="2018-04-29 00:08:26" hostname="Donut - DESKTOP-IGTTMO3" id="Test Suites/Login dirty field test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Login dirty field test\\20180429_000824"/>
+         <property name="logFiles" value="C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Login dirty field test\\20180429_000824\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Login dirty field test\\20180429_000824\\1524935362286.png, C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Login dirty field test\\20180429_000824\\1524935362403.png"/>
+         <property name="hostName" value="Donut - DESKTOP-IGTTMO3"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Firefox 59.0"/>
+         <property name="hostAddress" value="172.20.10.2"/>
+         <property name="sessionId" value="12206ea2-6659-44fa-9dee-648529fc1fbc"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Navigate to web" classname="Test Cases/Navigate to web" status="PASSED">
+         <system-out><![CDATA[2018-04-29 00:08:26 - [TEST_CASE][PASSED] - Test Cases/Navigate to web: Test Cases/Navigate to web
+
+2018-04-29 00:08:27 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-29 00:08:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-29 00:08:33 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.71.80.147:8086/' successfully
+
+2018-04-29 00:08:46 - [MESSAGE][PASSED] - Navigate to 'http://54.71.80.147:8086/' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login with credentials" classname="Test Cases/Login with credentials" status="PASSED">
+         <system-out><![CDATA[2018-04-29 00:08:46 - [TEST_CASE][PASSED] - Test Cases/Login with credentials: Test Cases/Login with credentials
+
+2018-04-29 00:08:46 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/Login_Page/input_username'
+
+2018-04-29 00:08:46 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Login_Page/input_username'
+
+2018-04-29 00:08:46 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/Login_Page/input_password'
+
+2018-04-29 00:08:46 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Login_Page/input_password'
+
+2018-04-29 00:08:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_Page/button_Login' is clicked on
+
+2018-04-29 00:08:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Empty and check dirty messages for form" classname="Test Cases/Empty and check dirty messages for form" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/Login_Page/label_Username is required' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login_Page/label_Username is required' located by 'By.xpath: /html[1]/body[1]/app-root[1]/app-login[1]/div[@class=&quot;col-md-6 col-md-offset-3&quot;]/form[@class=&quot;ng-pristine ng-invalid ng-touched&quot;]/div[@class=&quot;form-group text-danger&quot;]/label[@class=&quot;text-danger&quot;]' not found)"/>
+         <system-out><![CDATA[2018-04-29 00:08:47 - [TEST_CASE][FAILED] - Test Cases/Empty and check dirty messages for form: Test Cases/Empty and check dirty messages for form FAILED because (of) Unable to verify object 'Object Repository/Login_Page/label_Username is required' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login_Page/label_Username is required' located by 'By.xpath: /html[1]/body[1]/app-root[1]/app-login[1]/div[@class="col-md-6 col-md-offset-3"]/form[@class="ng-pristine ng-invalid ng-touched"]/div[@class="form-group text-danger"]/label[@class="text-danger"]' not found)
+
+2018-04-29 00:08:47 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-29 00:08:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-29 00:08:49 - [TEST_STEP][PASSED] - sendKeys: Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Login_Page/input_username'
+
+2018-04-29 00:08:49 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Login_Page/input_username'
+
+2018-04-29 00:08:49 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-29 00:08:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-29 00:08:50 - [TEST_STEP][PASSED] - sendKeys: Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Login_Page/input_password'
+
+2018-04-29 00:08:50 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Login_Page/input_password'
+
+2018-04-29 00:08:50 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-29 00:08:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-29 00:08:51 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Login_Page/label_Username is required' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login_Page/label_Username is required' located by 'By.xpath: /html[1]/body[1]/app-root[1]/app-login[1]/div[@class="col-md-6 col-md-offset-3"]/form[@class="ng-pristine ng-invalid ng-touched"]/div[@class="form-group text-danger"]/label[@class="text-danger"]' not found)
+
+2018-04-29 00:08:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-29 00:09:22 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login_Page/label_Username is required' located by 'By.xpath: /html[1]/body[1]/app-root[1]/app-login[1]/div[@class="col-md-6 col-md-offset-3"]/form[@class="ng-pristine ng-invalid ng-touched"]/div[@class="form-group text-danger"]/label[@class="text-danger"]' not found
+[[ATTACHMENT|C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Login dirty field test\\20180429_000824\\1524935362286.png]]
+
+2018-04-29 00:09:22 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Login_Page/label_Username is required' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login_Page/label_Username is required' located by 'By.xpath: /html[1]/body[1]/app-root[1]/app-login[1]/div[@class="col-md-6 col-md-offset-3"]/form[@class="ng-pristine ng-invalid ng-touched"]/div[@class="form-group text-danger"]/label[@class="text-danger"]' not found)
+[[ATTACHMENT|C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Login dirty field test\\20180429_000824\\1524935362403.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-29 00:08:47 - [TEST_CASE][FAILED] - Test Cases/Empty and check dirty messages for form: Test Cases/Empty and check dirty messages for form FAILED because (of) Unable to verify object 'Object Repository/Login_Page/label_Username is required' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login_Page/label_Username is required' located by 'By.xpath: /html[1]/body[1]/app-root[1]/app-login[1]/div[@class="col-md-6 col-md-offset-3"]/form[@class="ng-pristine ng-invalid ng-touched"]/div[@class="form-group text-danger"]/label[@class="text-danger"]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Exit browser" classname="Test Cases/Exit browser" status="PASSED">
+         <system-out><![CDATA[2018-04-29 00:09:22 - [TEST_CASE][PASSED] - Test Cases/Exit browser: Test Cases/Exit browser
+
+2018-04-29 00:09:22 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-29 00:09:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-29 00:08:26 - [TEST_SUITE][FAILED] - Login dirty field test: Test Cases/Empty and check dirty messages for form FAILED because (of) Unable to verify object 'Object Repository/Login_Page/label_Username is required' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login_Page/label_Username is required' located by 'By.xpath: /html[1]/body[1]/app-root[1]/app-login[1]/div[@class="col-md-6 col-md-offset-3"]/form[@class="ng-pristine ng-invalid ng-touched"]/div[@class="form-group text-danger"]/label[@class="text-danger"]' not found)]]></system-out>
+      <system-err><![CDATA[2018-04-29 00:08:26 - [TEST_SUITE][FAILED] - Login dirty field test: Test Cases/Empty and check dirty messages for form FAILED because (of) Unable to verify object 'Object Repository/Login_Page/label_Username is required' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login_Page/label_Username is required' located by 'By.xpath: /html[1]/body[1]/app-root[1]/app-login[1]/div[@class="col-md-6 col-md-offset-3"]/form[@class="ng-pristine ng-invalid ng-touched"]/div[@class="form-group text-danger"]/label[@class="text-danger"]' not found)]]></system-err>
+   </testsuite>
+</testsuites>
