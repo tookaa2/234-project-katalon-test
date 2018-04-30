@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Verify all available product is shown,Firefox 59.0,,2018-04-29 12:40:32,2018-04-29 12:41:03,31.474s,PASSED
+,,,,,,
+Test Cases/Navigate to web,Firefox 59.0,Use to navigate to certain urls,2018-04-29 12:40:32,2018-04-29 12:40:58,25.554s,PASSED
+openBrowser,Firefox 59.0,,2018-04-29 12:40:33,2018-04-29 12:40:40,7.463s,PASSED
+navigateToUrl,Firefox 59.0,,2018-04-29 12:40:40,2018-04-29 12:40:58,17.596s,PASSED
+,,,,,,
+Test Cases/Login with credentials,Firefox 59.0,This test case will login with given infos,2018-04-29 12:40:58,2018-04-29 12:40:59,1.103s,PASSED
+setText,Firefox 59.0,,2018-04-29 12:40:58,2018-04-29 12:40:58,0.260s,PASSED
+setText,Firefox 59.0,,2018-04-29 12:40:58,2018-04-29 12:40:59,0.153s,PASSED
+click,Firefox 59.0,,2018-04-29 12:40:59,2018-04-29 12:40:59,0.403s,PASSED
+,,,,,,
+Test Cases/Login with credentials,Firefox 59.0,This test case will login with given infos,2018-04-29 12:40:59,2018-04-29 12:41:00,1.012s,PASSED
+setText,Firefox 59.0,,2018-04-29 12:40:59,2018-04-29 12:40:59,0.118s,PASSED
+setText,Firefox 59.0,,2018-04-29 12:40:59,2018-04-29 12:40:59,0.114s,PASSED
+click,Firefox 59.0,,2018-04-29 12:40:59,2018-04-29 12:41:00,0.759s,PASSED
+,,,,,,
+Test Cases/Test view all available product,Firefox 59.0,,2018-04-29 12:41:00,2018-04-29 12:41:02,2.492s,PASSED
+waitForElementPresent,Firefox 59.0,,2018-04-29 12:41:00,2018-04-29 12:41:00,0.035s,PASSED
+delay,Firefox 59.0,,2018-04-29 12:41:00,2018-04-29 12:41:02,2.029s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Firefox 59.0,,2018-04-29 12:41:02,2018-04-29 12:41:02,0.017s,PASSED
+"Statement - Products = driver.findElement(org.openqa.selenium.By.xpath(""/html/body/app-root/app-product-list/div/div[2]/div""))",Firefox 59.0,,2018-04-29 12:41:02,2018-04-29 12:41:02,0.086s,PASSED
+"Statement - farmerCards = Products.findElements(org.openqa.selenium.By.className(""farmer-card""))",Firefox 59.0,,2018-04-29 12:41:02,2018-04-29 12:41:02,0.028s,PASSED
+"Statement - println(""Amount of product: "" + farmerCards.size())",Firefox 59.0,,2018-04-29 12:41:02,2018-04-29 12:41:02,0.005s,PASSED
+verifyEqual,Firefox 59.0,,2018-04-29 12:41:02,2018-04-29 12:41:02,0.018s,PASSED
+,,,,,,
+Test Cases/Exit browser,Firefox 59.0,use to terminate browser when testcase is done,2018-04-29 12:41:02,2018-04-29 12:41:03,0.663s,PASSED
+closeBrowser,Firefox 59.0,,2018-04-29 12:41:03,2018-04-29 12:41:03,0.353s,PASSED

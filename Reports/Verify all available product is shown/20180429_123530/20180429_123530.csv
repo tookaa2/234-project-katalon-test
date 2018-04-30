@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Verify all available product is shown,Firefox 59.0,,2018-04-29 12:35:32,2018-04-29 12:35:58,25.892s,FAILED
+,,,,,,
+Test Cases/Navigate to web,Firefox 59.0,Use to navigate to certain urls,2018-04-29 12:35:33,2018-04-29 12:35:55,22.165s,PASSED
+openBrowser,Firefox 59.0,,2018-04-29 12:35:34,2018-04-29 12:35:41,7.167s,PASSED
+navigateToUrl,Firefox 59.0,,2018-04-29 12:35:41,2018-04-29 12:35:55,14.438s,PASSED
+,,,,,,
+Test Cases/Login with credentials,Firefox 59.0,This test case will login with given infos,2018-04-29 12:35:55,2018-04-29 12:35:56,1.077s,PASSED
+setText,Firefox 59.0,,2018-04-29 12:35:55,2018-04-29 12:35:56,0.258s,PASSED
+setText,Firefox 59.0,,2018-04-29 12:35:56,2018-04-29 12:35:56,0.143s,PASSED
+click,Firefox 59.0,,2018-04-29 12:35:56,2018-04-29 12:35:56,0.367s,PASSED
+,,,,,,
+Test Cases/Test product add,Firefox 59.0,,2018-04-29 12:35:56,2018-04-29 12:35:58,1.454s,FAILED
+waitForElementPresent,Firefox 59.0,,2018-04-29 12:35:57,2018-04-29 12:35:58,1.062s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Firefox 59.0,,2018-04-29 12:35:58,2018-04-29 12:35:58,0.010s,PASSED
+"Statement - Products = driver.findElement(org.openqa.selenium.By.xpath(""/html/body/app-root/app-product-list/div/div[2]/div""))",Firefox 59.0,,2018-04-29 12:35:58,2018-04-29 12:35:58,0.038s,PASSED
+"Statement - farmerCards = Products.findElements(org.openqa.selenium.By.className(""farmer-card""))",Firefox 59.0,,2018-04-29 12:35:58,2018-04-29 12:35:58,0.020s,PASSED
+"Statement - println(""Amount of product: "" + farmerCards.size())",Firefox 59.0,,2018-04-29 12:35:58,2018-04-29 12:35:58,0.004s,PASSED
+verifyEqual,Firefox 59.0,,2018-04-29 12:35:58,2018-04-29 12:35:58,0.032s,FAILED
+,,,,,,
+Test Cases/Exit browser,Firefox 59.0,use to terminate browser when testcase is done,2018-04-29 12:35:58,2018-04-29 12:35:58,0.508s,PASSED
+closeBrowser,Firefox 59.0,,2018-04-29 12:35:58,2018-04-29 12:35:58,0.314s,PASSED

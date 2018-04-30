@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Verify all available product is shown,Firefox 59.0,,2018-04-29 12:22:22,2018-04-29 12:22:59,36.865s,ERROR
+,,,,,,
+Test Cases/Navigate to web,Firefox 59.0,Use to navigate to certain urls,2018-04-29 12:22:23,2018-04-29 12:22:57,34.192s,PASSED
+openBrowser,Firefox 59.0,,2018-04-29 12:22:23,2018-04-29 12:22:31,7.550s,PASSED
+navigateToUrl,Firefox 59.0,,2018-04-29 12:22:31,2018-04-29 12:22:57,26.125s,PASSED
+,,,,,,
+Test Cases/Login with credentials,Firefox 59.0,This test case will login with given infos,2018-04-29 12:22:57,2018-04-29 12:22:58,1.029s,PASSED
+setText,Firefox 59.0,,2018-04-29 12:22:57,2018-04-29 12:22:57,0.227s,PASSED
+setText,Firefox 59.0,,2018-04-29 12:22:57,2018-04-29 12:22:58,0.109s,PASSED
+click,Firefox 59.0,,2018-04-29 12:22:58,2018-04-29 12:22:58,0.371s,PASSED
+,,,,,,
+Test Cases/Test product add,Firefox 59.0,,2018-04-29 12:22:58,2018-04-29 12:22:58,0.379s,ERROR
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Firefox 59.0,,2018-04-29 12:22:58,2018-04-29 12:22:58,0.014s,PASSED
+"Statement - Products = driver.findElement(org.openqa.selenium.By.xpath(""/html/body/app-root/app-product-list/div/div[2]/div""))",Firefox 59.0,,2018-04-29 12:22:58,2018-04-29 12:22:58,0.073s,PASSED
+,,,,,,
+Test Cases/Exit browser,Firefox 59.0,use to terminate browser when testcase is done,2018-04-29 12:22:58,2018-04-29 12:22:59,0.568s,PASSED
+closeBrowser,Firefox 59.0,,2018-04-29 12:22:59,2018-04-29 12:22:59,0.340s,PASSED
