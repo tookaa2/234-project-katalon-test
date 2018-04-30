@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Verify all available product is shown,Firefox 59.0,,2018-04-30 14:23:54,2018-04-30 14:24:31,36.569s,PASSED
+,,,,,,
+Test Cases/Test view all available product,Firefox 59.0,,2018-04-30 14:23:55,2018-04-30 14:24:12,17.446s,PASSED
+openBrowser,Firefox 59.0,,2018-04-30 14:23:55,2018-04-30 14:24:01,5.678s,PASSED
+navigateToUrl,Firefox 59.0,,2018-04-30 14:24:01,2018-04-30 14:24:08,7.343s,PASSED
+setText,Firefox 59.0,,2018-04-30 14:24:08,2018-04-30 14:24:09,0.229s,PASSED
+setText,Firefox 59.0,,2018-04-30 14:24:09,2018-04-30 14:24:09,0.121s,PASSED
+click,Firefox 59.0,,2018-04-30 14:24:09,2018-04-30 14:24:09,0.398s,PASSED
+waitForElementPresent,Firefox 59.0,,2018-04-30 14:24:09,2018-04-30 14:24:10,1.042s,PASSED
+delay,Firefox 59.0,,2018-04-30 14:24:10,2018-04-30 14:24:12,2.028s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Firefox 59.0,,2018-04-30 14:24:12,2018-04-30 14:24:12,0.003s,PASSED
+"Statement - Products = driver.findElement(org.openqa.selenium.By.xpath(""/html/body/app-root/app-product-list/div/div[2]/div""))",Firefox 59.0,,2018-04-30 14:24:12,2018-04-30 14:24:12,0.038s,PASSED
+"Statement - farmerCards = Products.findElements(org.openqa.selenium.By.className(""farmer-card""))",Firefox 59.0,,2018-04-30 14:24:12,2018-04-30 14:24:12,0.036s,PASSED
+"Statement - println(""Amount of product: "" + farmerCards.size())",Firefox 59.0,,2018-04-30 14:24:12,2018-04-30 14:24:12,0.000s,PASSED
+verifyEqual,Firefox 59.0,,2018-04-30 14:24:12,2018-04-30 14:24:12,0.015s,PASSED
+,,,,,,
+Test Cases/Test view all available product,Firefox 59.0,,2018-04-30 14:24:12,2018-04-30 14:24:31,18.359s,PASSED
+openBrowser,Firefox 59.0,,2018-04-30 14:24:12,2018-04-30 14:24:17,4.544s,PASSED
+navigateToUrl,Firefox 59.0,,2018-04-30 14:24:17,2018-04-30 14:24:27,10.178s,PASSED
+setText,Firefox 59.0,,2018-04-30 14:24:27,2018-04-30 14:24:27,0.131s,PASSED
+setText,Firefox 59.0,,2018-04-30 14:24:27,2018-04-30 14:24:27,0.103s,PASSED
+click,Firefox 59.0,,2018-04-30 14:24:27,2018-04-30 14:24:28,0.300s,PASSED
+waitForElementPresent,Firefox 59.0,,2018-04-30 14:24:28,2018-04-30 14:24:29,1.045s,PASSED
+delay,Firefox 59.0,,2018-04-30 14:24:29,2018-04-30 14:24:31,2.000s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Firefox 59.0,,2018-04-30 14:24:31,2018-04-30 14:24:31,0.000s,PASSED
+"Statement - Products = driver.findElement(org.openqa.selenium.By.xpath(""/html/body/app-root/app-product-list/div/div[2]/div""))",Firefox 59.0,,2018-04-30 14:24:31,2018-04-30 14:24:31,0.004s,PASSED
+"Statement - farmerCards = Products.findElements(org.openqa.selenium.By.className(""farmer-card""))",Firefox 59.0,,2018-04-30 14:24:31,2018-04-30 14:24:31,0.023s,PASSED
+"Statement - println(""Amount of product: "" + farmerCards.size())",Firefox 59.0,,2018-04-30 14:24:31,2018-04-30 14:24:31,0.000s,PASSED
+verifyEqual,Firefox 59.0,,2018-04-30 14:24:31,2018-04-30 14:24:31,0.000s,PASSED

@@ -24,6 +24,16 @@ import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.By as By
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://54.71.80.147:8086/')
+
+WebUI.setText(findTestObject('Login_Page/input_username'), Username)
+
+WebUI.setText(findTestObject('Login_Page/input_password'), Password)
+
+WebUI.click(findTestObject('Login_Page/button_Login'))
+
 WebUI.waitForElementPresent(findTestObject('Main_Page/h2_Products'), 0)
 
 WebUI.delay(2)

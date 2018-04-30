@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Verify all available product is shown" time="36" tests="2" failures="0" errors="0">
+   <testsuite name="Verify all available product is shown" tests="2" failures="0" errors="0" time="36" timestamp="2018-04-30 14:23:54" hostname="Donut - 10.80.178.12" id="Test Suites/Verify all available product is shown">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Verify all available product is shown\\20180430_142352"/>
+         <property name="logFiles" value="C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Verify all available product is shown\\20180430_142352\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Donut - 10.80.178.12"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Firefox 59.0"/>
+         <property name="hostAddress" value="10.80.178.12"/>
+         <property name="sessionId" value="3625a10c-2423-47c4-a752-be38f47be651"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test view all available product" classname="Test Cases/Test view all available product" status="PASSED">
+         <system-out><![CDATA[2018-04-30 14:23:55 - [TEST_CASE][PASSED] - Test Cases/Test view all available product: Test Cases/Test view all available product
+
+2018-04-30 14:23:55 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-30 14:24:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-30 14:24:01 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.71.80.147:8086/' successfully
+
+2018-04-30 14:24:08 - [MESSAGE][PASSED] - Navigate to 'http://54.71.80.147:8086/' successfully
+
+2018-04-30 14:24:08 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Login_Page/input_username'
+
+2018-04-30 14:24:09 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Login_Page/input_username'
+
+2018-04-30 14:24:09 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Login_Page/input_password'
+
+2018-04-30 14:24:09 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Login_Page/input_password'
+
+2018-04-30 14:24:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_Page/button_Login' is clicked on
+
+2018-04-30 14:24:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/button_Login' is clicked on
+
+2018-04-30 14:24:09 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Main_Page/h2_Products' is present
+
+2018-04-30 14:24:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-30 14:24:10 - [MESSAGE][PASSED] - Object 'Object Repository/Main_Page/h2_Products' is present
+
+2018-04-30 14:24:10 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-30 14:24:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-30 14:24:12 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-04-30 14:24:12 - [TEST_STEP][PASSED] - Statement - Products = driver.findElement(org.openqa.selenium.By.xpath("/html/body/app-root/app-product-list/div/div[2]/div")): null
+
+2018-04-30 14:24:12 - [TEST_STEP][PASSED] - Statement - farmerCards = Products.findElements(org.openqa.selenium.By.className("farmer-card")): null
+
+2018-04-30 14:24:12 - [TEST_STEP][PASSED] - Statement - println("Amount of product: " + farmerCards.size()): null
+
+2018-04-30 14:24:12 - [TEST_STEP][PASSED] - verifyEqual: Actual object '5' and expected object '5' are equal
+
+2018-04-30 14:24:12 - [MESSAGE][PASSED] - Actual object '5' and expected object '5' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test view all available product" classname="Test Cases/Test view all available product" status="PASSED">
+         <system-out><![CDATA[2018-04-30 14:24:12 - [TEST_CASE][PASSED] - Test Cases/Test view all available product: Test Cases/Test view all available product
+
+2018-04-30 14:24:12 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-30 14:24:12 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-04-30 14:24:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-30 14:24:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.71.80.147:8086/' successfully
+
+2018-04-30 14:24:27 - [MESSAGE][PASSED] - Navigate to 'http://54.71.80.147:8086/' successfully
+
+2018-04-30 14:24:27 - [TEST_STEP][PASSED] - setText: Text 'hello' is set on object 'Object Repository/Login_Page/input_username'
+
+2018-04-30 14:24:27 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/Login_Page/input_username'
+
+2018-04-30 14:24:27 - [TEST_STEP][PASSED] - setText: Text 'hello' is set on object 'Object Repository/Login_Page/input_password'
+
+2018-04-30 14:24:27 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/Login_Page/input_password'
+
+2018-04-30 14:24:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_Page/button_Login' is clicked on
+
+2018-04-30 14:24:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/button_Login' is clicked on
+
+2018-04-30 14:24:28 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Main_Page/h2_Products' is present
+
+2018-04-30 14:24:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-30 14:24:29 - [MESSAGE][PASSED] - Object 'Object Repository/Main_Page/h2_Products' is present
+
+2018-04-30 14:24:29 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-30 14:24:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-30 14:24:31 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-04-30 14:24:31 - [TEST_STEP][PASSED] - Statement - Products = driver.findElement(org.openqa.selenium.By.xpath("/html/body/app-root/app-product-list/div/div[2]/div")): null
+
+2018-04-30 14:24:31 - [TEST_STEP][PASSED] - Statement - farmerCards = Products.findElements(org.openqa.selenium.By.className("farmer-card")): null
+
+2018-04-30 14:24:31 - [TEST_STEP][PASSED] - Statement - println("Amount of product: " + farmerCards.size()): null
+
+2018-04-30 14:24:31 - [TEST_STEP][PASSED] - verifyEqual: Actual object '5' and expected object '5' are equal
+
+2018-04-30 14:24:31 - [MESSAGE][PASSED] - Actual object '5' and expected object '5' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-30 14:23:54 - [TEST_SUITE][PASSED] - Verify all available product is shown: Test Cases/Test view all available product]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
