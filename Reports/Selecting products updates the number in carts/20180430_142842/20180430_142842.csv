@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Selecting products updates the number in carts,Firefox 59.0,,2018-04-30 14:28:44,2018-04-30 14:29:31,47.041s,FAILED
+,,,,,,
+Test Cases/Navigate to web,Firefox 59.0,Use to navigate to certain urls,2018-04-30 14:28:44,2018-04-30 14:28:57,12.659s,PASSED
+openBrowser,Firefox 59.0,,2018-04-30 14:28:44,2018-04-30 14:28:50,5.763s,PASSED
+navigateToUrl,Firefox 59.0,,2018-04-30 14:28:50,2018-04-30 14:28:57,6.468s,PASSED
+,,,,,,
+Test Cases/Login with credentials,Firefox 59.0,This test case will login with given infos,2018-04-30 14:28:57,2018-04-30 14:28:58,0.986s,PASSED
+setText,Firefox 59.0,,2018-04-30 14:28:57,2018-04-30 14:28:57,0.206s,PASSED
+setText,Firefox 59.0,,2018-04-30 14:28:57,2018-04-30 14:28:57,0.103s,PASSED
+click,Firefox 59.0,,2018-04-30 14:28:57,2018-04-30 14:28:58,0.379s,PASSED
+,,,,,,
+Test Cases/Selecting product,Firefox 59.0,,2018-04-30 14:28:58,2018-04-30 14:29:30,32.274s,FAILED
+click,Firefox 59.0,,2018-04-30 14:28:58,2018-04-30 14:29:30,32.113s,FAILED
+,,,,,,
+Test Cases/Exit browser,Firefox 59.0,use to terminate browser when testcase is done,2018-04-30 14:29:30,2018-04-30 14:29:31,0.610s,PASSED
+closeBrowser,Firefox 59.0,,2018-04-30 14:29:30,2018-04-30 14:29:31,0.401s,PASSED

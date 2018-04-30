@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Selecting products updates the number in carts,Firefox 59.0,,2018-04-30 18:15:56,2018-04-30 18:16:23,26.809s,PASSED
+,,,,,,
+Test Cases/Navigate to web,Firefox 59.0,Use to navigate to certain urls,2018-04-30 18:15:56,2018-04-30 18:16:09,12.294s,PASSED
+openBrowser,Firefox 59.0,,2018-04-30 18:15:57,2018-04-30 18:16:02,5.560s,PASSED
+navigateToUrl,Firefox 59.0,,2018-04-30 18:16:02,2018-04-30 18:16:09,6.281s,PASSED
+,,,,,,
+Test Cases/Login with credentials,Firefox 59.0,This test case will login with given infos,2018-04-30 18:16:09,2018-04-30 18:16:10,0.970s,PASSED
+setText,Firefox 59.0,,2018-04-30 18:16:09,2018-04-30 18:16:09,0.201s,PASSED
+setText,Firefox 59.0,,2018-04-30 18:16:09,2018-04-30 18:16:09,0.133s,PASSED
+click,Firefox 59.0,,2018-04-30 18:16:09,2018-04-30 18:16:10,0.363s,PASSED
+,,,,,,
+Test Cases/Selecting product,Firefox 59.0,,2018-04-30 18:16:10,2018-04-30 18:16:22,12.634s,PASSED
+delay,Firefox 59.0,,2018-04-30 18:16:10,2018-04-30 18:16:12,2.036s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Firefox 59.0,,2018-04-30 18:16:12,2018-04-30 18:16:12,0.003s,PASSED
+"Statement - Products = driver.findElement(org.openqa.selenium.By.xpath(""/html/body/app-root/app-product-list/div/div[2]/div""))",Firefox 59.0,,2018-04-30 18:16:12,2018-04-30 18:16:12,0.038s,PASSED
+"Statement - farmerCards = Products.findElements(org.openqa.selenium.By.className(""farmer-card""))",Firefox 59.0,,2018-04-30 18:16:12,2018-04-30 18:16:12,0.028s,PASSED
+Statement - buttonAddProduct = new com.kms.katalon.core.testobject.TestObject(),Firefox 59.0,,2018-04-30 18:16:12,2018-04-30 18:16:12,0.000s,PASSED
+"Statement - buttonAddProduct.addProperty(""xpath"", EQUALS, ""/html/body/app-root/app-product-list/div/div[2]/div/div[1]/a/div[2]/div[2]/button"")",Firefox 59.0,,2018-04-30 18:16:12,2018-04-30 18:16:12,0.002s,PASSED
+click,Firefox 59.0,,2018-04-30 18:16:12,2018-04-30 18:16:12,0.255s,PASSED
+Statement - println(buttonAddProduct),Firefox 59.0,,2018-04-30 18:16:12,2018-04-30 18:16:12,0.000s,PASSED
+delay,Firefox 59.0,,2018-04-30 18:16:12,2018-04-30 18:16:22,10.000s,PASSED
+,,,,,,
+Test Cases/Exit browser,Firefox 59.0,use to terminate browser when testcase is done,2018-04-30 18:16:22,2018-04-30 18:16:23,0.430s,PASSED
+closeBrowser,Firefox 59.0,,2018-04-30 18:16:23,2018-04-30 18:16:23,0.277s,PASSED

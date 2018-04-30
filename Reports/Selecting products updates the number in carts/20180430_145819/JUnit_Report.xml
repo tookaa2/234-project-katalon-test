@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Selecting products updates the number in carts" time="24" tests="3" failures="0" errors="1">
+   <testsuite name="Selecting products updates the number in carts" tests="3" failures="0" errors="1" time="24" timestamp="2018-04-30 14:58:21" hostname="Donut - 10.80.178.12" id="Test Suites/Selecting products updates the number in carts">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Selecting products updates the number in carts\\20180430_145819"/>
+         <property name="logFiles" value="C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Selecting products updates the number in carts\\20180430_145819\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Donut - 10.80.178.12"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Firefox 59.0"/>
+         <property name="hostAddress" value="10.80.178.12"/>
+         <property name="sessionId" value="ad2a45ae-ee87-4ec5-8a09-e8a9b36115dd"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Navigate to web" classname="Test Cases/Navigate to web" status="PASSED">
+         <system-out><![CDATA[2018-04-30 14:58:22 - [TEST_CASE][PASSED] - Test Cases/Navigate to web: Test Cases/Navigate to web
+
+2018-04-30 14:58:22 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-30 14:58:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-30 14:58:28 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.71.80.147:8086/' successfully
+
+2018-04-30 14:58:42 - [MESSAGE][PASSED] - Navigate to 'http://54.71.80.147:8086/' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login with credentials" classname="Test Cases/Login with credentials" status="PASSED">
+         <system-out><![CDATA[2018-04-30 14:58:42 - [TEST_CASE][PASSED] - Test Cases/Login with credentials: Test Cases/Login with credentials
+
+2018-04-30 14:58:42 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Login_Page/input_username'
+
+2018-04-30 14:58:43 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Login_Page/input_username'
+
+2018-04-30 14:58:43 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Login_Page/input_password'
+
+2018-04-30 14:58:43 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Login_Page/input_password'
+
+2018-04-30 14:58:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_Page/button_Login' is clicked on
+
+2018-04-30 14:58:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Selecting product" classname="Test Cases/Selecting product" status="ERROR">
+         <error type="ERROR" message="Test Cases/Selecting product FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (org.openqa.selenium.By$ByXPath) values: [By.xpath: /html/body/app-root/app-product-list/div/div[2]/div/div[i]/a/div[2]/div[2]/button]
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)"/>
+         <system-out><![CDATA[2018-04-30 14:58:43 - [TEST_CASE][ERROR] - Test Cases/Selecting product: Test Cases/Selecting product FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (org.openqa.selenium.By$ByXPath) values: [By.xpath: /html/body/app-root/app-product-list/div/div[2]/div/div[i]/a/div[2]/div[2]/button]
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)
+
+2018-04-30 14:58:43 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-30 14:58:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-30 14:58:45 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-04-30 14:58:45 - [TEST_STEP][PASSED] - Statement - Products = driver.findElement(org.openqa.selenium.By.xpath("/html/body/app-root/app-product-list/div/div[2]/div")): null
+
+2018-04-30 14:58:46 - [TEST_STEP][PASSED] - Statement - farmerCards = Products.findElements(org.openqa.selenium.By.className("farmer-card")): null
+
+2018-04-30 14:58:46 - [TEST_STEP][PASSED] - Statement - For (def i : farmerCards): null
+
+2018-04-30 14:58:46 - [TEST_STEP][PASSED] - Statement - println("hi: " + i): null
+
+2018-04-30 14:58:46 - [TEST_STEP][PASSED] - click: null]]></system-out>
+         <system-err><![CDATA[2018-04-30 14:58:43 - [TEST_CASE][ERROR] - Test Cases/Selecting product: Test Cases/Selecting product FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (org.openqa.selenium.By$ByXPath) values: [By.xpath: /html/body/app-root/app-product-list/div/div[2]/div/div[i]/a/div[2]/div[2]/button]
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Exit browser" classname="Test Cases/Exit browser" status="PASSED">
+         <system-out><![CDATA[2018-04-30 14:58:46 - [TEST_CASE][PASSED] - Test Cases/Exit browser: Test Cases/Exit browser
+
+2018-04-30 14:58:46 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-30 14:58:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-30 14:58:21 - [TEST_SUITE][ERROR] - Selecting products updates the number in carts: Test Cases/Selecting product FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (org.openqa.selenium.By$ByXPath) values: [By.xpath: /html/body/app-root/app-product-list/div/div[2]/div/div[i]/a/div[2]/div[2]/button]
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)]]></system-out>
+      <system-err><![CDATA[2018-04-30 14:58:21 - [TEST_SUITE][ERROR] - Selecting products updates the number in carts: Test Cases/Selecting product FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (org.openqa.selenium.By$ByXPath) values: [By.xpath: /html/body/app-root/app-product-list/div/div[2]/div/div[i]/a/div[2]/div[2]/button]
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Selecting products updates the number in carts,Firefox 59.0,,2018-04-30 14:47:37,2018-04-30 14:48:03,25.641s,PASSED
+,,,,,,
+Test Cases/Navigate to web,Firefox 59.0,Use to navigate to certain urls,2018-04-30 14:47:37,2018-04-30 14:47:59,21.426s,PASSED
+openBrowser,Firefox 59.0,,2018-04-30 14:47:38,2018-04-30 14:47:43,5.603s,PASSED
+navigateToUrl,Firefox 59.0,,2018-04-30 14:47:43,2018-04-30 14:47:59,15.357s,PASSED
+,,,,,,
+Test Cases/Login with credentials,Firefox 59.0,This test case will login with given infos,2018-04-30 14:47:59,2018-04-30 14:48:00,0.872s,PASSED
+setText,Firefox 59.0,,2018-04-30 14:47:59,2018-04-30 14:47:59,0.179s,PASSED
+setText,Firefox 59.0,,2018-04-30 14:47:59,2018-04-30 14:47:59,0.108s,PASSED
+click,Firefox 59.0,,2018-04-30 14:47:59,2018-04-30 14:48:00,0.312s,PASSED
+,,,,,,
+Test Cases/Selecting product,Firefox 59.0,,2018-04-30 14:48:00,2018-04-30 14:48:02,2.359s,PASSED
+delay,Firefox 59.0,,2018-04-30 14:48:00,2018-04-30 14:48:02,2.032s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Firefox 59.0,,2018-04-30 14:48:02,2018-04-30 14:48:02,0.003s,PASSED
+"Statement - Products = driver.findElement(org.openqa.selenium.By.xpath(""/html/body/app-root/app-product-list/div/div[2]/div""))",Firefox 59.0,,2018-04-30 14:48:02,2018-04-30 14:48:02,0.054s,PASSED
+"Statement - farmerCards = Products.findElements(org.openqa.selenium.By.className(""farmer-card""))",Firefox 59.0,,2018-04-30 14:48:02,2018-04-30 14:48:02,0.028s,PASSED
+Statement - For (def i : farmerCards),Firefox 59.0,,2018-04-30 14:48:02,2018-04-30 14:48:02,0.000s,PASSED
+,,,,,,
+Test Cases/Exit browser,Firefox 59.0,use to terminate browser when testcase is done,2018-04-30 14:48:02,2018-04-30 14:48:03,0.462s,PASSED
+closeBrowser,Firefox 59.0,,2018-04-30 14:48:02,2018-04-30 14:48:03,0.298s,PASSED

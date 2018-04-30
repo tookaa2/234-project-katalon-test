@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Selecting products updates the number in carts" time="25" tests="4" failures="0" errors="0">
+   <testsuite name="Selecting products updates the number in carts" tests="4" failures="0" errors="0" time="25" timestamp="2018-04-30 14:47:37" hostname="Donut - 10.80.178.12" id="Test Suites/Selecting products updates the number in carts">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Selecting products updates the number in carts\\20180430_144735"/>
+         <property name="logFiles" value="C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Selecting products updates the number in carts\\20180430_144735\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Donut - 10.80.178.12"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Firefox 59.0"/>
+         <property name="hostAddress" value="10.80.178.12"/>
+         <property name="sessionId" value="5f34f34a-102f-4690-8c8f-3e6c2c8ba2cf"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Navigate to web" classname="Test Cases/Navigate to web" status="PASSED">
+         <system-out><![CDATA[2018-04-30 14:47:37 - [TEST_CASE][PASSED] - Test Cases/Navigate to web: Test Cases/Navigate to web
+
+2018-04-30 14:47:38 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-30 14:47:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-30 14:47:43 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.71.80.147:8086/' successfully
+
+2018-04-30 14:47:59 - [MESSAGE][PASSED] - Navigate to 'http://54.71.80.147:8086/' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login with credentials" classname="Test Cases/Login with credentials" status="PASSED">
+         <system-out><![CDATA[2018-04-30 14:47:59 - [TEST_CASE][PASSED] - Test Cases/Login with credentials: Test Cases/Login with credentials
+
+2018-04-30 14:47:59 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Login_Page/input_username'
+
+2018-04-30 14:47:59 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Login_Page/input_username'
+
+2018-04-30 14:47:59 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Login_Page/input_password'
+
+2018-04-30 14:47:59 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Login_Page/input_password'
+
+2018-04-30 14:47:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_Page/button_Login' is clicked on
+
+2018-04-30 14:48:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Selecting product" classname="Test Cases/Selecting product" status="PASSED">
+         <system-out><![CDATA[2018-04-30 14:48:00 - [TEST_CASE][PASSED] - Test Cases/Selecting product: Test Cases/Selecting product
+
+2018-04-30 14:48:00 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-30 14:48:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-30 14:48:02 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-04-30 14:48:02 - [TEST_STEP][PASSED] - Statement - Products = driver.findElement(org.openqa.selenium.By.xpath("/html/body/app-root/app-product-list/div/div[2]/div")): null
+
+2018-04-30 14:48:02 - [TEST_STEP][PASSED] - Statement - farmerCards = Products.findElements(org.openqa.selenium.By.className("farmer-card")): null
+
+2018-04-30 14:48:02 - [TEST_STEP][PASSED] - Statement - For (def i : farmerCards): null
+
+2018-04-30 14:48:02 - [TEST_STEP][PASSED] - Statement - println("hi: " + i): null
+
+2018-04-30 14:48:02 - [TEST_STEP][PASSED] - Statement - println("hi: " + i): null
+
+2018-04-30 14:48:02 - [TEST_STEP][PASSED] - Statement - println("hi: " + i): null
+
+2018-04-30 14:48:02 - [TEST_STEP][PASSED] - Statement - println("hi: " + i): null
+
+2018-04-30 14:48:02 - [TEST_STEP][PASSED] - Statement - println("hi: " + i): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Exit browser" classname="Test Cases/Exit browser" status="PASSED">
+         <system-out><![CDATA[2018-04-30 14:48:02 - [TEST_CASE][PASSED] - Test Cases/Exit browser: Test Cases/Exit browser
+
+2018-04-30 14:48:02 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-30 14:48:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-30 14:47:37 - [TEST_SUITE][PASSED] - Selecting products updates the number in carts: Test Cases/Exit browser]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

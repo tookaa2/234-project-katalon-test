@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Selecting products updates the number in carts,Firefox 59.0,,2018-04-30 18:03:40,2018-04-30 18:04:02,21.554s,PASSED
+,,,,,,
+Test Cases/Navigate to web,Firefox 59.0,Use to navigate to certain urls,2018-04-30 18:03:41,2018-04-30 18:03:53,12.331s,PASSED
+openBrowser,Firefox 59.0,,2018-04-30 18:03:41,2018-04-30 18:03:47,5.727s,PASSED
+navigateToUrl,Firefox 59.0,,2018-04-30 18:03:47,2018-04-30 18:03:53,6.224s,PASSED
+,,,,,,
+Test Cases/Login with credentials,Firefox 59.0,This test case will login with given infos,2018-04-30 18:03:53,2018-04-30 18:03:54,0.912s,PASSED
+setText,Firefox 59.0,,2018-04-30 18:03:53,2018-04-30 18:03:53,0.209s,PASSED
+setText,Firefox 59.0,,2018-04-30 18:03:53,2018-04-30 18:03:54,0.111s,PASSED
+click,Firefox 59.0,,2018-04-30 18:03:54,2018-04-30 18:03:54,0.317s,PASSED
+,,,,,,
+Test Cases/Selecting product,Firefox 59.0,,2018-04-30 18:03:54,2018-04-30 18:04:01,7.377s,PASSED
+delay,Firefox 59.0,,2018-04-30 18:03:54,2018-04-30 18:03:56,2.023s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Firefox 59.0,,2018-04-30 18:03:56,2018-04-30 18:03:56,0.003s,PASSED
+"Statement - Products = driver.findElement(org.openqa.selenium.By.xpath(""/html/body/app-root/app-product-list/div/div[2]/div""))",Firefox 59.0,,2018-04-30 18:03:56,2018-04-30 18:03:56,0.037s,PASSED
+"Statement - farmerCards = Products.findElements(org.openqa.selenium.By.className(""farmer-card""))",Firefox 59.0,,2018-04-30 18:03:56,2018-04-30 18:03:56,0.026s,PASSED
+"Statement - buttonAddProduct = driver.findElement(org.openqa.selenium.By.xpath(""/html/body/app-root/app-product-list/div/div[2]/div/div[1]/a/div[2]/div[2]/button""))",Firefox 59.0,,2018-04-30 18:03:56,2018-04-30 18:03:56,0.012s,PASSED
+Statement - println(buttonAddProduct),Firefox 59.0,,2018-04-30 18:03:56,2018-04-30 18:03:56,0.000s,PASSED
+delay,Firefox 59.0,,2018-04-30 18:03:56,2018-04-30 18:04:01,5.001s,PASSED
+,,,,,,
+Test Cases/Exit browser,Firefox 59.0,use to terminate browser when testcase is done,2018-04-30 18:04:01,2018-04-30 18:04:02,0.417s,PASSED
+closeBrowser,Firefox 59.0,,2018-04-30 18:04:01,2018-04-30 18:04:02,0.263s,PASSED

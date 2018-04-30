@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Selecting products updates the number in carts" time="13" tests="3" failures="0" errors="1">
+   <testsuite name="Selecting products updates the number in carts" tests="3" failures="0" errors="1" time="13" timestamp="2018-04-30 14:38:24" hostname="Donut - 10.80.178.12" id="Test Suites/Selecting products updates the number in carts">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Selecting products updates the number in carts\\20180430_143822"/>
+         <property name="logFiles" value="C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Selecting products updates the number in carts\\20180430_143822\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Donut - 10.80.178.12"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Firefox 59.0"/>
+         <property name="hostAddress" value="10.80.178.12"/>
+         <property name="sessionId" value="9f7cc726-c34c-4c10-835f-54f4bce32c49"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Navigate to web" classname="Test Cases/Navigate to web" status="PASSED">
+         <system-out><![CDATA[2018-04-30 14:38:24 - [TEST_CASE][PASSED] - Test Cases/Navigate to web: Test Cases/Navigate to web
+
+2018-04-30 14:38:25 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-30 14:38:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-30 14:38:30 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.71.80.147:8086/' successfully
+
+2018-04-30 14:38:36 - [MESSAGE][PASSED] - Navigate to 'http://54.71.80.147:8086/' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login with credentials" classname="Test Cases/Login with credentials" status="PASSED">
+         <system-out><![CDATA[2018-04-30 14:38:36 - [TEST_CASE][PASSED] - Test Cases/Login with credentials: Test Cases/Login with credentials
+
+2018-04-30 14:38:36 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Login_Page/input_username'
+
+2018-04-30 14:38:36 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Login_Page/input_username'
+
+2018-04-30 14:38:36 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Login_Page/input_password'
+
+2018-04-30 14:38:36 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Login_Page/input_password'
+
+2018-04-30 14:38:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_Page/button_Login' is clicked on
+
+2018-04-30 14:38:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Selecting product" classname="Test Cases/Selecting product" status="ERROR">
+         <error type="ERROR" message="Test Cases/Selecting product FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Donut/git/234-project-katalon-test/Scripts/Selecting%20product/Script1525073180860.groovy: 35: The current scope already contains a variable of the name i
+ @ line 35, column 5.
+       for (def i : farmerCards) {
+       ^
+
+1 error
+"/>
+         <system-out><![CDATA[2018-04-30 14:38:37 - [TEST_CASE][ERROR] - Test Cases/Selecting product: Test Cases/Selecting product FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Donut/git/234-project-katalon-test/Scripts/Selecting%20product/Script1525073180860.groovy: 35: The current scope already contains a variable of the name i
+ @ line 35, column 5.
+       for (def i : farmerCards) {
+       ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[2018-04-30 14:38:37 - [TEST_CASE][ERROR] - Test Cases/Selecting product: Test Cases/Selecting product FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Donut/git/234-project-katalon-test/Scripts/Selecting%20product/Script1525073180860.groovy: 35: The current scope already contains a variable of the name i
+ @ line 35, column 5.
+       for (def i : farmerCards) {
+       ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Exit browser" classname="Test Cases/Exit browser" status="PASSED">
+         <system-out><![CDATA[2018-04-30 14:38:37 - [TEST_CASE][PASSED] - Test Cases/Exit browser: Test Cases/Exit browser
+
+2018-04-30 14:38:37 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-30 14:38:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-30 14:38:24 - [TEST_SUITE][ERROR] - Selecting products updates the number in carts: Test Cases/Selecting product FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Donut/git/234-project-katalon-test/Scripts/Selecting%20product/Script1525073180860.groovy: 35: The current scope already contains a variable of the name i
+ @ line 35, column 5.
+       for (def i : farmerCards) {
+       ^
+
+1 error]]></system-out>
+      <system-err><![CDATA[2018-04-30 14:38:24 - [TEST_SUITE][ERROR] - Selecting products updates the number in carts: Test Cases/Selecting product FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Donut/git/234-project-katalon-test/Scripts/Selecting%20product/Script1525073180860.groovy: 35: The current scope already contains a variable of the name i
+ @ line 35, column 5.
+       for (def i : farmerCards) {
+       ^
+
+1 error]]></system-err>
+   </testsuite>
+</testsuites>
