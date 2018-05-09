@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Testing logout feature</description>
+   <name>Login then logout</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3eab5485-284a-4ad0-950b-3338197844e8</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ae751a67-eb8c-4556-b71d-bc6b42a2ee33</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7b148675-879e-4989-bc45-3926a93566db</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

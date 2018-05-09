@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test logout,Chrome 66.0.3359.139,,2018-05-09 15:25:30,2018-05-09 15:25:59,29.364s,PASSED
+,,,,,,
+Test Cases/Navigate to web,Chrome 66.0.3359.139,Use to navigate to certain urls,2018-05-09 15:25:30,2018-05-09 15:25:53,22.957s,PASSED
+openBrowser,Chrome 66.0.3359.139,,2018-05-09 15:25:31,2018-05-09 15:25:35,3.901s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-09 15:25:35,2018-05-09 15:25:53,18.639s,PASSED
+,,,,,,
+Test Cases/Login then logout,Chrome 66.0.3359.139,Testing logout feature,2018-05-09 15:25:53,2018-05-09 15:25:56,2.395s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 15:25:53,2018-05-09 15:25:54,0.349s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 15:25:54,2018-05-09 15:25:54,0.260s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-09 15:25:54,2018-05-09 15:25:54,0.222s,PASSED
+waitForElementNotPresent,Chrome 66.0.3359.139,,2018-05-09 15:25:54,2018-05-09 15:25:55,1.147s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-09 15:25:55,2018-05-09 15:25:56,0.188s,PASSED
+,,,,,,
+Test Cases/Login then logout,Chrome 66.0.3359.139,Testing logout feature,2018-05-09 15:25:56,2018-05-09 15:25:57,1.337s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 15:25:56,2018-05-09 15:25:56,0.219s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 15:25:56,2018-05-09 15:25:56,0.209s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-09 15:25:56,2018-05-09 15:25:56,0.166s,PASSED
+waitForElementNotPresent,Chrome 66.0.3359.139,,2018-05-09 15:25:56,2018-05-09 15:25:57,0.565s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-09 15:25:57,2018-05-09 15:25:57,0.158s,PASSED
+,,,,,,
+Test Cases/Login then logout,Chrome 66.0.3359.139,Testing logout feature,2018-05-09 15:25:57,2018-05-09 15:25:58,1.290s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 15:25:57,2018-05-09 15:25:57,0.196s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 15:25:57,2018-05-09 15:25:57,0.215s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-09 15:25:57,2018-05-09 15:25:57,0.154s,PASSED
+waitForElementNotPresent,Chrome 66.0.3359.139,,2018-05-09 15:25:57,2018-05-09 15:25:58,0.548s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-09 15:25:58,2018-05-09 15:25:58,0.160s,PASSED
+,,,,,,
+Test Cases/Exit browser,Chrome 66.0.3359.139,use to terminate browser when testcase is done,2018-05-09 15:25:58,2018-05-09 15:25:59,0.807s,PASSED
+closeBrowser,Chrome 66.0.3359.139,,2018-05-09 15:25:58,2018-05-09 15:25:59,0.648s,PASSED
