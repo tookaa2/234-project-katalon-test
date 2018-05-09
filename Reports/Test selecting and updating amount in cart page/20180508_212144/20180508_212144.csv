@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test selecting and updating amount in cart page,Chrome 66.0.3359.139,,2018-05-08 21:21:46,2018-05-08 21:22:27,40.347s,FAILED
+,,,,,,
+Test Cases/Get price,Chrome 66.0.3359.139,Getting price for each item,2018-05-08 21:21:47,2018-05-08 21:22:26,39.203s,FAILED
+openBrowser,Chrome 66.0.3359.139,,2018-05-08 21:21:48,2018-05-08 21:21:52,4.462s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-08 21:21:52,2018-05-08 21:22:12,19.975s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-08 21:22:12,2018-05-08 21:22:26,13.829s,FAILED

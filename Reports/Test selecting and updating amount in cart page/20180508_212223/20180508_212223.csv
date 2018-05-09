@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test selecting and updating amount in cart page,Chrome 66.0.3359.139,,2018-05-08 21:22:26,2018-05-08 21:23:10,44.169s,ERROR
+,,,,,,
+Test Cases/Get price,Chrome 66.0.3359.139,Getting price for each item,2018-05-08 21:22:27,2018-05-08 21:23:10,42.825s,ERROR
+openBrowser,Chrome 66.0.3359.139,,2018-05-08 21:22:29,2018-05-08 21:22:33,4.671s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-08 21:22:33,2018-05-08 21:22:50,16.666s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-08 21:22:50,2018-05-08 21:22:50,0.316s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-08 21:22:50,2018-05-08 21:22:50,0.218s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-08 21:22:50,2018-05-08 21:22:51,0.218s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-08 21:22:51,2018-05-08 21:22:53,2.033s,PASSED
+waitForElementPresent,Chrome 66.0.3359.139,,2018-05-08 21:22:53,2018-05-08 21:22:53,0.082s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-08 21:22:53,2018-05-08 21:22:58,5.001s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 66.0.3359.139,,2018-05-08 21:22:58,2018-05-08 21:22:58,0.005s,PASSED
+"Statement - Products = driver.findElement(org.openqa.selenium.By.xpath(""/html/body/app-root/app-product-list/div/div[2]/div""))",Chrome 66.0.3359.139,,2018-05-08 21:22:58,2018-05-08 21:22:58,0.085s,PASSED
+"Statement - farmerCards = Products.findElements(org.openqa.selenium.By.className(""farmer-card""))",Chrome 66.0.3359.139,,2018-05-08 21:22:58,2018-05-08 21:22:58,0.073s,PASSED
+"Statement - For ([i = 1, i <= farmerCards.size(), (i++)])",Chrome 66.0.3359.139,,2018-05-08 21:22:58,2018-05-08 21:23:05,6.914s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-08 21:23:05,2018-05-08 21:23:07,2.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-08 21:23:07,2018-05-08 21:23:07,0.214s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-08 21:23:07,2018-05-08 21:23:09,2.002s,PASSED
+"Statement - items = driver.findElement(org.openqa.selenium.By.xpath(""/html/body/app-root/app-cart-list/div/div/table""))",Chrome 66.0.3359.139,,2018-05-08 21:23:09,2018-05-08 21:23:09,0.033s,PASSED
+"Statement - itemInTable = items.findElements(org.openqa.selenium.By.tagName(""tr""))",Chrome 66.0.3359.139,,2018-05-08 21:23:09,2018-05-08 21:23:09,0.031s,PASSED
+Statement - prices = [],Chrome 66.0.3359.139,,2018-05-08 21:23:09,2018-05-08 21:23:09,0.000s,PASSED
+"Statement - For ([i = 1, i < size, (i++)])",Chrome 66.0.3359.139,,2018-05-08 21:23:09,2018-05-08 21:23:10,0.443s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-08 21:23:10,2018-05-08 21:23:10,0.011s,PASSED

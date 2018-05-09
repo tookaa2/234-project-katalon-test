@@ -1,0 +1,1113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test selecting and updating amount in cart page change total price" time="154" tests="0" failures="4" errors="0">
+   <testsuite name="Test selecting and updating amount in cart page change total price" tests="0" failures="4" errors="0" time="154" timestamp="2018-05-09 12:32:58" hostname="Donut - DESKTOP-IGTTMO3" id="Test Suites/Test selecting and updating amount in cart page change total price">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Test selecting and updating amount in cart page change total price\\20180509_123255"/>
+         <property name="logFiles" value="C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Test selecting and updating amount in cart page change total price\\20180509_123255\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Test selecting and updating amount in cart page change total price\\20180509_123255\\1525844017520.png, C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Test selecting and updating amount in cart page change total price\\20180509_123255\\1525844017879.png, C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Test selecting and updating amount in cart page change total price\\20180509_123255\\1525844055233.png, C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Test selecting and updating amount in cart page change total price\\20180509_123255\\1525844055586.png, C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Test selecting and updating amount in cart page change total price\\20180509_123255\\1525844093650.png, C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Test selecting and updating amount in cart page change total price\\20180509_123255\\1525844093987.png, C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Test selecting and updating amount in cart page change total price\\20180509_123255\\1525844131131.png, C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Test selecting and updating amount in cart page change total price\\20180509_123255\\1525844131466.png"/>
+         <property name="hostName" value="Donut - DESKTOP-IGTTMO3"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="172.20.10.2"/>
+         <property name="sessionId" value="ed0d2d2d9d78be8f9581fbb37446136e"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Change amount in cart" classname="Test Cases/Change amount in cart" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/carting/Page_ProjectBackend/Total price  label' FAILED. (Root cause: Actual text 'Total price: 42,072 THB' and expected text 'Total price: 41,500 THB' of test object 'Object Repository/carting/Page_ProjectBackend/Total price  label' are NOT matched.)"/>
+         <system-out><![CDATA[2018-05-09 12:32:58 - [TEST_CASE][FAILED] - Test Cases/Change amount in cart: Test Cases/Change amount in cart FAILED because (of) Verify element text of test object 'Object Repository/carting/Page_ProjectBackend/Total price  label' FAILED. (Root cause: Actual text 'Total price: 42,072 THB' and expected text 'Total price: 41,500 THB' of test object 'Object Repository/carting/Page_ProjectBackend/Total price  label' are NOT matched.)
+
+2018-05-09 12:32:59 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 12:33:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 12:33:03 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.71.80.147:8086/' successfully
+
+2018-05-09 12:33:16 - [MESSAGE][PASSED] - Navigate to 'http://54.71.80.147:8086/' successfully
+
+2018-05-09 12:33:16 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Login_Page/input_username'
+
+2018-05-09 12:33:17 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Login_Page/input_username'
+
+2018-05-09 12:33:17 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Login_Page/input_password'
+
+2018-05-09 12:33:17 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Login_Page/input_password'
+
+2018-05-09 12:33:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_Page/button_Login' is clicked on
+
+2018-05-09 12:33:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/button_Login' is clicked on
+
+2018-05-09 12:33:17 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-09 12:33:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-09 12:33:19 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Main_Page/h2_Products' is present
+
+2018-05-09 12:33:19 - [MESSAGE][PASSED] - Object 'Object Repository/Main_Page/h2_Products' is present
+
+2018-05-09 12:33:19 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-05-09 12:33:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-05-09 12:33:24 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-05-09 12:33:24 - [TEST_STEP][PASSED] - Statement - Products = driver.findElement(org.openqa.selenium.By.xpath("/html/body/app-root/app-product-list/div/div[2]/div")): null
+
+2018-05-09 12:33:24 - [TEST_STEP][PASSED] - Statement - farmerCards = Products.findElements(org.openqa.selenium.By.className("farmer-card")): null
+
+2018-05-09 12:33:24 - [TEST_STEP][PASSED] - Statement - For ([i = 1, i <= farmerCards.size(), (i++)]): Actual text and expected text of test object 'Object Repository/Product page/cart amount label' are matched.
+
+2018-05-09 12:33:24 - [TEST_STEP][PASSED] - Statement - buttonAddProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-09 12:33:25 - [TEST_STEP][PASSED] - Statement - buttonAddProduct.addProperty("xpath", EQUALS, "/html/body/app-root/app-product-list/div/div[2]/div/div[" + i + "]/a/div[2]/div[2]/button"): null
+
+2018-05-09 12:33:25 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:33:25 - [MESSAGE][PASSED] - Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:33:25 - [TEST_STEP][PASSED] - click: Object: '' is clicked on
+
+2018-05-09 12:33:25 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-05-09 12:33:25 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:33:25 - [MESSAGE][PASSED] - Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:33:25 - [TEST_STEP][PASSED] - Statement - println(buttonAddProduct): null
+
+2018-05-09 12:33:25 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Product page/cart amount label' are matched.
+
+2018-05-09 12:33:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Product page/cart amount label' are matched.
+
+2018-05-09 12:33:25 - [TEST_STEP][PASSED] - Statement - buttonAddProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-09 12:33:25 - [TEST_STEP][PASSED] - Statement - buttonAddProduct.addProperty("xpath", EQUALS, "/html/body/app-root/app-product-list/div/div[2]/div/div[" + i + "]/a/div[2]/div[2]/button"): null
+
+2018-05-09 12:33:25 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:33:25 - [MESSAGE][PASSED] - Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:33:25 - [TEST_STEP][PASSED] - click: Object: '' is clicked on
+
+2018-05-09 12:33:25 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-05-09 12:33:25 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:33:25 - [MESSAGE][PASSED] - Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:33:25 - [TEST_STEP][PASSED] - Statement - println(buttonAddProduct): null
+
+2018-05-09 12:33:25 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Product page/cart amount label' are matched.
+
+2018-05-09 12:33:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Product page/cart amount label' are matched.
+
+2018-05-09 12:33:25 - [TEST_STEP][PASSED] - Statement - buttonAddProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-09 12:33:25 - [TEST_STEP][PASSED] - Statement - buttonAddProduct.addProperty("xpath", EQUALS, "/html/body/app-root/app-product-list/div/div[2]/div/div[" + i + "]/a/div[2]/div[2]/button"): null
+
+2018-05-09 12:33:25 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:33:25 - [MESSAGE][PASSED] - Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:33:25 - [TEST_STEP][PASSED] - click: Object: '' is clicked on
+
+2018-05-09 12:33:26 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-05-09 12:33:26 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:33:26 - [MESSAGE][PASSED] - Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:33:26 - [TEST_STEP][PASSED] - Statement - println(buttonAddProduct): null
+
+2018-05-09 12:33:26 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Product page/cart amount label' are matched.
+
+2018-05-09 12:33:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Product page/cart amount label' are matched.
+
+2018-05-09 12:33:26 - [TEST_STEP][PASSED] - Statement - buttonAddProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-09 12:33:26 - [TEST_STEP][PASSED] - Statement - buttonAddProduct.addProperty("xpath", EQUALS, "/html/body/app-root/app-product-list/div/div[2]/div/div[" + i + "]/a/div[2]/div[2]/button"): null
+
+2018-05-09 12:33:26 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:33:26 - [MESSAGE][PASSED] - Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:33:26 - [TEST_STEP][PASSED] - click: Object: '' is clicked on
+
+2018-05-09 12:33:26 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-05-09 12:33:26 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:33:26 - [MESSAGE][PASSED] - Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:33:26 - [TEST_STEP][PASSED] - Statement - println(buttonAddProduct): null
+
+2018-05-09 12:33:26 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Product page/cart amount label' are matched.
+
+2018-05-09 12:33:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Product page/cart amount label' are matched.
+
+2018-05-09 12:33:26 - [TEST_STEP][PASSED] - Statement - buttonAddProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-09 12:33:26 - [TEST_STEP][PASSED] - Statement - buttonAddProduct.addProperty("xpath", EQUALS, "/html/body/app-root/app-product-list/div/div[2]/div/div[" + i + "]/a/div[2]/div[2]/button"): null
+
+2018-05-09 12:33:26 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:33:26 - [MESSAGE][PASSED] - Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:33:26 - [TEST_STEP][PASSED] - click: Object: '' is clicked on
+
+2018-05-09 12:33:26 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-05-09 12:33:26 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:33:26 - [MESSAGE][PASSED] - Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:33:26 - [TEST_STEP][PASSED] - Statement - println(buttonAddProduct): null
+
+2018-05-09 12:33:26 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Product page/cart amount label' are matched.
+
+2018-05-09 12:33:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Product page/cart amount label' are matched.
+
+2018-05-09 12:33:26 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-09 12:33:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-09 12:33:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Main_Page/a_Carts' is clicked on
+
+2018-05-09 12:33:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Main_Page/a_Carts' is clicked on
+
+2018-05-09 12:33:28 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-09 12:33:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-09 12:33:30 - [TEST_STEP][PASSED] - Statement - items = driver.findElement(org.openqa.selenium.By.xpath("/html/body/app-root/app-cart-list/div/div/table")): null
+
+2018-05-09 12:33:30 - [TEST_STEP][PASSED] - Statement - itemInTable = items.findElements(org.openqa.selenium.By.tagName("tr")): null
+
+2018-05-09 12:33:31 - [TEST_STEP][PASSED] - Statement - prices = []: null
+
+2018-05-09 12:33:31 - [TEST_STEP][PASSED] - Statement - For ([i = 1, i < size, (i++)]): null
+
+2018-05-09 12:33:31 - [TEST_STEP][PASSED] - Statement - product = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-09 12:33:31 - [TEST_STEP][PASSED] - Statement - product.addProperty("xpath", EQUALS, "//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]"): null
+
+2018-05-09 12:33:31 - [TEST_STEP][PASSED] - Statement - prices[i] = java.lang.Integer.parseInt(com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(product).replace(" THB", "").replace(",", "")): Text of object '' is: '20,000 THB'
+
+2018-05-09 12:33:31 - [MESSAGE][PASSED] - Text of object '' is: '20,000 THB'
+
+2018-05-09 12:33:31 - [TEST_STEP][PASSED] - Statement - println("No:" + i + "price" + prices[i]): null
+
+2018-05-09 12:33:31 - [TEST_STEP][PASSED] - Statement - product = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-09 12:33:31 - [TEST_STEP][PASSED] - Statement - product.addProperty("xpath", EQUALS, "//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]"): null
+
+2018-05-09 12:33:31 - [TEST_STEP][PASSED] - Statement - prices[i] = java.lang.Integer.parseInt(com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(product).replace(" THB", "").replace(",", "")): Text of object '' is: '150 THB'
+
+2018-05-09 12:33:31 - [MESSAGE][PASSED] - Text of object '' is: '150 THB'
+
+2018-05-09 12:33:31 - [TEST_STEP][PASSED] - Statement - println("No:" + i + "price" + prices[i]): null
+
+2018-05-09 12:33:31 - [TEST_STEP][PASSED] - Statement - product = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-09 12:33:31 - [TEST_STEP][PASSED] - Statement - product.addProperty("xpath", EQUALS, "//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]"): null
+
+2018-05-09 12:33:31 - [TEST_STEP][PASSED] - Statement - prices[i] = java.lang.Integer.parseInt(com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(product).replace(" THB", "").replace(",", "")): Text of object '' is: '280 THB'
+
+2018-05-09 12:33:31 - [MESSAGE][PASSED] - Text of object '' is: '280 THB'
+
+2018-05-09 12:33:31 - [TEST_STEP][PASSED] - Statement - println("No:" + i + "price" + prices[i]): null
+
+2018-05-09 12:33:31 - [TEST_STEP][PASSED] - Statement - product = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-09 12:33:31 - [TEST_STEP][PASSED] - Statement - product.addProperty("xpath", EQUALS, "//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]"): null
+
+2018-05-09 12:33:31 - [TEST_STEP][PASSED] - Statement - prices[i] = java.lang.Integer.parseInt(com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(product).replace(" THB", "").replace(",", "")): Text of object '' is: '12 THB'
+
+2018-05-09 12:33:31 - [MESSAGE][PASSED] - Text of object '' is: '12 THB'
+
+2018-05-09 12:33:31 - [TEST_STEP][PASSED] - Statement - println("No:" + i + "price" + prices[i]): null
+
+2018-05-09 12:33:31 - [TEST_STEP][PASSED] - Statement - product = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-09 12:33:31 - [TEST_STEP][PASSED] - Statement - product.addProperty("xpath", EQUALS, "//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]"): null
+
+2018-05-09 12:33:31 - [TEST_STEP][PASSED] - Statement - prices[i] = java.lang.Integer.parseInt(com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(product).replace(" THB", "").replace(",", "")): Text of object '' is: '20 THB'
+
+2018-05-09 12:33:31 - [MESSAGE][PASSED] - Text of object '' is: '20 THB'
+
+2018-05-09 12:33:31 - [TEST_STEP][PASSED] - Statement - println("No:" + i + "price" + prices[i]): null
+
+2018-05-09 12:33:31 - [TEST_STEP][PASSED] - setText: Text '2' is set on object 'Object Repository/carting/Page_ProjectBackend/item1'
+
+2018-05-09 12:33:31 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/carting/Page_ProjectBackend/item1'
+
+2018-05-09 12:33:31 - [TEST_STEP][PASSED] - setText: Text '4' is set on object 'Object Repository/carting/Page_ProjectBackend/item2'
+
+2018-05-09 12:33:31 - [MESSAGE][PASSED] - Text '4' is set on object 'Object Repository/carting/Page_ProjectBackend/item2'
+
+2018-05-09 12:33:31 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/carting/Page_ProjectBackend/item3'
+
+2018-05-09 12:33:32 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/carting/Page_ProjectBackend/item3'
+
+2018-05-09 12:33:32 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/carting/Page_ProjectBackend/item4'
+
+2018-05-09 12:33:32 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/carting/Page_ProjectBackend/item4'
+
+2018-05-09 12:33:32 - [TEST_STEP][PASSED] - setText: Text '3' is set on object 'Object Repository/carting/Page_ProjectBackend/item5'
+
+2018-05-09 12:33:32 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/carting/Page_ProjectBackend/item5'
+
+2018-05-09 12:33:32 - [TEST_STEP][PASSED] - Statement - finalPrice = finalPrice + java.lang.Integer.parseInt(item_1_amount) * prices[1]: null
+
+2018-05-09 12:33:32 - [TEST_STEP][PASSED] - Statement - finalPrice = finalPrice + java.lang.Integer.parseInt(item_1_amount) * prices[2]: null
+
+2018-05-09 12:33:32 - [TEST_STEP][PASSED] - Statement - finalPrice = finalPrice + java.lang.Integer.parseInt(item_2_amount) * prices[3]: null
+
+2018-05-09 12:33:32 - [TEST_STEP][PASSED] - Statement - finalPrice = finalPrice + java.lang.Integer.parseInt(item_3_amount) * prices[4]: null
+
+2018-05-09 12:33:32 - [TEST_STEP][PASSED] - Statement - finalPrice = finalPrice + java.lang.Integer.parseInt(item_4_amount) * prices[5]: null
+
+2018-05-09 12:33:32 - [TEST_STEP][PASSED] - Statement - priceInString = java.lang.String.format("%,d", finalPrice): null
+
+2018-05-09 12:33:32 - [TEST_STEP][PASSED] - Statement - println(priceInString): null
+
+2018-05-09 12:33:32 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-05-09 12:33:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-05-09 12:33:37 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/carting/Page_ProjectBackend/Total price  label' FAILED. (Root cause: Actual text 'Total price: 42,072 THB' and expected text 'Total price: 41,500 THB' of test object 'Object Repository/carting/Page_ProjectBackend/Total price  label' are NOT matched.)
+
+2018-05-09 12:33:37 - [MESSAGE][FAILED] - Actual text 'Total price: 42,072 THB' and expected text 'Total price: 41,500 THB' of test object 'Object Repository/carting/Page_ProjectBackend/Total price  label' are NOT matched.
+[[ATTACHMENT|C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Test selecting and updating amount in cart page change total price\\20180509_123255\\1525844017520.png]]
+
+2018-05-09 12:33:38 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/carting/Page_ProjectBackend/Total price  label' FAILED. (Root cause: Actual text 'Total price: 42,072 THB' and expected text 'Total price: 41,500 THB' of test object 'Object Repository/carting/Page_ProjectBackend/Total price  label' are NOT matched.)
+[[ATTACHMENT|C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Test selecting and updating amount in cart page change total price\\20180509_123255\\1525844017879.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-09 12:32:58 - [TEST_CASE][FAILED] - Test Cases/Change amount in cart: Test Cases/Change amount in cart FAILED because (of) Verify element text of test object 'Object Repository/carting/Page_ProjectBackend/Total price  label' FAILED. (Root cause: Actual text 'Total price: 42,072 THB' and expected text 'Total price: 41,500 THB' of test object 'Object Repository/carting/Page_ProjectBackend/Total price  label' are NOT matched.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Change amount in cart" classname="Test Cases/Change amount in cart" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/carting/Page_ProjectBackend/Total price  label' FAILED. (Root cause: Actual text 'Total price: 81,390 THB' and expected text 'Total price: 82,124 THB' of test object 'Object Repository/carting/Page_ProjectBackend/Total price  label' are NOT matched.)"/>
+         <system-out><![CDATA[2018-05-09 12:33:38 - [TEST_CASE][FAILED] - Test Cases/Change amount in cart: Test Cases/Change amount in cart FAILED because (of) Verify element text of test object 'Object Repository/carting/Page_ProjectBackend/Total price  label' FAILED. (Root cause: Actual text 'Total price: 81,390 THB' and expected text 'Total price: 82,124 THB' of test object 'Object Repository/carting/Page_ProjectBackend/Total price  label' are NOT matched.)
+
+2018-05-09 12:33:38 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 12:33:38 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-09 12:33:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 12:33:41 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.71.80.147:8086/' successfully
+
+2018-05-09 12:33:54 - [MESSAGE][PASSED] - Navigate to 'http://54.71.80.147:8086/' successfully
+
+2018-05-09 12:33:54 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Login_Page/input_username'
+
+2018-05-09 12:33:55 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Login_Page/input_username'
+
+2018-05-09 12:33:55 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Login_Page/input_password'
+
+2018-05-09 12:33:55 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Login_Page/input_password'
+
+2018-05-09 12:33:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_Page/button_Login' is clicked on
+
+2018-05-09 12:33:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/button_Login' is clicked on
+
+2018-05-09 12:33:55 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-09 12:33:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-09 12:33:57 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Main_Page/h2_Products' is present
+
+2018-05-09 12:33:57 - [MESSAGE][PASSED] - Object 'Object Repository/Main_Page/h2_Products' is present
+
+2018-05-09 12:33:57 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-05-09 12:34:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-05-09 12:34:02 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-05-09 12:34:02 - [TEST_STEP][PASSED] - Statement - Products = driver.findElement(org.openqa.selenium.By.xpath("/html/body/app-root/app-product-list/div/div[2]/div")): null
+
+2018-05-09 12:34:02 - [TEST_STEP][PASSED] - Statement - farmerCards = Products.findElements(org.openqa.selenium.By.className("farmer-card")): null
+
+2018-05-09 12:34:02 - [TEST_STEP][PASSED] - Statement - For ([i = 1, i <= farmerCards.size(), (i++)]): Actual text and expected text of test object 'Object Repository/Product page/cart amount label' are matched.
+
+2018-05-09 12:34:02 - [TEST_STEP][PASSED] - Statement - buttonAddProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-09 12:34:02 - [TEST_STEP][PASSED] - Statement - buttonAddProduct.addProperty("xpath", EQUALS, "/html/body/app-root/app-product-list/div/div[2]/div/div[" + i + "]/a/div[2]/div[2]/button"): null
+
+2018-05-09 12:34:02 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:34:02 - [MESSAGE][PASSED] - Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:34:02 - [TEST_STEP][PASSED] - click: Object: '' is clicked on
+
+2018-05-09 12:34:02 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-05-09 12:34:02 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:34:03 - [MESSAGE][PASSED] - Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:34:03 - [TEST_STEP][PASSED] - Statement - println(buttonAddProduct): null
+
+2018-05-09 12:34:03 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Product page/cart amount label' are matched.
+
+2018-05-09 12:34:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Product page/cart amount label' are matched.
+
+2018-05-09 12:34:03 - [TEST_STEP][PASSED] - Statement - buttonAddProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-09 12:34:03 - [TEST_STEP][PASSED] - Statement - buttonAddProduct.addProperty("xpath", EQUALS, "/html/body/app-root/app-product-list/div/div[2]/div/div[" + i + "]/a/div[2]/div[2]/button"): null
+
+2018-05-09 12:34:03 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:34:03 - [MESSAGE][PASSED] - Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:34:03 - [TEST_STEP][PASSED] - click: Object: '' is clicked on
+
+2018-05-09 12:34:03 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-05-09 12:34:03 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:34:03 - [MESSAGE][PASSED] - Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:34:03 - [TEST_STEP][PASSED] - Statement - println(buttonAddProduct): null
+
+2018-05-09 12:34:03 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Product page/cart amount label' are matched.
+
+2018-05-09 12:34:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Product page/cart amount label' are matched.
+
+2018-05-09 12:34:03 - [TEST_STEP][PASSED] - Statement - buttonAddProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-09 12:34:03 - [TEST_STEP][PASSED] - Statement - buttonAddProduct.addProperty("xpath", EQUALS, "/html/body/app-root/app-product-list/div/div[2]/div/div[" + i + "]/a/div[2]/div[2]/button"): null
+
+2018-05-09 12:34:03 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:34:03 - [MESSAGE][PASSED] - Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:34:03 - [TEST_STEP][PASSED] - click: Object: '' is clicked on
+
+2018-05-09 12:34:03 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-05-09 12:34:03 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:34:03 - [MESSAGE][PASSED] - Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:34:03 - [TEST_STEP][PASSED] - Statement - println(buttonAddProduct): null
+
+2018-05-09 12:34:03 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Product page/cart amount label' are matched.
+
+2018-05-09 12:34:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Product page/cart amount label' are matched.
+
+2018-05-09 12:34:03 - [TEST_STEP][PASSED] - Statement - buttonAddProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-09 12:34:03 - [TEST_STEP][PASSED] - Statement - buttonAddProduct.addProperty("xpath", EQUALS, "/html/body/app-root/app-product-list/div/div[2]/div/div[" + i + "]/a/div[2]/div[2]/button"): null
+
+2018-05-09 12:34:03 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:34:03 - [MESSAGE][PASSED] - Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:34:03 - [TEST_STEP][PASSED] - click: Object: '' is clicked on
+
+2018-05-09 12:34:04 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-05-09 12:34:04 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:34:04 - [MESSAGE][PASSED] - Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:34:04 - [TEST_STEP][PASSED] - Statement - println(buttonAddProduct): null
+
+2018-05-09 12:34:04 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Product page/cart amount label' are matched.
+
+2018-05-09 12:34:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Product page/cart amount label' are matched.
+
+2018-05-09 12:34:04 - [TEST_STEP][PASSED] - Statement - buttonAddProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-09 12:34:04 - [TEST_STEP][PASSED] - Statement - buttonAddProduct.addProperty("xpath", EQUALS, "/html/body/app-root/app-product-list/div/div[2]/div/div[" + i + "]/a/div[2]/div[2]/button"): null
+
+2018-05-09 12:34:04 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:34:04 - [MESSAGE][PASSED] - Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:34:04 - [TEST_STEP][PASSED] - click: Object: '' is clicked on
+
+2018-05-09 12:34:04 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-05-09 12:34:04 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:34:04 - [MESSAGE][PASSED] - Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:34:04 - [TEST_STEP][PASSED] - Statement - println(buttonAddProduct): null
+
+2018-05-09 12:34:04 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Product page/cart amount label' are matched.
+
+2018-05-09 12:34:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Product page/cart amount label' are matched.
+
+2018-05-09 12:34:04 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-09 12:34:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-09 12:34:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Main_Page/a_Carts' is clicked on
+
+2018-05-09 12:34:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Main_Page/a_Carts' is clicked on
+
+2018-05-09 12:34:06 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-09 12:34:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-09 12:34:08 - [TEST_STEP][PASSED] - Statement - items = driver.findElement(org.openqa.selenium.By.xpath("/html/body/app-root/app-cart-list/div/div/table")): null
+
+2018-05-09 12:34:08 - [TEST_STEP][PASSED] - Statement - itemInTable = items.findElements(org.openqa.selenium.By.tagName("tr")): null
+
+2018-05-09 12:34:08 - [TEST_STEP][PASSED] - Statement - prices = []: null
+
+2018-05-09 12:34:08 - [TEST_STEP][PASSED] - Statement - For ([i = 1, i < size, (i++)]): null
+
+2018-05-09 12:34:08 - [TEST_STEP][PASSED] - Statement - product = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-09 12:34:08 - [TEST_STEP][PASSED] - Statement - product.addProperty("xpath", EQUALS, "//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]"): null
+
+2018-05-09 12:34:08 - [TEST_STEP][PASSED] - Statement - prices[i] = java.lang.Integer.parseInt(com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(product).replace(" THB", "").replace(",", "")): Text of object '' is: '20,000 THB'
+
+2018-05-09 12:34:08 - [MESSAGE][PASSED] - Text of object '' is: '20,000 THB'
+
+2018-05-09 12:34:08 - [TEST_STEP][PASSED] - Statement - println("No:" + i + "price" + prices[i]): null
+
+2018-05-09 12:34:08 - [TEST_STEP][PASSED] - Statement - product = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-09 12:34:08 - [TEST_STEP][PASSED] - Statement - product.addProperty("xpath", EQUALS, "//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]"): null
+
+2018-05-09 12:34:08 - [TEST_STEP][PASSED] - Statement - prices[i] = java.lang.Integer.parseInt(com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(product).replace(" THB", "").replace(",", "")): Text of object '' is: '150 THB'
+
+2018-05-09 12:34:08 - [MESSAGE][PASSED] - Text of object '' is: '150 THB'
+
+2018-05-09 12:34:08 - [TEST_STEP][PASSED] - Statement - println("No:" + i + "price" + prices[i]): null
+
+2018-05-09 12:34:08 - [TEST_STEP][PASSED] - Statement - product = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-09 12:34:08 - [TEST_STEP][PASSED] - Statement - product.addProperty("xpath", EQUALS, "//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]"): null
+
+2018-05-09 12:34:08 - [TEST_STEP][PASSED] - Statement - prices[i] = java.lang.Integer.parseInt(com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(product).replace(" THB", "").replace(",", "")): Text of object '' is: '280 THB'
+
+2018-05-09 12:34:09 - [MESSAGE][PASSED] - Text of object '' is: '280 THB'
+
+2018-05-09 12:34:09 - [TEST_STEP][PASSED] - Statement - println("No:" + i + "price" + prices[i]): null
+
+2018-05-09 12:34:09 - [TEST_STEP][PASSED] - Statement - product = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-09 12:34:09 - [TEST_STEP][PASSED] - Statement - product.addProperty("xpath", EQUALS, "//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]"): null
+
+2018-05-09 12:34:09 - [TEST_STEP][PASSED] - Statement - prices[i] = java.lang.Integer.parseInt(com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(product).replace(" THB", "").replace(",", "")): Text of object '' is: '12 THB'
+
+2018-05-09 12:34:09 - [MESSAGE][PASSED] - Text of object '' is: '12 THB'
+
+2018-05-09 12:34:09 - [TEST_STEP][PASSED] - Statement - println("No:" + i + "price" + prices[i]): null
+
+2018-05-09 12:34:09 - [TEST_STEP][PASSED] - Statement - product = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-09 12:34:09 - [TEST_STEP][PASSED] - Statement - product.addProperty("xpath", EQUALS, "//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]"): null
+
+2018-05-09 12:34:09 - [TEST_STEP][PASSED] - Statement - prices[i] = java.lang.Integer.parseInt(com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(product).replace(" THB", "").replace(",", "")): Text of object '' is: '20 THB'
+
+2018-05-09 12:34:09 - [MESSAGE][PASSED] - Text of object '' is: '20 THB'
+
+2018-05-09 12:34:09 - [TEST_STEP][PASSED] - Statement - println("No:" + i + "price" + prices[i]): null
+
+2018-05-09 12:34:09 - [TEST_STEP][PASSED] - setText: Text '4' is set on object 'Object Repository/carting/Page_ProjectBackend/item1'
+
+2018-05-09 12:34:09 - [MESSAGE][PASSED] - Text '4' is set on object 'Object Repository/carting/Page_ProjectBackend/item1'
+
+2018-05-09 12:34:09 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/carting/Page_ProjectBackend/item2'
+
+2018-05-09 12:34:09 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/carting/Page_ProjectBackend/item2'
+
+2018-05-09 12:34:09 - [TEST_STEP][PASSED] - setText: Text '2' is set on object 'Object Repository/carting/Page_ProjectBackend/item3'
+
+2018-05-09 12:34:09 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/carting/Page_ProjectBackend/item3'
+
+2018-05-09 12:34:09 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/carting/Page_ProjectBackend/item4'
+
+2018-05-09 12:34:09 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/carting/Page_ProjectBackend/item4'
+
+2018-05-09 12:34:09 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/carting/Page_ProjectBackend/item5'
+
+2018-05-09 12:34:10 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/carting/Page_ProjectBackend/item5'
+
+2018-05-09 12:34:10 - [TEST_STEP][PASSED] - Statement - finalPrice = finalPrice + java.lang.Integer.parseInt(item_1_amount) * prices[1]: null
+
+2018-05-09 12:34:10 - [TEST_STEP][PASSED] - Statement - finalPrice = finalPrice + java.lang.Integer.parseInt(item_1_amount) * prices[2]: null
+
+2018-05-09 12:34:10 - [TEST_STEP][PASSED] - Statement - finalPrice = finalPrice + java.lang.Integer.parseInt(item_2_amount) * prices[3]: null
+
+2018-05-09 12:34:10 - [TEST_STEP][PASSED] - Statement - finalPrice = finalPrice + java.lang.Integer.parseInt(item_3_amount) * prices[4]: null
+
+2018-05-09 12:34:10 - [TEST_STEP][PASSED] - Statement - finalPrice = finalPrice + java.lang.Integer.parseInt(item_4_amount) * prices[5]: null
+
+2018-05-09 12:34:10 - [TEST_STEP][PASSED] - Statement - priceInString = java.lang.String.format("%,d", finalPrice): null
+
+2018-05-09 12:34:10 - [TEST_STEP][PASSED] - Statement - println(priceInString): null
+
+2018-05-09 12:34:10 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-05-09 12:34:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-05-09 12:34:15 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/carting/Page_ProjectBackend/Total price  label' FAILED. (Root cause: Actual text 'Total price: 81,390 THB' and expected text 'Total price: 82,124 THB' of test object 'Object Repository/carting/Page_ProjectBackend/Total price  label' are NOT matched.)
+
+2018-05-09 12:34:15 - [MESSAGE][FAILED] - Actual text 'Total price: 81,390 THB' and expected text 'Total price: 82,124 THB' of test object 'Object Repository/carting/Page_ProjectBackend/Total price  label' are NOT matched.
+[[ATTACHMENT|C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Test selecting and updating amount in cart page change total price\\20180509_123255\\1525844055233.png]]
+
+2018-05-09 12:34:15 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/carting/Page_ProjectBackend/Total price  label' FAILED. (Root cause: Actual text 'Total price: 81,390 THB' and expected text 'Total price: 82,124 THB' of test object 'Object Repository/carting/Page_ProjectBackend/Total price  label' are NOT matched.)
+[[ATTACHMENT|C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Test selecting and updating amount in cart page change total price\\20180509_123255\\1525844055586.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-09 12:33:38 - [TEST_CASE][FAILED] - Test Cases/Change amount in cart: Test Cases/Change amount in cart FAILED because (of) Verify element text of test object 'Object Repository/carting/Page_ProjectBackend/Total price  label' FAILED. (Root cause: Actual text 'Total price: 81,390 THB' and expected text 'Total price: 82,124 THB' of test object 'Object Repository/carting/Page_ProjectBackend/Total price  label' are NOT matched.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Change amount in cart" classname="Test Cases/Change amount in cart" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/carting/Page_ProjectBackend/Total price  label' FAILED. (Root cause: Actual text 'Total price: 21,812 THB' and expected text 'Total price: 20,790 THB' of test object 'Object Repository/carting/Page_ProjectBackend/Total price  label' are NOT matched.)"/>
+         <system-out><![CDATA[2018-05-09 12:34:15 - [TEST_CASE][FAILED] - Test Cases/Change amount in cart: Test Cases/Change amount in cart FAILED because (of) Verify element text of test object 'Object Repository/carting/Page_ProjectBackend/Total price  label' FAILED. (Root cause: Actual text 'Total price: 21,812 THB' and expected text 'Total price: 20,790 THB' of test object 'Object Repository/carting/Page_ProjectBackend/Total price  label' are NOT matched.)
+
+2018-05-09 12:34:15 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 12:34:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-09 12:34:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 12:34:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.71.80.147:8086/' successfully
+
+2018-05-09 12:34:32 - [MESSAGE][PASSED] - Navigate to 'http://54.71.80.147:8086/' successfully
+
+2018-05-09 12:34:32 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Login_Page/input_username'
+
+2018-05-09 12:34:32 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Login_Page/input_username'
+
+2018-05-09 12:34:32 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Login_Page/input_password'
+
+2018-05-09 12:34:33 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Login_Page/input_password'
+
+2018-05-09 12:34:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_Page/button_Login' is clicked on
+
+2018-05-09 12:34:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/button_Login' is clicked on
+
+2018-05-09 12:34:33 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-09 12:34:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-09 12:34:35 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Main_Page/h2_Products' is present
+
+2018-05-09 12:34:36 - [MESSAGE][PASSED] - Object 'Object Repository/Main_Page/h2_Products' is present
+
+2018-05-09 12:34:36 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-05-09 12:34:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-05-09 12:34:41 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-05-09 12:34:41 - [TEST_STEP][PASSED] - Statement - Products = driver.findElement(org.openqa.selenium.By.xpath("/html/body/app-root/app-product-list/div/div[2]/div")): null
+
+2018-05-09 12:34:41 - [TEST_STEP][PASSED] - Statement - farmerCards = Products.findElements(org.openqa.selenium.By.className("farmer-card")): null
+
+2018-05-09 12:34:41 - [TEST_STEP][PASSED] - Statement - For ([i = 1, i <= farmerCards.size(), (i++)]): Actual text and expected text of test object 'Object Repository/Product page/cart amount label' are matched.
+
+2018-05-09 12:34:41 - [TEST_STEP][PASSED] - Statement - buttonAddProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-09 12:34:41 - [TEST_STEP][PASSED] - Statement - buttonAddProduct.addProperty("xpath", EQUALS, "/html/body/app-root/app-product-list/div/div[2]/div/div[" + i + "]/a/div[2]/div[2]/button"): null
+
+2018-05-09 12:34:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:34:41 - [MESSAGE][PASSED] - Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:34:41 - [TEST_STEP][PASSED] - click: Object: '' is clicked on
+
+2018-05-09 12:34:41 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-05-09 12:34:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:34:41 - [MESSAGE][PASSED] - Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:34:41 - [TEST_STEP][PASSED] - Statement - println(buttonAddProduct): null
+
+2018-05-09 12:34:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Product page/cart amount label' are matched.
+
+2018-05-09 12:34:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Product page/cart amount label' are matched.
+
+2018-05-09 12:34:41 - [TEST_STEP][PASSED] - Statement - buttonAddProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-09 12:34:41 - [TEST_STEP][PASSED] - Statement - buttonAddProduct.addProperty("xpath", EQUALS, "/html/body/app-root/app-product-list/div/div[2]/div/div[" + i + "]/a/div[2]/div[2]/button"): null
+
+2018-05-09 12:34:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:34:41 - [MESSAGE][PASSED] - Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:34:41 - [TEST_STEP][PASSED] - click: Object: '' is clicked on
+
+2018-05-09 12:34:41 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-05-09 12:34:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:34:41 - [MESSAGE][PASSED] - Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:34:41 - [TEST_STEP][PASSED] - Statement - println(buttonAddProduct): null
+
+2018-05-09 12:34:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Product page/cart amount label' are matched.
+
+2018-05-09 12:34:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Product page/cart amount label' are matched.
+
+2018-05-09 12:34:41 - [TEST_STEP][PASSED] - Statement - buttonAddProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-09 12:34:41 - [TEST_STEP][PASSED] - Statement - buttonAddProduct.addProperty("xpath", EQUALS, "/html/body/app-root/app-product-list/div/div[2]/div/div[" + i + "]/a/div[2]/div[2]/button"): null
+
+2018-05-09 12:34:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:34:41 - [MESSAGE][PASSED] - Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:34:41 - [TEST_STEP][PASSED] - click: Object: '' is clicked on
+
+2018-05-09 12:34:42 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-05-09 12:34:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:34:42 - [MESSAGE][PASSED] - Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:34:42 - [TEST_STEP][PASSED] - Statement - println(buttonAddProduct): null
+
+2018-05-09 12:34:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Product page/cart amount label' are matched.
+
+2018-05-09 12:34:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Product page/cart amount label' are matched.
+
+2018-05-09 12:34:42 - [TEST_STEP][PASSED] - Statement - buttonAddProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-09 12:34:42 - [TEST_STEP][PASSED] - Statement - buttonAddProduct.addProperty("xpath", EQUALS, "/html/body/app-root/app-product-list/div/div[2]/div/div[" + i + "]/a/div[2]/div[2]/button"): null
+
+2018-05-09 12:34:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:34:42 - [MESSAGE][PASSED] - Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:34:42 - [TEST_STEP][PASSED] - click: Object: '' is clicked on
+
+2018-05-09 12:34:42 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-05-09 12:34:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:34:42 - [MESSAGE][PASSED] - Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:34:42 - [TEST_STEP][PASSED] - Statement - println(buttonAddProduct): null
+
+2018-05-09 12:34:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Product page/cart amount label' are matched.
+
+2018-05-09 12:34:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Product page/cart amount label' are matched.
+
+2018-05-09 12:34:42 - [TEST_STEP][PASSED] - Statement - buttonAddProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-09 12:34:42 - [TEST_STEP][PASSED] - Statement - buttonAddProduct.addProperty("xpath", EQUALS, "/html/body/app-root/app-product-list/div/div[2]/div/div[" + i + "]/a/div[2]/div[2]/button"): null
+
+2018-05-09 12:34:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:34:42 - [MESSAGE][PASSED] - Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:34:42 - [TEST_STEP][PASSED] - click: Object: '' is clicked on
+
+2018-05-09 12:34:42 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-05-09 12:34:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:34:42 - [MESSAGE][PASSED] - Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:34:42 - [TEST_STEP][PASSED] - Statement - println(buttonAddProduct): null
+
+2018-05-09 12:34:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Product page/cart amount label' are matched.
+
+2018-05-09 12:34:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Product page/cart amount label' are matched.
+
+2018-05-09 12:34:42 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-09 12:34:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-09 12:34:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Main_Page/a_Carts' is clicked on
+
+2018-05-09 12:34:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Main_Page/a_Carts' is clicked on
+
+2018-05-09 12:34:45 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-09 12:34:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-09 12:34:47 - [TEST_STEP][PASSED] - Statement - items = driver.findElement(org.openqa.selenium.By.xpath("/html/body/app-root/app-cart-list/div/div/table")): null
+
+2018-05-09 12:34:47 - [TEST_STEP][PASSED] - Statement - itemInTable = items.findElements(org.openqa.selenium.By.tagName("tr")): null
+
+2018-05-09 12:34:47 - [TEST_STEP][PASSED] - Statement - prices = []: null
+
+2018-05-09 12:34:47 - [TEST_STEP][PASSED] - Statement - For ([i = 1, i < size, (i++)]): null
+
+2018-05-09 12:34:47 - [TEST_STEP][PASSED] - Statement - product = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-09 12:34:47 - [TEST_STEP][PASSED] - Statement - product.addProperty("xpath", EQUALS, "//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]"): null
+
+2018-05-09 12:34:47 - [TEST_STEP][PASSED] - Statement - prices[i] = java.lang.Integer.parseInt(com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(product).replace(" THB", "").replace(",", "")): Text of object '' is: '20,000 THB'
+
+2018-05-09 12:34:47 - [MESSAGE][PASSED] - Text of object '' is: '20,000 THB'
+
+2018-05-09 12:34:47 - [TEST_STEP][PASSED] - Statement - println("No:" + i + "price" + prices[i]): null
+
+2018-05-09 12:34:47 - [TEST_STEP][PASSED] - Statement - product = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-09 12:34:47 - [TEST_STEP][PASSED] - Statement - product.addProperty("xpath", EQUALS, "//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]"): null
+
+2018-05-09 12:34:47 - [TEST_STEP][PASSED] - Statement - prices[i] = java.lang.Integer.parseInt(com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(product).replace(" THB", "").replace(",", "")): Text of object '' is: '150 THB'
+
+2018-05-09 12:34:47 - [MESSAGE][PASSED] - Text of object '' is: '150 THB'
+
+2018-05-09 12:34:47 - [TEST_STEP][PASSED] - Statement - println("No:" + i + "price" + prices[i]): null
+
+2018-05-09 12:34:47 - [TEST_STEP][PASSED] - Statement - product = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-09 12:34:47 - [TEST_STEP][PASSED] - Statement - product.addProperty("xpath", EQUALS, "//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]"): null
+
+2018-05-09 12:34:47 - [TEST_STEP][PASSED] - Statement - prices[i] = java.lang.Integer.parseInt(com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(product).replace(" THB", "").replace(",", "")): Text of object '' is: '280 THB'
+
+2018-05-09 12:34:47 - [MESSAGE][PASSED] - Text of object '' is: '280 THB'
+
+2018-05-09 12:34:47 - [TEST_STEP][PASSED] - Statement - println("No:" + i + "price" + prices[i]): null
+
+2018-05-09 12:34:47 - [TEST_STEP][PASSED] - Statement - product = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-09 12:34:47 - [TEST_STEP][PASSED] - Statement - product.addProperty("xpath", EQUALS, "//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]"): null
+
+2018-05-09 12:34:47 - [TEST_STEP][PASSED] - Statement - prices[i] = java.lang.Integer.parseInt(com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(product).replace(" THB", "").replace(",", "")): Text of object '' is: '12 THB'
+
+2018-05-09 12:34:47 - [MESSAGE][PASSED] - Text of object '' is: '12 THB'
+
+2018-05-09 12:34:47 - [TEST_STEP][PASSED] - Statement - println("No:" + i + "price" + prices[i]): null
+
+2018-05-09 12:34:47 - [TEST_STEP][PASSED] - Statement - product = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-09 12:34:47 - [TEST_STEP][PASSED] - Statement - product.addProperty("xpath", EQUALS, "//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]"): null
+
+2018-05-09 12:34:47 - [TEST_STEP][PASSED] - Statement - prices[i] = java.lang.Integer.parseInt(com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(product).replace(" THB", "").replace(",", "")): Text of object '' is: '20 THB'
+
+2018-05-09 12:34:47 - [MESSAGE][PASSED] - Text of object '' is: '20 THB'
+
+2018-05-09 12:34:47 - [TEST_STEP][PASSED] - Statement - println("No:" + i + "price" + prices[i]): null
+
+2018-05-09 12:34:47 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/carting/Page_ProjectBackend/item1'
+
+2018-05-09 12:34:47 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/carting/Page_ProjectBackend/item1'
+
+2018-05-09 12:34:47 - [TEST_STEP][PASSED] - setText: Text '2' is set on object 'Object Repository/carting/Page_ProjectBackend/item2'
+
+2018-05-09 12:34:47 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/carting/Page_ProjectBackend/item2'
+
+2018-05-09 12:34:47 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/carting/Page_ProjectBackend/item3'
+
+2018-05-09 12:34:48 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/carting/Page_ProjectBackend/item3'
+
+2018-05-09 12:34:48 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/carting/Page_ProjectBackend/item4'
+
+2018-05-09 12:34:48 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/carting/Page_ProjectBackend/item4'
+
+2018-05-09 12:34:48 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/carting/Page_ProjectBackend/item5'
+
+2018-05-09 12:34:48 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/carting/Page_ProjectBackend/item5'
+
+2018-05-09 12:34:48 - [TEST_STEP][PASSED] - Statement - finalPrice = finalPrice + java.lang.Integer.parseInt(item_1_amount) * prices[1]: null
+
+2018-05-09 12:34:48 - [TEST_STEP][PASSED] - Statement - finalPrice = finalPrice + java.lang.Integer.parseInt(item_1_amount) * prices[2]: null
+
+2018-05-09 12:34:48 - [TEST_STEP][PASSED] - Statement - finalPrice = finalPrice + java.lang.Integer.parseInt(item_2_amount) * prices[3]: null
+
+2018-05-09 12:34:48 - [TEST_STEP][PASSED] - Statement - finalPrice = finalPrice + java.lang.Integer.parseInt(item_3_amount) * prices[4]: null
+
+2018-05-09 12:34:48 - [TEST_STEP][PASSED] - Statement - finalPrice = finalPrice + java.lang.Integer.parseInt(item_4_amount) * prices[5]: null
+
+2018-05-09 12:34:48 - [TEST_STEP][PASSED] - Statement - priceInString = java.lang.String.format("%,d", finalPrice): null
+
+2018-05-09 12:34:48 - [TEST_STEP][PASSED] - Statement - println(priceInString): null
+
+2018-05-09 12:34:48 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-05-09 12:34:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-05-09 12:34:53 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/carting/Page_ProjectBackend/Total price  label' FAILED. (Root cause: Actual text 'Total price: 21,812 THB' and expected text 'Total price: 20,790 THB' of test object 'Object Repository/carting/Page_ProjectBackend/Total price  label' are NOT matched.)
+
+2018-05-09 12:34:53 - [MESSAGE][FAILED] - Actual text 'Total price: 21,812 THB' and expected text 'Total price: 20,790 THB' of test object 'Object Repository/carting/Page_ProjectBackend/Total price  label' are NOT matched.
+[[ATTACHMENT|C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Test selecting and updating amount in cart page change total price\\20180509_123255\\1525844093650.png]]
+
+2018-05-09 12:34:54 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/carting/Page_ProjectBackend/Total price  label' FAILED. (Root cause: Actual text 'Total price: 21,812 THB' and expected text 'Total price: 20,790 THB' of test object 'Object Repository/carting/Page_ProjectBackend/Total price  label' are NOT matched.)
+[[ATTACHMENT|C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Test selecting and updating amount in cart page change total price\\20180509_123255\\1525844093987.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-09 12:34:15 - [TEST_CASE][FAILED] - Test Cases/Change amount in cart: Test Cases/Change amount in cart FAILED because (of) Verify element text of test object 'Object Repository/carting/Page_ProjectBackend/Total price  label' FAILED. (Root cause: Actual text 'Total price: 21,812 THB' and expected text 'Total price: 20,790 THB' of test object 'Object Repository/carting/Page_ProjectBackend/Total price  label' are NOT matched.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Change amount in cart" classname="Test Cases/Change amount in cart" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/carting/Page_ProjectBackend/Total price  label' FAILED. (Root cause: Actual text 'Total price: 140,856 THB' and expected text 'Total price: 141,782 THB' of test object 'Object Repository/carting/Page_ProjectBackend/Total price  label' are NOT matched.)"/>
+         <system-out><![CDATA[2018-05-09 12:34:54 - [TEST_CASE][FAILED] - Test Cases/Change amount in cart: Test Cases/Change amount in cart FAILED because (of) Verify element text of test object 'Object Repository/carting/Page_ProjectBackend/Total price  label' FAILED. (Root cause: Actual text 'Total price: 140,856 THB' and expected text 'Total price: 141,782 THB' of test object 'Object Repository/carting/Page_ProjectBackend/Total price  label' are NOT matched.)
+
+2018-05-09 12:34:54 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 12:34:54 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-09 12:34:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 12:34:57 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.71.80.147:8086/' successfully
+
+2018-05-09 12:35:11 - [MESSAGE][PASSED] - Navigate to 'http://54.71.80.147:8086/' successfully
+
+2018-05-09 12:35:11 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Login_Page/input_username'
+
+2018-05-09 12:35:11 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Login_Page/input_username'
+
+2018-05-09 12:35:11 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Login_Page/input_password'
+
+2018-05-09 12:35:11 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Login_Page/input_password'
+
+2018-05-09 12:35:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_Page/button_Login' is clicked on
+
+2018-05-09 12:35:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/button_Login' is clicked on
+
+2018-05-09 12:35:11 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-09 12:35:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-09 12:35:13 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Main_Page/h2_Products' is present
+
+2018-05-09 12:35:13 - [MESSAGE][PASSED] - Object 'Object Repository/Main_Page/h2_Products' is present
+
+2018-05-09 12:35:13 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-05-09 12:35:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-05-09 12:35:18 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-05-09 12:35:18 - [TEST_STEP][PASSED] - Statement - Products = driver.findElement(org.openqa.selenium.By.xpath("/html/body/app-root/app-product-list/div/div[2]/div")): null
+
+2018-05-09 12:35:18 - [TEST_STEP][PASSED] - Statement - farmerCards = Products.findElements(org.openqa.selenium.By.className("farmer-card")): null
+
+2018-05-09 12:35:18 - [TEST_STEP][PASSED] - Statement - For ([i = 1, i <= farmerCards.size(), (i++)]): Actual text and expected text of test object 'Object Repository/Product page/cart amount label' are matched.
+
+2018-05-09 12:35:18 - [TEST_STEP][PASSED] - Statement - buttonAddProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-09 12:35:18 - [TEST_STEP][PASSED] - Statement - buttonAddProduct.addProperty("xpath", EQUALS, "/html/body/app-root/app-product-list/div/div[2]/div/div[" + i + "]/a/div[2]/div[2]/button"): null
+
+2018-05-09 12:35:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:35:18 - [MESSAGE][PASSED] - Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:35:18 - [TEST_STEP][PASSED] - click: Object: '' is clicked on
+
+2018-05-09 12:35:19 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-05-09 12:35:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:35:19 - [MESSAGE][PASSED] - Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:35:19 - [TEST_STEP][PASSED] - Statement - println(buttonAddProduct): null
+
+2018-05-09 12:35:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Product page/cart amount label' are matched.
+
+2018-05-09 12:35:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Product page/cart amount label' are matched.
+
+2018-05-09 12:35:19 - [TEST_STEP][PASSED] - Statement - buttonAddProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-09 12:35:19 - [TEST_STEP][PASSED] - Statement - buttonAddProduct.addProperty("xpath", EQUALS, "/html/body/app-root/app-product-list/div/div[2]/div/div[" + i + "]/a/div[2]/div[2]/button"): null
+
+2018-05-09 12:35:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:35:19 - [MESSAGE][PASSED] - Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:35:19 - [TEST_STEP][PASSED] - click: Object: '' is clicked on
+
+2018-05-09 12:35:19 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-05-09 12:35:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:35:19 - [MESSAGE][PASSED] - Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:35:19 - [TEST_STEP][PASSED] - Statement - println(buttonAddProduct): null
+
+2018-05-09 12:35:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Product page/cart amount label' are matched.
+
+2018-05-09 12:35:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Product page/cart amount label' are matched.
+
+2018-05-09 12:35:19 - [TEST_STEP][PASSED] - Statement - buttonAddProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-09 12:35:19 - [TEST_STEP][PASSED] - Statement - buttonAddProduct.addProperty("xpath", EQUALS, "/html/body/app-root/app-product-list/div/div[2]/div/div[" + i + "]/a/div[2]/div[2]/button"): null
+
+2018-05-09 12:35:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:35:19 - [MESSAGE][PASSED] - Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:35:19 - [TEST_STEP][PASSED] - click: Object: '' is clicked on
+
+2018-05-09 12:35:19 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-05-09 12:35:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:35:19 - [MESSAGE][PASSED] - Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:35:19 - [TEST_STEP][PASSED] - Statement - println(buttonAddProduct): null
+
+2018-05-09 12:35:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Product page/cart amount label' are matched.
+
+2018-05-09 12:35:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Product page/cart amount label' are matched.
+
+2018-05-09 12:35:19 - [TEST_STEP][PASSED] - Statement - buttonAddProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-09 12:35:19 - [TEST_STEP][PASSED] - Statement - buttonAddProduct.addProperty("xpath", EQUALS, "/html/body/app-root/app-product-list/div/div[2]/div/div[" + i + "]/a/div[2]/div[2]/button"): null
+
+2018-05-09 12:35:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:35:19 - [MESSAGE][PASSED] - Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:35:19 - [TEST_STEP][PASSED] - click: Object: '' is clicked on
+
+2018-05-09 12:35:19 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-05-09 12:35:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:35:20 - [MESSAGE][PASSED] - Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:35:20 - [TEST_STEP][PASSED] - Statement - println(buttonAddProduct): null
+
+2018-05-09 12:35:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Product page/cart amount label' are matched.
+
+2018-05-09 12:35:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Product page/cart amount label' are matched.
+
+2018-05-09 12:35:20 - [TEST_STEP][PASSED] - Statement - buttonAddProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-09 12:35:20 - [TEST_STEP][PASSED] - Statement - buttonAddProduct.addProperty("xpath", EQUALS, "/html/body/app-root/app-product-list/div/div[2]/div/div[" + i + "]/a/div[2]/div[2]/button"): null
+
+2018-05-09 12:35:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:35:20 - [MESSAGE][PASSED] - Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:35:20 - [TEST_STEP][PASSED] - click: Object: '' is clicked on
+
+2018-05-09 12:35:20 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-05-09 12:35:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:35:20 - [MESSAGE][PASSED] - Actual text and expected text of test object '' are matched.
+
+2018-05-09 12:35:20 - [TEST_STEP][PASSED] - Statement - println(buttonAddProduct): null
+
+2018-05-09 12:35:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Product page/cart amount label' are matched.
+
+2018-05-09 12:35:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Product page/cart amount label' are matched.
+
+2018-05-09 12:35:20 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-09 12:35:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-09 12:35:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Main_Page/a_Carts' is clicked on
+
+2018-05-09 12:35:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Main_Page/a_Carts' is clicked on
+
+2018-05-09 12:35:22 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-09 12:35:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-09 12:35:24 - [TEST_STEP][PASSED] - Statement - items = driver.findElement(org.openqa.selenium.By.xpath("/html/body/app-root/app-cart-list/div/div/table")): null
+
+2018-05-09 12:35:24 - [TEST_STEP][PASSED] - Statement - itemInTable = items.findElements(org.openqa.selenium.By.tagName("tr")): null
+
+2018-05-09 12:35:24 - [TEST_STEP][PASSED] - Statement - prices = []: null
+
+2018-05-09 12:35:24 - [TEST_STEP][PASSED] - Statement - For ([i = 1, i < size, (i++)]): null
+
+2018-05-09 12:35:24 - [TEST_STEP][PASSED] - Statement - product = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-09 12:35:24 - [TEST_STEP][PASSED] - Statement - product.addProperty("xpath", EQUALS, "//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]"): null
+
+2018-05-09 12:35:24 - [TEST_STEP][PASSED] - Statement - prices[i] = java.lang.Integer.parseInt(com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(product).replace(" THB", "").replace(",", "")): Text of object '' is: '20,000 THB'
+
+2018-05-09 12:35:24 - [MESSAGE][PASSED] - Text of object '' is: '20,000 THB'
+
+2018-05-09 12:35:24 - [TEST_STEP][PASSED] - Statement - println("No:" + i + "price" + prices[i]): null
+
+2018-05-09 12:35:24 - [TEST_STEP][PASSED] - Statement - product = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-09 12:35:24 - [TEST_STEP][PASSED] - Statement - product.addProperty("xpath", EQUALS, "//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]"): null
+
+2018-05-09 12:35:24 - [TEST_STEP][PASSED] - Statement - prices[i] = java.lang.Integer.parseInt(com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(product).replace(" THB", "").replace(",", "")): Text of object '' is: '150 THB'
+
+2018-05-09 12:35:24 - [MESSAGE][PASSED] - Text of object '' is: '150 THB'
+
+2018-05-09 12:35:24 - [TEST_STEP][PASSED] - Statement - println("No:" + i + "price" + prices[i]): null
+
+2018-05-09 12:35:24 - [TEST_STEP][PASSED] - Statement - product = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-09 12:35:24 - [TEST_STEP][PASSED] - Statement - product.addProperty("xpath", EQUALS, "//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]"): null
+
+2018-05-09 12:35:24 - [TEST_STEP][PASSED] - Statement - prices[i] = java.lang.Integer.parseInt(com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(product).replace(" THB", "").replace(",", "")): Text of object '' is: '280 THB'
+
+2018-05-09 12:35:24 - [MESSAGE][PASSED] - Text of object '' is: '280 THB'
+
+2018-05-09 12:35:24 - [TEST_STEP][PASSED] - Statement - println("No:" + i + "price" + prices[i]): null
+
+2018-05-09 12:35:24 - [TEST_STEP][PASSED] - Statement - product = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-09 12:35:24 - [TEST_STEP][PASSED] - Statement - product.addProperty("xpath", EQUALS, "//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]"): null
+
+2018-05-09 12:35:24 - [TEST_STEP][PASSED] - Statement - prices[i] = java.lang.Integer.parseInt(com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(product).replace(" THB", "").replace(",", "")): Text of object '' is: '12 THB'
+
+2018-05-09 12:35:25 - [MESSAGE][PASSED] - Text of object '' is: '12 THB'
+
+2018-05-09 12:35:25 - [TEST_STEP][PASSED] - Statement - println("No:" + i + "price" + prices[i]): null
+
+2018-05-09 12:35:25 - [TEST_STEP][PASSED] - Statement - product = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-09 12:35:25 - [TEST_STEP][PASSED] - Statement - product.addProperty("xpath", EQUALS, "//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]"): null
+
+2018-05-09 12:35:25 - [TEST_STEP][PASSED] - Statement - prices[i] = java.lang.Integer.parseInt(com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(product).replace(" THB", "").replace(",", "")): Text of object '' is: '20 THB'
+
+2018-05-09 12:35:25 - [MESSAGE][PASSED] - Text of object '' is: '20 THB'
+
+2018-05-09 12:35:25 - [TEST_STEP][PASSED] - Statement - println("No:" + i + "price" + prices[i]): null
+
+2018-05-09 12:35:25 - [TEST_STEP][PASSED] - setText: Text '7' is set on object 'Object Repository/carting/Page_ProjectBackend/item1'
+
+2018-05-09 12:35:25 - [MESSAGE][PASSED] - Text '7' is set on object 'Object Repository/carting/Page_ProjectBackend/item1'
+
+2018-05-09 12:35:25 - [TEST_STEP][PASSED] - setText: Text '2' is set on object 'Object Repository/carting/Page_ProjectBackend/item2'
+
+2018-05-09 12:35:25 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/carting/Page_ProjectBackend/item2'
+
+2018-05-09 12:35:25 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/carting/Page_ProjectBackend/item3'
+
+2018-05-09 12:35:25 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/carting/Page_ProjectBackend/item3'
+
+2018-05-09 12:35:25 - [TEST_STEP][PASSED] - setText: Text '8' is set on object 'Object Repository/carting/Page_ProjectBackend/item4'
+
+2018-05-09 12:35:25 - [MESSAGE][PASSED] - Text '8' is set on object 'Object Repository/carting/Page_ProjectBackend/item4'
+
+2018-05-09 12:35:25 - [TEST_STEP][PASSED] - setText: Text '9' is set on object 'Object Repository/carting/Page_ProjectBackend/item5'
+
+2018-05-09 12:35:26 - [MESSAGE][PASSED] - Text '9' is set on object 'Object Repository/carting/Page_ProjectBackend/item5'
+
+2018-05-09 12:35:26 - [TEST_STEP][PASSED] - Statement - finalPrice = finalPrice + java.lang.Integer.parseInt(item_1_amount) * prices[1]: null
+
+2018-05-09 12:35:26 - [TEST_STEP][PASSED] - Statement - finalPrice = finalPrice + java.lang.Integer.parseInt(item_1_amount) * prices[2]: null
+
+2018-05-09 12:35:26 - [TEST_STEP][PASSED] - Statement - finalPrice = finalPrice + java.lang.Integer.parseInt(item_2_amount) * prices[3]: null
+
+2018-05-09 12:35:26 - [TEST_STEP][PASSED] - Statement - finalPrice = finalPrice + java.lang.Integer.parseInt(item_3_amount) * prices[4]: null
+
+2018-05-09 12:35:26 - [TEST_STEP][PASSED] - Statement - finalPrice = finalPrice + java.lang.Integer.parseInt(item_4_amount) * prices[5]: null
+
+2018-05-09 12:35:26 - [TEST_STEP][PASSED] - Statement - priceInString = java.lang.String.format("%,d", finalPrice): null
+
+2018-05-09 12:35:26 - [TEST_STEP][PASSED] - Statement - println(priceInString): null
+
+2018-05-09 12:35:26 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-05-09 12:35:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-05-09 12:35:31 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/carting/Page_ProjectBackend/Total price  label' FAILED. (Root cause: Actual text 'Total price: 140,856 THB' and expected text 'Total price: 141,782 THB' of test object 'Object Repository/carting/Page_ProjectBackend/Total price  label' are NOT matched.)
+
+2018-05-09 12:35:31 - [MESSAGE][FAILED] - Actual text 'Total price: 140,856 THB' and expected text 'Total price: 141,782 THB' of test object 'Object Repository/carting/Page_ProjectBackend/Total price  label' are NOT matched.
+[[ATTACHMENT|C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Test selecting and updating amount in cart page change total price\\20180509_123255\\1525844131131.png]]
+
+2018-05-09 12:35:31 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/carting/Page_ProjectBackend/Total price  label' FAILED. (Root cause: Actual text 'Total price: 140,856 THB' and expected text 'Total price: 141,782 THB' of test object 'Object Repository/carting/Page_ProjectBackend/Total price  label' are NOT matched.)
+[[ATTACHMENT|C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Test selecting and updating amount in cart page change total price\\20180509_123255\\1525844131466.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-09 12:34:54 - [TEST_CASE][FAILED] - Test Cases/Change amount in cart: Test Cases/Change amount in cart FAILED because (of) Verify element text of test object 'Object Repository/carting/Page_ProjectBackend/Total price  label' FAILED. (Root cause: Actual text 'Total price: 140,856 THB' and expected text 'Total price: 141,782 THB' of test object 'Object Repository/carting/Page_ProjectBackend/Total price  label' are NOT matched.)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-09 12:32:58 - [TEST_SUITE][FAILED] - Test selecting and updating amount in cart page change total price: Test Cases/Change amount in cart FAILED because (of) Verify element text of test object 'Object Repository/carting/Page_ProjectBackend/Total price  label' FAILED. (Root cause: Actual text 'Total price: 42,072 THB' and expected text 'Total price: 41,500 THB' of test object 'Object Repository/carting/Page_ProjectBackend/Total price  label' are NOT matched.)]]></system-out>
+      <system-err><![CDATA[2018-05-09 12:32:58 - [TEST_SUITE][FAILED] - Test selecting and updating amount in cart page change total price: Test Cases/Change amount in cart FAILED because (of) Verify element text of test object 'Object Repository/carting/Page_ProjectBackend/Total price  label' FAILED. (Root cause: Actual text 'Total price: 42,072 THB' and expected text 'Total price: 41,500 THB' of test object 'Object Repository/carting/Page_ProjectBackend/Total price  label' are NOT matched.)]]></system-err>
+   </testsuite>
+</testsuites>

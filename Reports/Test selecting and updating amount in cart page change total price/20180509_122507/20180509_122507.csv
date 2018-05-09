@@ -1,0 +1,70 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test selecting and updating amount in cart page change total price,Chrome 66.0.3359.139,,2018-05-09 12:25:10,2018-05-09 12:27:01,1m - 51.033s,ERROR
+,,,,,,
+Test Cases/Change amount in cart,Chrome 66.0.3359.139,Getting price for each item,2018-05-09 12:25:10,2018-05-09 12:25:49,39.025s,ERROR
+openBrowser,Chrome 66.0.3359.139,,2018-05-09 12:25:11,2018-05-09 12:25:15,4.419s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-09 12:25:15,2018-05-09 12:25:28,13.452s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 12:25:28,2018-05-09 12:25:29,0.319s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 12:25:29,2018-05-09 12:25:29,0.236s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-09 12:25:29,2018-05-09 12:25:29,0.224s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-09 12:25:29,2018-05-09 12:25:31,2.027s,PASSED
+waitForElementPresent,Chrome 66.0.3359.139,,2018-05-09 12:25:31,2018-05-09 12:25:31,0.055s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-09 12:25:31,2018-05-09 12:25:36,5.002s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 66.0.3359.139,,2018-05-09 12:25:36,2018-05-09 12:25:36,0.003s,PASSED
+"Statement - Products = driver.findElement(org.openqa.selenium.By.xpath(""/html/body/app-root/app-product-list/div/div[2]/div""))",Chrome 66.0.3359.139,,2018-05-09 12:25:36,2018-05-09 12:25:36,0.072s,PASSED
+"Statement - farmerCards = Products.findElements(org.openqa.selenium.By.className(""farmer-card""))",Chrome 66.0.3359.139,,2018-05-09 12:25:36,2018-05-09 12:25:36,0.063s,PASSED
+"Statement - For ([i = 1, i <= farmerCards.size(), (i++)])",Chrome 66.0.3359.139,,2018-05-09 12:25:36,2018-05-09 12:25:43,6.787s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-09 12:25:43,2018-05-09 12:25:45,2.000s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-09 12:25:45,2018-05-09 12:25:45,0.210s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-09 12:25:45,2018-05-09 12:25:47,2.003s,PASSED
+"Statement - items = driver.findElement(org.openqa.selenium.By.xpath(""/html/body/app-root/app-cart-list/div/div/table""))",Chrome 66.0.3359.139,,2018-05-09 12:25:47,2018-05-09 12:25:48,0.029s,PASSED
+"Statement - itemInTable = items.findElements(org.openqa.selenium.By.tagName(""tr""))",Chrome 66.0.3359.139,,2018-05-09 12:25:48,2018-05-09 12:25:48,0.045s,PASSED
+Statement - prices = [],Chrome 66.0.3359.139,,2018-05-09 12:25:48,2018-05-09 12:25:48,0.000s,PASSED
+"Statement - For ([i = 1, i < size, (i++)])",Chrome 66.0.3359.139,,2018-05-09 12:25:48,2018-05-09 12:25:48,0.498s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 12:25:48,2018-05-09 12:25:48,0.205s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 12:25:48,2018-05-09 12:25:48,0.181s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 12:25:48,2018-05-09 12:25:49,0.182s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 12:25:49,2018-05-09 12:25:49,0.195s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 12:25:49,2018-05-09 12:25:49,0.187s,PASSED
+Statement - finalPrice = finalPrice + item_1_amount * prices[1],Chrome 66.0.3359.139,,2018-05-09 12:25:49,2018-05-09 12:25:49,0.005s,PASSED
+,,,,,,
+Test Cases/Change amount in cart,Chrome 66.0.3359.139,Getting price for each item,2018-05-09 12:25:49,2018-05-09 12:26:17,27.534s,FAILED
+openBrowser,Chrome 66.0.3359.139,,2018-05-09 12:25:49,2018-05-09 12:25:53,3.488s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-09 12:25:53,2018-05-09 12:26:06,13.320s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 12:26:06,2018-05-09 12:26:06,0.225s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 12:26:06,2018-05-09 12:26:06,0.191s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-09 12:26:06,2018-05-09 12:26:06,0.163s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-09 12:26:06,2018-05-09 12:26:08,2.002s,PASSED
+waitForElementPresent,Chrome 66.0.3359.139,,2018-05-09 12:26:08,2018-05-09 12:26:17,8.087s,FAILED
+,,,,,,
+Test Cases/Change amount in cart,Chrome 66.0.3359.139,Getting price for each item,2018-05-09 12:26:17,2018-05-09 12:26:55,38.296s,ERROR
+openBrowser,Chrome 66.0.3359.139,,2018-05-09 12:26:17,2018-05-09 12:26:20,3.297s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-09 12:26:20,2018-05-09 12:26:35,15.040s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 12:26:35,2018-05-09 12:26:35,0.224s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 12:26:35,2018-05-09 12:26:35,0.209s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-09 12:26:35,2018-05-09 12:26:36,0.167s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-09 12:26:36,2018-05-09 12:26:38,2.001s,PASSED
+waitForElementPresent,Chrome 66.0.3359.139,,2018-05-09 12:26:38,2018-05-09 12:26:38,0.048s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-09 12:26:38,2018-05-09 12:26:43,5.002s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 66.0.3359.139,,2018-05-09 12:26:43,2018-05-09 12:26:43,0.001s,PASSED
+"Statement - Products = driver.findElement(org.openqa.selenium.By.xpath(""/html/body/app-root/app-product-list/div/div[2]/div""))",Chrome 66.0.3359.139,,2018-05-09 12:26:43,2018-05-09 12:26:43,0.029s,PASSED
+"Statement - farmerCards = Products.findElements(org.openqa.selenium.By.className(""farmer-card""))",Chrome 66.0.3359.139,,2018-05-09 12:26:43,2018-05-09 12:26:43,0.049s,PASSED
+"Statement - For ([i = 1, i <= farmerCards.size(), (i++)])",Chrome 66.0.3359.139,,2018-05-09 12:26:43,2018-05-09 12:26:49,6.606s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-09 12:26:49,2018-05-09 12:26:51,2.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-09 12:26:51,2018-05-09 12:26:51,0.188s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-09 12:26:51,2018-05-09 12:26:53,2.002s,PASSED
+"Statement - items = driver.findElement(org.openqa.selenium.By.xpath(""/html/body/app-root/app-cart-list/div/div/table""))",Chrome 66.0.3359.139,,2018-05-09 12:26:53,2018-05-09 12:26:53,0.039s,PASSED
+"Statement - itemInTable = items.findElements(org.openqa.selenium.By.tagName(""tr""))",Chrome 66.0.3359.139,,2018-05-09 12:26:53,2018-05-09 12:26:54,0.060s,PASSED
+Statement - prices = [],Chrome 66.0.3359.139,,2018-05-09 12:26:54,2018-05-09 12:26:54,0.001s,PASSED
+"Statement - For ([i = 1, i < size, (i++)])",Chrome 66.0.3359.139,,2018-05-09 12:26:54,2018-05-09 12:26:54,0.418s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 12:26:54,2018-05-09 12:26:54,0.184s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 12:26:54,2018-05-09 12:26:54,0.175s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 12:26:54,2018-05-09 12:26:55,0.173s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 12:26:55,2018-05-09 12:26:55,0.168s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 12:26:55,2018-05-09 12:26:55,0.169s,PASSED
+Statement - finalPrice = finalPrice + item_1_amount * prices[1],Chrome 66.0.3359.139,,2018-05-09 12:26:55,2018-05-09 12:26:55,0.002s,PASSED
+,,,,,,
+Test Cases/Change amount in cart,Chrome 66.0.3359.139,Getting price for each item,2018-05-09 12:26:55,2018-05-09 12:27:00,5.030s,FAILED
+openBrowser,Chrome 66.0.3359.139,,2018-05-09 12:26:55,2018-05-09 12:26:58,3.406s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-09 12:26:58,2018-05-09 12:27:00,1.569s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 12:27:00,2018-05-09 12:27:00,0.019s,FAILED

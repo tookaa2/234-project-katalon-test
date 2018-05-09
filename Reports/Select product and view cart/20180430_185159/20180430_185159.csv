@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Select product and view cart,Firefox 59.0,,2018-04-30 18:52:01,2018-04-30 18:52:19,18.014s,FAILED
+,,,,,,
+Test Cases/Login with credentials,Firefox 59.0,This test case will login with given infos,2018-04-30 18:52:01,2018-04-30 18:52:02,1.036s,FAILED
+setText,Firefox 59.0,,2018-04-30 18:52:02,2018-04-30 18:52:02,0.553s,FAILED
+,,,,,,
+Test Cases/Navigate to web,Firefox 59.0,Use to navigate to certain urls,2018-04-30 18:52:02,2018-04-30 18:52:16,13.531s,PASSED
+openBrowser,Firefox 59.0,,2018-04-30 18:52:03,2018-04-30 18:52:08,5.308s,PASSED
+navigateToUrl,Firefox 59.0,,2018-04-30 18:52:08,2018-04-30 18:52:16,8.035s,PASSED
+,,,,,,
+Test Cases/Selecting product and view cart,Firefox 59.0,,2018-04-30 18:52:16,2018-04-30 18:52:18,2.473s,ERROR
+delay,Firefox 59.0,,2018-04-30 18:52:16,2018-04-30 18:52:18,2.026s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Firefox 59.0,,2018-04-30 18:52:18,2018-04-30 18:52:18,0.003s,PASSED
+"Statement - Products = driver.findElement(org.openqa.selenium.By.xpath(""/html/body/app-root/app-product-list/div/div[2]/div""))",Firefox 59.0,,2018-04-30 18:52:18,2018-04-30 18:52:18,0.062s,PASSED
+,,,,,,
+Test Cases/Exit browser,Firefox 59.0,use to terminate browser when testcase is done,2018-04-30 18:52:18,2018-04-30 18:52:19,0.463s,PASSED
+closeBrowser,Firefox 59.0,,2018-04-30 18:52:19,2018-04-30 18:52:19,0.282s,PASSED

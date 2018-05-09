@@ -1,0 +1,4 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test selecting and updating amount in cart page change total price,,,2018-05-09 12:16:10,2018-05-09 12:16:10,0.565s,INCOMPLETE
+,,,,,,
+Test Cases/Change amount in cart,,Getting price for each item,2018-05-09 12:16:10,2018-05-09 12:16:10,0.054s,PASSED

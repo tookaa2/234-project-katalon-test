@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Selecting products updates the number in carts,Chrome 66.0.3359.139,,2018-05-08 21:25:47,2018-05-08 21:26:15,27.968s,PASSED
+,,,,,,
+Test Cases/Navigate to web,Chrome 66.0.3359.139,Use to navigate to certain urls,2018-05-08 21:25:48,2018-05-08 21:26:09,21.230s,PASSED
+openBrowser,Chrome 66.0.3359.139,,2018-05-08 21:25:48,2018-05-08 21:25:52,3.536s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-08 21:25:52,2018-05-08 21:26:09,17.280s,PASSED
+,,,,,,
+Test Cases/Login with credentials,Chrome 66.0.3359.139,This test case will login with given infos,2018-05-08 21:26:09,2018-05-08 21:26:10,0.962s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-08 21:26:09,2018-05-08 21:26:10,0.289s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-08 21:26:10,2018-05-08 21:26:10,0.196s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-08 21:26:10,2018-05-08 21:26:10,0.189s,PASSED
+,,,,,,
+Test Cases/Selecting product,Chrome 66.0.3359.139,,2018-05-08 21:26:10,2018-05-08 21:26:15,4.431s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-08 21:26:10,2018-05-08 21:26:12,2.029s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 66.0.3359.139,,2018-05-08 21:26:12,2018-05-08 21:26:12,0.004s,PASSED
+"Statement - Products = driver.findElement(org.openqa.selenium.By.xpath(""/html/body/app-root/app-product-list/div/div[2]/div""))",Chrome 66.0.3359.139,,2018-05-08 21:26:12,2018-05-08 21:26:13,0.083s,PASSED
+"Statement - farmerCards = Products.findElements(org.openqa.selenium.By.className(""farmer-card""))",Chrome 66.0.3359.139,,2018-05-08 21:26:13,2018-05-08 21:26:13,0.032s,PASSED
+"Statement - For ([i = 1, i <= farmerCards.size(), (i++)])",Chrome 66.0.3359.139,,2018-05-08 21:26:13,2018-05-08 21:26:13,0.015s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-08 21:26:13,2018-05-08 21:26:15,2.001s,PASSED
+,,,,,,
+Test Cases/Exit browser,Chrome 66.0.3359.139,use to terminate browser when testcase is done,2018-05-08 21:26:15,2018-05-08 21:26:15,0.830s,PASSED
+closeBrowser,Chrome 66.0.3359.139,,2018-05-08 21:26:15,2018-05-08 21:26:15,0.660s,PASSED

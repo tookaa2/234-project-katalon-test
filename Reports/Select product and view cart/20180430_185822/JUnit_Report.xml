@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Select product and view cart" time="30" tests="2" failures="2" errors="0">
+   <testsuite name="Select product and view cart" tests="2" failures="2" errors="0" time="30" timestamp="2018-04-30 18:58:24" hostname="Donut - 10.80.178.12" id="Test Suites/Select product and view cart">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Select product and view cart\\20180430_185822"/>
+         <property name="logFiles" value="C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Select product and view cart\\20180430_185822\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Donut - 10.80.178.12"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Firefox 59.0"/>
+         <property name="hostAddress" value="10.80.178.12"/>
+         <property name="sessionId" value="b86b0883-3d77-4324-a71d-a52f2db93476"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Navigate to web" classname="Test Cases/Navigate to web" status="PASSED">
+         <system-out><![CDATA[2018-04-30 18:58:24 - [TEST_CASE][PASSED] - Test Cases/Navigate to web: Test Cases/Navigate to web
+
+2018-04-30 18:58:24 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-30 18:58:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-30 18:58:30 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.71.80.147:8086/' successfully
+
+2018-04-30 18:58:36 - [MESSAGE][PASSED] - Navigate to 'http://54.71.80.147:8086/' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login with credentials" classname="Test Cases/Login with credentials" status="PASSED">
+         <system-out><![CDATA[2018-04-30 18:58:36 - [TEST_CASE][PASSED] - Test Cases/Login with credentials: Test Cases/Login with credentials
+
+2018-04-30 18:58:36 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Login_Page/input_username'
+
+2018-04-30 18:58:37 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Login_Page/input_username'
+
+2018-04-30 18:58:37 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Login_Page/input_password'
+
+2018-04-30 18:58:37 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Login_Page/input_password'
+
+2018-04-30 18:58:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_Page/button_Login' is clicked on
+
+2018-04-30 18:58:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Selecting product and view cart" classname="Test Cases/Selecting product and view cart" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Main_Page/a_Products' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-IGTTMO3', ip: '10.80.178.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10984, moz:profile: C:\Users\Donut\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b86b0883-3d77-4324-a71d-a52f2db93476
+*** Element info: {Using=xpath, value=id(&quot;navbarSupportedContent&quot;)/ul[@class=&quot;navbar-nav mr-auto&quot;]/li[@class=&quot;nav-item active&quot;]/a[@class=&quot;nav-link&quot;][count(. | //a[@href = '/products']) = count(//a[@href = '/products'])]})"/>
+         <system-out><![CDATA[2018-04-30 18:58:37 - [TEST_CASE][FAILED] - Test Cases/Selecting product and view cart: Test Cases/Selecting product and view cart FAILED because (of) Unable to click on object 'Object Repository/Main_Page/a_Products' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-IGTTMO3', ip: '10.80.178.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10984, moz:profile: C:\Users\Donut\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b86b0883-3d77-4324-a71d-a52f2db93476
+*** Element info: {Using=xpath, value=id("navbarSupportedContent")/ul[@class="navbar-nav mr-auto"]/li[@class="nav-item active"]/a[@class="nav-link"][count(. | //a[@href = '/products']) = count(//a[@href = '/products'])]})
+
+2018-04-30 18:58:37 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-30 18:58:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-30 18:58:39 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-04-30 18:58:39 - [TEST_STEP][PASSED] - Statement - Products = driver.findElement(org.openqa.selenium.By.xpath("/html/body/app-root/app-product-list/div/div[2]/div")): null
+
+2018-04-30 18:58:39 - [TEST_STEP][PASSED] - Statement - farmerCards = Products.findElements(org.openqa.selenium.By.className("farmer-card")): null
+
+2018-04-30 18:58:40 - [TEST_STEP][FAILED] - Statement - For ([i = 1, i <= farmerCards.size(), (i++)]): Unable to click on object 'Object Repository/Main_Page/a_Products' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-IGTTMO3', ip: '10.80.178.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10984, moz:profile: C:\Users\Donut\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b86b0883-3d77-4324-a71d-a52f2db93476
+*** Element info: {Using=xpath, value=id("navbarSupportedContent")/ul[@class="navbar-nav mr-auto"]/li[@class="nav-item active"]/a[@class="nav-link"][count(. | //a[@href = '/products']) = count(//a[@href = '/products'])]})
+
+2018-04-30 18:58:40 - [TEST_STEP][PASSED] - Statement - buttonAddProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-04-30 18:58:40 - [TEST_STEP][PASSED] - Statement - buttonAddProduct.addProperty("xpath", EQUALS, "/html/body/app-root/app-product-list/div/div[2]/div/div[" + i + "]/a/div[2]/div[2]/button"): null
+
+2018-04-30 18:58:40 - [TEST_STEP][PASSED] - click: Object: '' is clicked on
+
+2018-04-30 18:58:40 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-04-30 18:58:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Product page/Redirect to cart' is clicked on
+
+2018-04-30 18:58:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Product page/Redirect to cart' is clicked on
+
+2018-04-30 18:58:40 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-30 18:58:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-30 18:58:41 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Main_Page/a_Products' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-IGTTMO3', ip: '10.80.178.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10984, moz:profile: C:\Users\Donut\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b86b0883-3d77-4324-a71d-a52f2db93476
+*** Element info: {Using=xpath, value=id("navbarSupportedContent")/ul[@class="navbar-nav mr-auto"]/li[@class="nav-item active"]/a[@class="nav-link"][count(. | //a[@href = '/products']) = count(//a[@href = '/products'])]})
+
+2018-04-30 18:58:53 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-04-30 18:58:53 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Main_Page/a_Products' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-IGTTMO3', ip: '10.80.178.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10984, moz:profile: C:\Users\Donut\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b86b0883-3d77-4324-a71d-a52f2db93476
+*** Element info: {Using=xpath, value=id("navbarSupportedContent")/ul[@class="navbar-nav mr-auto"]/li[@class="nav-item active"]/a[@class="nav-link"][count(. | //a[@href = '/products']) = count(//a[@href = '/products'])]})]]></system-out>
+         <system-err><![CDATA[2018-04-30 18:58:37 - [TEST_CASE][FAILED] - Test Cases/Selecting product and view cart: Test Cases/Selecting product and view cart FAILED because (of) Unable to click on object 'Object Repository/Main_Page/a_Products' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-IGTTMO3', ip: '10.80.178.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10984, moz:profile: C:\Users\Donut\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b86b0883-3d77-4324-a71d-a52f2db93476
+*** Element info: {Using=xpath, value=id("navbarSupportedContent")/ul[@class="navbar-nav mr-auto"]/li[@class="nav-item active"]/a[@class="nav-link"][count(. | //a[@href = '/products']) = count(//a[@href = '/products'])]})]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Exit browser" classname="Test Cases/Exit browser" status="FAILED">
+         <failure type="FAILED" message="Unable to close browser (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-IGTTMO3', ip: '10.80.178.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10984, moz:profile: C:\Users\Donut\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b86b0883-3d77-4324-a71d-a52f2db93476)"/>
+         <system-out><![CDATA[2018-04-30 18:58:53 - [TEST_CASE][FAILED] - Test Cases/Exit browser: Test Cases/Exit browser FAILED because (of) Unable to close browser (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-IGTTMO3', ip: '10.80.178.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10984, moz:profile: C:\Users\Donut\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b86b0883-3d77-4324-a71d-a52f2db93476)
+
+2018-04-30 18:58:54 - [TEST_STEP][FAILED] - closeBrowser: Unable to close browser (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-IGTTMO3', ip: '10.80.178.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10984, moz:profile: C:\Users\Donut\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b86b0883-3d77-4324-a71d-a52f2db93476)
+
+2018-04-30 18:58:54 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-04-30 18:58:54 - [MESSAGE][FAILED] - Unable to close browser (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-IGTTMO3', ip: '10.80.178.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10984, moz:profile: C:\Users\Donut\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b86b0883-3d77-4324-a71d-a52f2db93476)]]></system-out>
+         <system-err><![CDATA[2018-04-30 18:58:53 - [TEST_CASE][FAILED] - Test Cases/Exit browser: Test Cases/Exit browser FAILED because (of) Unable to close browser (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-IGTTMO3', ip: '10.80.178.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10984, moz:profile: C:\Users\Donut\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b86b0883-3d77-4324-a71d-a52f2db93476)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-30 18:58:24 - [TEST_SUITE][FAILED] - Select product and view cart: Test Cases/Selecting product and view cart FAILED because (of) Unable to click on object 'Object Repository/Main_Page/a_Products' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-IGTTMO3', ip: '10.80.178.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10984, moz:profile: C:\Users\Donut\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b86b0883-3d77-4324-a71d-a52f2db93476
+*** Element info: {Using=xpath, value=id("navbarSupportedContent")/ul[@class="navbar-nav mr-auto"]/li[@class="nav-item active"]/a[@class="nav-link"][count(. | //a[@href = '/products']) = count(//a[@href = '/products'])]})]]></system-out>
+      <system-err><![CDATA[2018-04-30 18:58:24 - [TEST_SUITE][FAILED] - Select product and view cart: Test Cases/Selecting product and view cart FAILED because (of) Unable to click on object 'Object Repository/Main_Page/a_Products' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-IGTTMO3', ip: '10.80.178.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10984, moz:profile: C:\Users\Donut\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b86b0883-3d77-4324-a71d-a52f2db93476
+*** Element info: {Using=xpath, value=id("navbarSupportedContent")/ul[@class="navbar-nav mr-auto"]/li[@class="nav-item active"]/a[@class="nav-link"][count(. | //a[@href = '/products']) = count(//a[@href = '/products'])]})]]></system-err>
+   </testsuite>
+</testsuites>

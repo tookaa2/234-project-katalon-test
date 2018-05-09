@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Select product and view cart" time="52" tests="3" failures="1" errors="0">
+   <testsuite name="Select product and view cart" tests="3" failures="1" errors="0" time="52" timestamp="2018-04-30 18:52:58" hostname="Donut - 10.80.178.12" id="Test Suites/Select product and view cart">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Select product and view cart\\20180430_185256"/>
+         <property name="logFiles" value="C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Select product and view cart\\20180430_185256\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Select product and view cart\\20180430_185256\\1525089230008.png"/>
+         <property name="hostName" value="Donut - 10.80.178.12"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Firefox 59.0"/>
+         <property name="hostAddress" value="10.80.178.12"/>
+         <property name="sessionId" value="eab4e8d5-57ec-4f43-9b78-7812aa8fca48"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Navigate to web" classname="Test Cases/Navigate to web" status="PASSED">
+         <system-out><![CDATA[2018-04-30 18:52:58 - [TEST_CASE][PASSED] - Test Cases/Navigate to web: Test Cases/Navigate to web
+
+2018-04-30 18:52:59 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-30 18:53:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-30 18:53:04 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.71.80.147:8086/' successfully
+
+2018-04-30 18:53:13 - [MESSAGE][PASSED] - Navigate to 'http://54.71.80.147:8086/' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login with credentials" classname="Test Cases/Login with credentials" status="PASSED">
+         <system-out><![CDATA[2018-04-30 18:53:13 - [TEST_CASE][PASSED] - Test Cases/Login with credentials: Test Cases/Login with credentials
+
+2018-04-30 18:53:14 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Login_Page/input_username'
+
+2018-04-30 18:53:14 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Login_Page/input_username'
+
+2018-04-30 18:53:14 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Login_Page/input_password'
+
+2018-04-30 18:53:14 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Login_Page/input_password'
+
+2018-04-30 18:53:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_Page/button_Login' is clicked on
+
+2018-04-30 18:53:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Selecting product and view cart" classname="Test Cases/Selecting product and view cart" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Main_Page/a_Products' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Main_Page/a_Products' located by 'By.xpath: id(&quot;navbarSupportedContent&quot;)/ul[@class=&quot;navbar-nav mr-auto&quot;]/li[@class=&quot;nav-item active&quot;]/a[@class=&quot;nav-link&quot;][count(. | //a[@href = '/products']) = count(//a[@href = '/products'])]' not found)"/>
+         <system-out><![CDATA[2018-04-30 18:53:14 - [TEST_CASE][FAILED] - Test Cases/Selecting product and view cart: Test Cases/Selecting product and view cart FAILED because (of) Unable to click on object 'Object Repository/Main_Page/a_Products' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Main_Page/a_Products' located by 'By.xpath: id("navbarSupportedContent")/ul[@class="navbar-nav mr-auto"]/li[@class="nav-item active"]/a[@class="nav-link"][count(. | //a[@href = '/products']) = count(//a[@href = '/products'])]' not found)
+
+2018-04-30 18:53:14 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-30 18:53:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-30 18:53:17 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-04-30 18:53:17 - [TEST_STEP][PASSED] - Statement - Products = driver.findElement(org.openqa.selenium.By.xpath("/html/body/app-root/app-product-list/div/div[2]/div")): null
+
+2018-04-30 18:53:17 - [TEST_STEP][PASSED] - Statement - farmerCards = Products.findElements(org.openqa.selenium.By.className("farmer-card")): null
+
+2018-04-30 18:53:17 - [TEST_STEP][FAILED] - Statement - For ([i = 1, i <= farmerCards.size(), (i++)]): Unable to click on object 'Object Repository/Main_Page/a_Products' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Main_Page/a_Products' located by 'By.xpath: id("navbarSupportedContent")/ul[@class="navbar-nav mr-auto"]/li[@class="nav-item active"]/a[@class="nav-link"][count(. | //a[@href = '/products']) = count(//a[@href = '/products'])]' not found)
+
+2018-04-30 18:53:17 - [TEST_STEP][PASSED] - Statement - buttonAddProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-04-30 18:53:17 - [TEST_STEP][PASSED] - Statement - buttonAddProduct.addProperty("xpath", EQUALS, "/html/body/app-root/app-product-list/div/div[2]/div/div[" + i + "]/a/div[2]/div[2]/button"): null
+
+2018-04-30 18:53:17 - [TEST_STEP][PASSED] - click: Object: '' is clicked on
+
+2018-04-30 18:53:17 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-04-30 18:53:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Product page/Redirect to cart' is clicked on
+
+2018-04-30 18:53:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Product page/Redirect to cart' is clicked on
+
+2018-04-30 18:53:17 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-30 18:53:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-30 18:53:18 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Main_Page/a_Products' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Main_Page/a_Products' located by 'By.xpath: id("navbarSupportedContent")/ul[@class="navbar-nav mr-auto"]/li[@class="nav-item active"]/a[@class="nav-link"][count(. | //a[@href = '/products']) = count(//a[@href = '/products'])]' not found)
+
+2018-04-30 18:53:50 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Main_Page/a_Products' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Main_Page/a_Products' located by 'By.xpath: id("navbarSupportedContent")/ul[@class="navbar-nav mr-auto"]/li[@class="nav-item active"]/a[@class="nav-link"][count(. | //a[@href = '/products']) = count(//a[@href = '/products'])]' not found)
+[[ATTACHMENT|C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Select product and view cart\\20180430_185256\\1525089230008.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-30 18:53:14 - [TEST_CASE][FAILED] - Test Cases/Selecting product and view cart: Test Cases/Selecting product and view cart FAILED because (of) Unable to click on object 'Object Repository/Main_Page/a_Products' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Main_Page/a_Products' located by 'By.xpath: id("navbarSupportedContent")/ul[@class="navbar-nav mr-auto"]/li[@class="nav-item active"]/a[@class="nav-link"][count(. | //a[@href = '/products']) = count(//a[@href = '/products'])]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Exit browser" classname="Test Cases/Exit browser" status="PASSED">
+         <system-out><![CDATA[2018-04-30 18:53:50 - [TEST_CASE][PASSED] - Test Cases/Exit browser: Test Cases/Exit browser
+
+2018-04-30 18:53:50 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-30 18:53:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-30 18:52:58 - [TEST_SUITE][FAILED] - Select product and view cart: Test Cases/Selecting product and view cart FAILED because (of) Unable to click on object 'Object Repository/Main_Page/a_Products' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Main_Page/a_Products' located by 'By.xpath: id("navbarSupportedContent")/ul[@class="navbar-nav mr-auto"]/li[@class="nav-item active"]/a[@class="nav-link"][count(. | //a[@href = '/products']) = count(//a[@href = '/products'])]' not found)]]></system-out>
+      <system-err><![CDATA[2018-04-30 18:52:58 - [TEST_SUITE][FAILED] - Select product and view cart: Test Cases/Selecting product and view cart FAILED because (of) Unable to click on object 'Object Repository/Main_Page/a_Products' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Main_Page/a_Products' located by 'By.xpath: id("navbarSupportedContent")/ul[@class="navbar-nav mr-auto"]/li[@class="nav-item active"]/a[@class="nav-link"][count(. | //a[@href = '/products']) = count(//a[@href = '/products'])]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Getting price for each item</description>
+   <name>Change amount in cart</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b72f3658-b63a-46bd-afc1-b53d9bce3943</testCaseGuid>
+   <variable>
+      <defaultValue>'user'</defaultValue>
+      <description></description>
+      <id>5fc46d96-6c7f-49d5-b6b5-afde3fbae4c1</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>'user'</defaultValue>
+      <description></description>
+      <id>86fcceaa-bf19-422a-ad60-9b16ab60a593</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>35fae65d-80d9-4770-aa9c-724b98ee3ba1</id>
+      <masked>false</masked>
+      <name>item_1_amount</name>
+   </variable>
+   <variable>
+      <defaultValue>2</defaultValue>
+      <description></description>
+      <id>422a2d9e-6670-4815-b0ce-8672a4281b4e</id>
+      <masked>false</masked>
+      <name>item_2_amount</name>
+   </variable>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>720da727-bd3f-4e5b-ab9e-c13ba7b37241</id>
+      <masked>false</masked>
+      <name>item_3_amount</name>
+   </variable>
+   <variable>
+      <defaultValue>3</defaultValue>
+      <description></description>
+      <id>ded06874-0233-445a-9dcb-d6ffe5f579c9</id>
+      <masked>false</masked>
+      <name>item_4_amount</name>
+   </variable>
+   <variable>
+      <defaultValue>5</defaultValue>
+      <description></description>
+      <id>31406c64-5dee-42bb-b4ea-fcfdea60dca2</id>
+      <masked>false</masked>
+      <name>item_5_amount</name>
+   </variable>
+</TestCaseEntity>

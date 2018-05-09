@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Selecting products updates the number in carts</name>
+   <name>Select product and view cart</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-05-08T21:25:45</lastRun>
+   <lastRun>2018-04-30T18:58:22</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>8c2b4f9c-1649-4b08-8763-6163a040c1aa</testSuiteGuid>
+   <testSuiteGuid>5680a7fa-cb50-4413-a806-b469c1fd0fd1</testSuiteGuid>
    <testCaseLink>
-      <guid>1c40c423-6899-4e69-87fc-d5ca85f1b265</guid>
+      <guid>4bb33e0c-e67c-4edd-b62e-42f3bcf88778</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Navigate to web</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>a47dea0c-8d59-43fa-b661-50b06c639259</guid>
+      <guid>122103db-d982-46dd-b759-5bb675c15e28</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login with credentials</testCaseId>
@@ -36,13 +36,13 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>d66b2f58-5878-4bba-82ac-e859eb2731c2</guid>
+      <guid>b4422d84-f502-49a1-8e2b-566c56065306</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Selecting product</testCaseId>
+      <testCaseId>Test Cases/Selecting product and view cart</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>bc498ab5-4910-4d92-9317-322cc1c25b12</guid>
+      <guid>cb370e51-c10f-45ef-9e80-cb563129bc59</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Exit browser</testCaseId>
