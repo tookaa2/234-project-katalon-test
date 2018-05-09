@@ -29,3 +29,5 @@ WebUI.waitForElementNotPresent(findTestObject('Login_Page/button_Login'), 15)
 
 WebUI.click(findTestObject('Main_Page/Logout Button'))
 
+WebUI.verifyElementPresent(findTestObject('Login_Page/Login Header'), 15)
+
