@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Test transaction update</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-05-09T20:50:44</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>3dd5ad15-aadb-4735-8445-99d921a26329</testSuiteGuid>
+   <testCaseLink>
+      <guid>634987e1-b740-431d-a159-49473ba74ca5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Test transaction update</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>6aa852c6-da05-47db-95d1-0105c3175198</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Test data for transaction</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>6aa852c6-da05-47db-95d1-0105c3175198</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>item1amount</value>
+         <variableId>9ec7452d-f0a5-4ebe-9ac8-53e37314e6a4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6aa852c6-da05-47db-95d1-0105c3175198</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>item2amount</value>
+         <variableId>cedec12e-5e6d-4792-aa33-df539821ab98</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6aa852c6-da05-47db-95d1-0105c3175198</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>item3amount</value>
+         <variableId>2389e31f-41b7-4080-a7bb-dd50816b96e3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6aa852c6-da05-47db-95d1-0105c3175198</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>item4amount</value>
+         <variableId>2848471d-0d87-42c8-b0f6-9fb77083af81</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6aa852c6-da05-47db-95d1-0105c3175198</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>item5amount</value>
+         <variableId>a17b2b96-264a-400e-ac65-b9af7e4a7a40</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6aa852c6-da05-47db-95d1-0105c3175198</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>8ec982e4-0a58-4c26-9d4d-6a1b91ca6ffb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6aa852c6-da05-47db-95d1-0105c3175198</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>2bd5e8ef-ae22-4f5a-8b0d-63f80c34e1f7</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Carts</name>
+   <name>Link to Carts</name>
    <tag></tag>
    <elementGuidId>c6c352be-9b55-4384-844b-8c912863423d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;navbarSupportedContent&quot;)/ul[@class=&quot;navbar-nav mr-auto&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;][count(. | //a[@href = '/cart']) = count(//a[@href = '/cart'])]</value>
+         <value>//*[@id=&quot;navbarSupportedContent&quot;]/ul/li[2]/a[count(. | //a[@href = '/cart']) = count(//a[@href = '/cart'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -61,6 +61,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;navbarSupportedContent&quot;)/ul[@class=&quot;navbar-nav mr-auto&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;]</value>
+      <value>//*[@id=&quot;navbarSupportedContent&quot;]/ul/li[2]/a</value>
    </webElementProperties>
 </WebElementEntity>

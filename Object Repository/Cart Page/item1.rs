@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>item5</name>
+   <name>item1</name>
    <tag></tag>
-   <elementGuidId>1325e193-fc1d-4243-ae3d-08d5196181c7</elementGuidId>
+   <elementGuidId>fad6f550-2b35-4ef1-9b71-21c5e32ee299</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//*[@id=&quot;add-row&quot;]/div/table/tbody/tr[1]/td[3]/div/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +20,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;add-row&quot;]/div/table/tbody/tr[5]/td[3]/div/input</value>
+      <value>//*[@id=&quot;add-row&quot;]/div/table/tbody/tr[1]/td[3]/div/input</value>
    </webElementProperties>
 </WebElementEntity>

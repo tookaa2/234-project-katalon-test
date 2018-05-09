@@ -22,5 +22,5 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.verifyElementText(findTestObject('Main_Page/a_Products'), 'Products')
 
-WebUI.verifyElementText(findTestObject('Main_Page/a_Carts'), 'Carts')
+WebUI.verifyElementText(findTestObject('Main_Page/Link to Carts'), 'Carts')
 

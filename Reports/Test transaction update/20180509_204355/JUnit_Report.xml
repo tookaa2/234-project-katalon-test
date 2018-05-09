@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test transaction update" time="34" tests="1" failures="0" errors="0">
+   <testsuite name="Test transaction update" tests="1" failures="0" errors="0" time="34" timestamp="2018-05-09 20:43:57" hostname="Donut - 10.80.178.12" id="Test Suites/Test transaction update">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Test transaction update\\20180509_204355"/>
+         <property name="logFiles" value="C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Test transaction update\\20180509_204355\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Donut - 10.80.178.12"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="10.80.178.12"/>
+         <property name="sessionId" value="80fc2989105bfe3fb36f8bfd82670b95"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test transaction update" classname="Test Cases/Test transaction update" status="PASSED">
+         <system-out><![CDATA[2018-05-09 20:43:58 - [TEST_CASE][PASSED] - Test Cases/Test transaction update: Test Cases/Test transaction update
+
+2018-05-09 20:43:58 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 20:44:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 20:44:02 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.71.80.147:8086/' successfully
+
+2018-05-09 20:44:08 - [MESSAGE][PASSED] - Navigate to 'http://54.71.80.147:8086/' successfully
+
+2018-05-09 20:44:08 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Login_Page/input_username'
+
+2018-05-09 20:44:09 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login_Page/input_username'
+
+2018-05-09 20:44:09 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Login_Page/input_password'
+
+2018-05-09 20:44:09 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login_Page/input_password'
+
+2018-05-09 20:44:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_Page/button_Login' is clicked on
+
+2018-05-09 20:44:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/button_Login' is clicked on
+
+2018-05-09 20:44:09 - [TEST_STEP][PASSED] - waitForElementNotPresent: Web element with id: 'Object Repository/Main_Page/Logout Button' located by 'By.xpath: //button[@type = 'button' and (text() = 'Logout' or . = 'Logout')]' is not present after '15' second(s)
+
+2018-05-09 20:44:09 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Main_Page/Logout Button' located by 'By.xpath: //button[@type = 'button' and (text() = 'Logout' or . = 'Logout')]' is not present after '15' second(s)
+
+2018-05-09 20:44:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Main_Page/a_Total Transaction' is clicked on
+
+2018-05-09 20:44:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Main_Page/a_Total Transaction' is clicked on
+
+2018-05-09 20:44:10 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-09 20:44:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-09 20:44:12 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-05-09 20:44:12 - [TEST_STEP][PASSED] - Statement - TransactionsTable = driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table")): null
+
+2018-05-09 20:44:12 - [TEST_STEP][PASSED] - Statement - transactions = TransactionsTable.findElements(org.openqa.selenium.By.tagName("tr")): null
+
+2018-05-09 20:44:13 - [TEST_STEP][PASSED] - Statement - println(transactions.size()): null
+
+2018-05-09 20:44:13 - [TEST_STEP][PASSED] - Statement - transactionSizeBefore = transactions.size(): null
+
+2018-05-09 20:44:13 - [TEST_STEP][PASSED] - Statement - totalPrice1 = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-09 20:44:13 - [TEST_STEP][PASSED] - Statement - totalPrice1.addProperty("xpath", EQUALS, "//*[@id="add-row"]/div/div[2]/div/p"): null
+
+2018-05-09 20:44:13 - [TEST_STEP][PASSED] - Statement - firstprice = java.lang.Integer.parseInt(com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(totalPrice1).replace(" THB", "").replace(",", "").replace("Total price: ", "")): Text of object '' is: 'Total price: 475,772 THB'
+
+2018-05-09 20:44:13 - [MESSAGE][PASSED] - Text of object '' is: 'Total price: 475,772 THB'
+
+2018-05-09 20:44:13 - [TEST_STEP][PASSED] - Statement - println(firstprice): null
+
+2018-05-09 20:44:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Main_Page/Logout Button' is clicked on
+
+2018-05-09 20:44:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Main_Page/Logout Button' is clicked on
+
+2018-05-09 20:44:13 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login_Page/Login Header' is present
+
+2018-05-09 20:44:13 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/Login Header' is present
+
+2018-05-09 20:44:13 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Login_Page/input_username'
+
+2018-05-09 20:44:13 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Login_Page/input_username'
+
+2018-05-09 20:44:13 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Login_Page/input_password'
+
+2018-05-09 20:44:13 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Login_Page/input_password'
+
+2018-05-09 20:44:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_Page/button_Login' is clicked on
+
+2018-05-09 20:44:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/button_Login' is clicked on
+
+2018-05-09 20:44:13 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Main_Page/h2_Products' is present
+
+2018-05-09 20:44:14 - [MESSAGE][PASSED] - Object 'Object Repository/Main_Page/h2_Products' is present
+
+2018-05-09 20:44:14 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-09 20:44:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-09 20:44:16 - [TEST_STEP][PASSED] - Statement - Products = driver.findElement(org.openqa.selenium.By.xpath("/html/body/app-root/app-product-list/div/div[2]/div")): null
+
+2018-05-09 20:44:16 - [TEST_STEP][PASSED] - Statement - farmerCards = Products.findElements(org.openqa.selenium.By.className("farmer-card")): null
+
+2018-05-09 20:44:16 - [TEST_STEP][PASSED] - Statement - For ([i = 1, i <= farmerCards.size(), (i++)]): Delayed 1 second(s)
+
+2018-05-09 20:44:16 - [TEST_STEP][PASSED] - Statement - buttonAddProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-09 20:44:16 - [TEST_STEP][PASSED] - Statement - buttonAddProduct.addProperty("xpath", EQUALS, "/html/body/app-root/app-product-list/div/div[2]/div/div[" + i + "]/a/div[2]/div[2]/button"): null
+
+2018-05-09 20:44:16 - [TEST_STEP][PASSED] - click: Object: '' is clicked on
+
+2018-05-09 20:44:16 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-05-09 20:44:16 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-05-09 20:44:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-05-09 20:44:17 - [TEST_STEP][PASSED] - Statement - buttonAddProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-09 20:44:17 - [TEST_STEP][PASSED] - Statement - buttonAddProduct.addProperty("xpath", EQUALS, "/html/body/app-root/app-product-list/div/div[2]/div/div[" + i + "]/a/div[2]/div[2]/button"): null
+
+2018-05-09 20:44:17 - [TEST_STEP][PASSED] - click: Object: '' is clicked on
+
+2018-05-09 20:44:17 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-05-09 20:44:17 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-05-09 20:44:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-05-09 20:44:18 - [TEST_STEP][PASSED] - Statement - buttonAddProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-09 20:44:18 - [TEST_STEP][PASSED] - Statement - buttonAddProduct.addProperty("xpath", EQUALS, "/html/body/app-root/app-product-list/div/div[2]/div/div[" + i + "]/a/div[2]/div[2]/button"): null
+
+2018-05-09 20:44:18 - [TEST_STEP][PASSED] - click: Object: '' is clicked on
+
+2018-05-09 20:44:18 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-05-09 20:44:18 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-05-09 20:44:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-05-09 20:44:19 - [TEST_STEP][PASSED] - Statement - buttonAddProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-09 20:44:19 - [TEST_STEP][PASSED] - Statement - buttonAddProduct.addProperty("xpath", EQUALS, "/html/body/app-root/app-product-list/div/div[2]/div/div[" + i + "]/a/div[2]/div[2]/button"): null
+
+2018-05-09 20:44:19 - [TEST_STEP][PASSED] - click: Object: '' is clicked on
+
+2018-05-09 20:44:20 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-05-09 20:44:20 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-05-09 20:44:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-05-09 20:44:21 - [TEST_STEP][PASSED] - Statement - buttonAddProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-09 20:44:21 - [TEST_STEP][PASSED] - Statement - buttonAddProduct.addProperty("xpath", EQUALS, "/html/body/app-root/app-product-list/div/div[2]/div/div[" + i + "]/a/div[2]/div[2]/button"): null
+
+2018-05-09 20:44:21 - [TEST_STEP][PASSED] - click: Object: '' is clicked on
+
+2018-05-09 20:44:21 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-05-09 20:44:21 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-05-09 20:44:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-05-09 20:44:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Main_Page/Link to Carts' is clicked on
+
+2018-05-09 20:44:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Main_Page/Link to Carts' is clicked on
+
+2018-05-09 20:44:22 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-05-09 20:44:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-05-09 20:44:23 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/Cart Page/item1'
+
+2018-05-09 20:44:23 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Cart Page/item1'
+
+2018-05-09 20:44:23 - [TEST_STEP][PASSED] - setText: Text '3' is set on object 'Object Repository/Cart Page/item2'
+
+2018-05-09 20:44:23 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/Cart Page/item2'
+
+2018-05-09 20:44:23 - [TEST_STEP][PASSED] - setText: Text '4' is set on object 'Object Repository/Cart Page/item3'
+
+2018-05-09 20:44:24 - [MESSAGE][PASSED] - Text '4' is set on object 'Object Repository/Cart Page/item3'
+
+2018-05-09 20:44:24 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Cart Page/item4'
+
+2018-05-09 20:44:24 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Cart Page/item4'
+
+2018-05-09 20:44:24 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/Cart Page/item5'
+
+2018-05-09 20:44:24 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Cart Page/item5'
+
+2018-05-09 20:44:24 - [TEST_STEP][PASSED] - Statement - priceOfLatestTeansaction = java.lang.Integer.parseInt(com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Cart Page/Total price  label)).replace(" THB", "").replace(",", "").replace("Total price: ", "")): Text of object 'Object Repository/Cart Page/Total price  label' is: 'Total price: 21,650 THB'
+
+2018-05-09 20:44:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/Cart Page/Total price  label' is: 'Total price: 21,650 THB'
+
+2018-05-09 20:44:24 - [TEST_STEP][PASSED] - Statement - println(priceOfLatestTeansaction): null
+
+2018-05-09 20:44:24 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-09 20:44:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-09 20:44:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Cart Page/Confirm purchase button' is clicked on
+
+2018-05-09 20:44:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Cart Page/Confirm purchase button' is clicked on
+
+2018-05-09 20:44:26 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-05-09 20:44:26 - [MESSAGE][PASSED] - Alert accepted
+
+2018-05-09 20:44:26 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Main_Page/Logout Button' is present
+
+2018-05-09 20:44:26 - [MESSAGE][PASSED] - Object 'Object Repository/Main_Page/Logout Button' is present
+
+2018-05-09 20:44:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Main_Page/Logout Button' is clicked on
+
+2018-05-09 20:44:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Main_Page/Logout Button' is clicked on
+
+2018-05-09 20:44:26 - [TEST_STEP][PASSED] - waitForElementNotPresent: Web element with id: 'Object Repository/Main_Page/Logout Button' located by 'By.xpath: //button[@type = 'button' and (text() = 'Logout' or . = 'Logout')]' is not present after '15' second(s)
+
+2018-05-09 20:44:26 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Main_Page/Logout Button' located by 'By.xpath: //button[@type = 'button' and (text() = 'Logout' or . = 'Logout')]' is not present after '15' second(s)
+
+2018-05-09 20:44:26 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-05-09 20:44:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-05-09 20:44:27 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Login_Page/input_username'
+
+2018-05-09 20:44:28 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login_Page/input_username'
+
+2018-05-09 20:44:28 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Login_Page/input_password'
+
+2018-05-09 20:44:28 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login_Page/input_password'
+
+2018-05-09 20:44:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_Page/button_Login' is clicked on
+
+2018-05-09 20:44:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/button_Login' is clicked on
+
+2018-05-09 20:44:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Main_Page/a_Total Transaction' is clicked on
+
+2018-05-09 20:44:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Main_Page/a_Total Transaction' is clicked on
+
+2018-05-09 20:44:28 - [TEST_STEP][PASSED] - Statement - verifyPrice = java.lang.String.format("%,d", firstprice + priceOfLatestTeansaction): null
+
+2018-05-09 20:44:28 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Transaction page/Total Transaction Price' are matched.
+
+2018-05-09 20:44:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Transaction page/Total Transaction Price' are matched.
+
+2018-05-09 20:44:28 - [TEST_STEP][PASSED] - Statement - TransactionsTable = driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table")): null
+
+2018-05-09 20:44:28 - [TEST_STEP][PASSED] - Statement - transactions = TransactionsTable.findElements(org.openqa.selenium.By.tagName("tr")): null
+
+2018-05-09 20:44:28 - [TEST_STEP][PASSED] - Statement - transactionSizeAfter = transactions.size(): null
+
+2018-05-09 20:44:28 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-09 20:44:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-09 20:44:30 - [TEST_STEP][PASSED] - verifyEqual: Actual object '18' and expected object '18' are equal
+
+2018-05-09 20:44:30 - [MESSAGE][PASSED] - Actual object '18' and expected object '18' are equal
+
+2018-05-09 20:44:30 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-05-09 20:44:31 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-09 20:43:57 - [TEST_SUITE][PASSED] - Test transaction update: Test Cases/Test transaction update]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

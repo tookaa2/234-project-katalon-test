@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test transaction update</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c7664348-f710-4674-92f9-45844e3375a5</testCaseGuid>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>9ec7452d-f0a5-4ebe-9ac8-53e37314e6a4</id>
+      <masked>false</masked>
+      <name>item_1_amount</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>cedec12e-5e6d-4792-aa33-df539821ab98</id>
+      <masked>false</masked>
+      <name>item_2_amount</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>2389e31f-41b7-4080-a7bb-dd50816b96e3</id>
+      <masked>false</masked>
+      <name>item_3_amount</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>2848471d-0d87-42c8-b0f6-9fb77083af81</id>
+      <masked>false</masked>
+      <name>item_4_amount</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>a17b2b96-264a-400e-ac65-b9af7e4a7a40</id>
+      <masked>false</masked>
+      <name>item_5_amount</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8ec982e4-0a58-4c26-9d4d-6a1b91ca6ffb</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2bd5e8ef-ae22-4f5a-8b0d-63f80c34e1f7</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
