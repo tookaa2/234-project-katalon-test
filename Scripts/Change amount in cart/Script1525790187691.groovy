@@ -38,7 +38,7 @@ WebUI.click(findTestObject('Login_Page/button_Login'))
 
 WebUI.delay(2)
 
-WebUI.waitForElementPresent(findTestObject('Main_Page/h2_Products'), 15)
+WebUI.waitForElementPresent(findTestObject('Product page/Header_Products'), 15)
 
 WebUI.delay(5)
 
@@ -67,7 +67,7 @@ for (int i = 1; i <= farmerCards.size(); i++) {
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Main_Page/Link to Carts'))
+WebUI.click(findTestObject('Navigation bar/Link to Carts'))
 
 WebUI.delay(2)
 

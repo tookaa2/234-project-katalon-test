@@ -4,7 +4,7 @@
    <name>Login as admin</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-04-28T23:51:01</lastRun>
+   <lastRun>2018-05-10T20:51:29</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -18,28 +18,31 @@
       <testCaseId>Test Cases/Navigate to web</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>a33d0a7c-f515-41df-83be-4cd964c3709f</guid>
+      <guid>4267257a-3cd6-4593-bd5b-d79ee8f48f98</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login with credentials</testCaseId>
+      <testCaseId>Test Cases/1-Login as Admin</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>12a61461-a0f3-47bb-9d61-bdf1d1494448</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Admin role</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>SCRIPT_VARIABLE</type>
-         <value>&quot;admin&quot;</value>
-         <variableId>d23196c2-519d-4e28-96bb-05a21bdb9cf9</variableId>
+         <testDataLinkId>12a61461-a0f3-47bb-9d61-bdf1d1494448</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>a02aa09e-3567-43c4-ab77-9ab3920a84b4</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>SCRIPT_VARIABLE</type>
-         <value>&quot;admin&quot;</value>
-         <variableId>0bc0a367-2c7b-477e-8476-6d9e80ef7936</variableId>
+         <testDataLinkId>12a61461-a0f3-47bb-9d61-bdf1d1494448</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>e46c3f22-b3a1-4316-bcb1-31884cbdb28e</variableId>
       </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>36919a15-b909-4b98-8d57-a62890716220</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Verify admin landing page</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>ba67a37e-9fa7-4190-adb1-dec71b264784</guid>

@@ -36,9 +36,9 @@ WebUI.setText(findTestObject('Login_Page/input_password'), 'admin')
 
 WebUI.click(findTestObject('Login_Page/button_Login'))
 
-WebUI.waitForElementNotPresent(findTestObject('Main_Page/Logout Button'), 15)
+WebUI.waitForElementNotPresent(findTestObject('Product page/Logout Button'), 15)
 
-WebUI.click(findTestObject('Main_Page/a_Total Transaction'))
+WebUI.click(findTestObject('Navigation bar/a_Total Transaction'))
 
 WebUI.delay(2)
 
@@ -73,7 +73,7 @@ int firstprice = Integer.parseInt(WebUI.getText(totalPrice1).replace(' THB', '')
 
 println(firstprice)
 WebUI.delay(1)
-WebUI.click(findTestObject('Main_Page/Logout Button'))
+WebUI.click(findTestObject('Product page/Logout Button'))
 
 WebUI.verifyElementPresent(findTestObject('Login_Page/Login Header'), 15)
 
@@ -83,7 +83,7 @@ WebUI.setText(findTestObject('Login_Page/input_password'), password)
 
 WebUI.click(findTestObject('Login_Page/button_Login'))
 
-WebUI.waitForElementPresent(findTestObject('Main_Page/h2_Products'), 15)
+WebUI.waitForElementPresent(findTestObject('Product page/Header_Products'), 15)
 
 WebUI.delay(2)
 
@@ -102,7 +102,7 @@ for (int i = 1; i <= farmerCards.size(); i++) {
     WebUI.delay(1)
 }
 
-WebUI.click(findTestObject('Main_Page/Link to Carts'))
+WebUI.click(findTestObject('Navigation bar/Link to Carts'))
 WebUI.delay(1)
 WebUI.setText(findTestObject('Cart Page/item1'), '' + item_1_amount)
 
@@ -127,11 +127,11 @@ WebUI.click(findTestObject('Cart Page/Confirm purchase button'))
 
 WebUI.acceptAlert()
 
-WebUI.waitForElementPresent(findTestObject('Main_Page/Logout Button'), 15)
+WebUI.waitForElementPresent(findTestObject('Product page/Logout Button'), 15)
 
-WebUI.click(findTestObject('Main_Page/Logout Button'))
+WebUI.click(findTestObject('Product page/Logout Button'))
 
-WebUI.waitForElementNotPresent(findTestObject('Main_Page/Logout Button'), 15)
+WebUI.waitForElementNotPresent(findTestObject('Product page/Logout Button'), 15)
 
 WebUI.delay(1)
 
@@ -141,7 +141,7 @@ WebUI.setText(findTestObject('Login_Page/input_password'), 'admin')
 
 WebUI.click(findTestObject('Login_Page/button_Login'))
 
-WebUI.click(findTestObject('Main_Page/a_Total Transaction'))
+WebUI.click(findTestObject('Navigation bar/a_Total Transaction'))
 
 String verifyPrice = String.format('%,d', firstprice + priceOfLatestTeansaction)
 

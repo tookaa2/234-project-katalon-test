@@ -44,7 +44,7 @@ for (int i = 1; i <= farmerCards.size(); i++) {
 
     WebUI.delay(1)
 
-    WebUI.click(findTestObject('Redirect to product'))
+    WebUI.click(findTestObject('Navigation bar/Redirect to product'))
 }
 
 WebUI.delay(2)

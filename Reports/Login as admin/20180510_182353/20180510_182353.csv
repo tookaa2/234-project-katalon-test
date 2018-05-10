@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login as admin,Chrome 66.0.3359.139,,2018-05-10 18:23:56,2018-05-10 18:24:14,17.634s,PASSED
+,,,,,,
+Test Cases/Navigate to web,Chrome 66.0.3359.139,Use to navigate to certain urls,2018-05-10 18:23:57,2018-05-10 18:24:11,14.236s,PASSED
+openBrowser,Chrome 66.0.3359.139,,2018-05-10 18:23:57,2018-05-10 18:24:02,4.988s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-10 18:24:02,2018-05-10 18:24:11,8.837s,PASSED
+,,,,,,
+Test Cases/Login with credentials,Chrome 66.0.3359.139,This test case will login with given infos,2018-05-10 18:24:11,2018-05-10 18:24:12,1.048s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-10 18:24:11,2018-05-10 18:24:11,0.327s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-10 18:24:11,2018-05-10 18:24:12,0.229s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-10 18:24:12,2018-05-10 18:24:12,0.251s,PASSED
+,,,,,,
+Test Cases/Verify admin landing page,Chrome 66.0.3359.139,Verify if logged in as admin,2018-05-10 18:24:12,2018-05-10 18:24:13,0.942s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-10 18:24:12,2018-05-10 18:24:13,0.651s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-10 18:24:13,2018-05-10 18:24:13,0.096s,PASSED
+,,,,,,
+Test Cases/Exit browser,Chrome 66.0.3359.139,use to terminate browser when testcase is done,2018-05-10 18:24:13,2018-05-10 18:24:14,0.841s,PASSED
+closeBrowser,Chrome 66.0.3359.139,,2018-05-10 18:24:13,2018-05-10 18:24:14,0.631s,PASSED

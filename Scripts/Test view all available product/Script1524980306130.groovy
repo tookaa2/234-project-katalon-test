@@ -34,7 +34,7 @@ WebUI.setText(findTestObject('Login_Page/input_password'), Password)
 
 WebUI.click(findTestObject('Login_Page/button_Login'))
 
-WebUI.waitForElementPresent(findTestObject('Main_Page/h2_Products'), 0)
+WebUI.waitForElementPresent(findTestObject('Product page/Header_Products'), 0)
 
 WebUI.delay(2)
 
