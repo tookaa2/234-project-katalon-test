@@ -24,6 +24,16 @@ import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.By as By
 
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('Login_Page/input_username'), username)
+
+WebUI.setText(findTestObject('Login_Page/input_password'), password)
+
+WebUI.click(findTestObject('Login_Page/button_Login'))
+
+WebUI.waitForElementPresent(findTestObject('Product page/Header_Products'), 0)
+
 WebUI.delay(2)
 
 WebDriver driver = DriverFactory.getWebDriver()
@@ -38,15 +48,22 @@ for (int i = 1; i <= farmerCards.size(); i++) {
     buttonAddProduct.addProperty('xpath', ConditionType.EQUALS, ('/html/body/app-root/app-product-list/div/div[2]/div/div[' + 
         i) + ']/a/div[2]/div[2]/button')
 
-	WebUI.verifyElementText(buttonAddProduct, 'add to cart')
-	
+    WebUI.verifyElementText(buttonAddProduct, 'add to cart')
+
     WebUI.click(buttonAddProduct)
-	WebUI.verifyElementText(buttonAddProduct, 'already added')
+
+    WebUI.verifyElementText(buttonAddProduct, 'already added')
+
     println(buttonAddProduct)
 
-    WebUI.verifyElementText(findTestObject('Product page/cart amount label'), ''+i)
-	WebUI.delay(1)
+    WebUI.verifyElementText(findTestObject('Product page/cart amount label'), '' + i)
+
+    WebUI.delay(1)
 }
 
 WebUI.delay(2)
+
+WebUI.click(findTestObject('Product page/Logout Button'))
+
+WebUI.verifyElementPresent(findTestObject('Login_Page/Login Header'), 15)
 

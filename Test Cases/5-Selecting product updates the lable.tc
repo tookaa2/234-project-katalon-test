@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>5-Selecting product updates the lable</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fee3e7e2-8043-46e4-a064-cd0f66a7bd03</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>34a5a941-d28c-4ca1-b02c-119bc90ddb2c</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0e2a9f10-b239-4eb7-8601-1563a0f1cb8a</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
