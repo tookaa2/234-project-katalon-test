@@ -23,7 +23,7 @@
       <value>/html/body/app-root/div/app-top-banner/div/nav/div/ul/li[1]/a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

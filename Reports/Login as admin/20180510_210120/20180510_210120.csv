@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login as admin,Chrome 66.0.3359.139,,2018-05-10 21:01:22,2018-05-10 21:01:36,14.455s,PASSED
+,,,,,,
+Test Cases/Navigate to web,Chrome 66.0.3359.139,Use to navigate to certain urls,2018-05-10 21:01:22,2018-05-10 21:01:32,10.164s,PASSED
+openBrowser,Chrome 66.0.3359.139,,2018-05-10 21:01:23,2018-05-10 21:01:27,4.258s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-10 21:01:27,2018-05-10 21:01:32,5.448s,PASSED
+,,,,,,
+Test Cases/1-Login as Admin,Chrome 66.0.3359.139,,2018-05-10 21:01:32,2018-05-10 21:01:35,2.958s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-10 21:01:33,2018-05-10 21:01:33,0.296s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-10 21:01:33,2018-05-10 21:01:33,0.243s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-10 21:01:33,2018-05-10 21:01:33,0.201s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-10 21:01:33,2018-05-10 21:01:35,1.680s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-10 21:01:35,2018-05-10 21:01:35,0.088s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-10 21:01:35,2018-05-10 21:01:35,0.178s,PASSED
+verifyElementPresent,Chrome 66.0.3359.139,,2018-05-10 21:01:35,2018-05-10 21:01:35,0.055s,PASSED
+,,,,,,
+Test Cases/Exit browser,Chrome 66.0.3359.139,use to terminate browser when testcase is done,2018-05-10 21:01:35,2018-05-10 21:01:36,0.808s,PASSED
+closeBrowser,Chrome 66.0.3359.139,,2018-05-10 21:01:35,2018-05-10 21:01:36,0.637s,PASSED

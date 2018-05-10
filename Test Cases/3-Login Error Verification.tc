@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>This test case will login with given infos</description>
-   <name>Login with credentials</name>
+   <description></description>
+   <name>3-Login Error Verification</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>cf1c8df6-8619-47cf-9149-c0e7e672079c</testCaseGuid>
+   <testCaseGuid>e6a027ed-cfaa-41e5-91e3-2548f67f943d</testCaseGuid>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>d23196c2-519d-4e28-96bb-05a21bdb9cf9</id>
+      <id>ae278a6e-34dc-4889-88ec-efaee47eccff</id>
       <masked>false</masked>
       <name>Username</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>0bc0a367-2c7b-477e-8476-6d9e80ef7936</id>
+      <id>ca1d5103-59b6-4c63-94e8-e4839b335fac</id>
       <masked>false</masked>
       <name>Password</name>
    </variable>

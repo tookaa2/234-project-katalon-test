@@ -19,17 +19,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.setText(findTestObject('Login_Page/input_username'), username)
+WebUI.setText(findTestObject('Login_Page/input_username'), Username)
 
-WebUI.setText(findTestObject('Login_Page/input_password'), password)
+WebUI.setText(findTestObject('Login_Page/input_password'), Password)
 
 WebUI.click(findTestObject('Login_Page/button_Login'))
 
-WebUI.verifyElementText(findTestObject('Navigation bar/Redirect to product'), 'Products')
+WebUI.delay(2)
 
-WebUI.verifyElementText(findTestObject('Navigation bar/Redirect to cart'), 'Carts')
-
-WebUI.click(findTestObject('Product page/Logout Button'))
-
-WebUI.verifyElementPresent(findTestObject('Login_Page/Login Header'), 15)
+WebUI.verifyElementPresent(findTestObject('Login_Page/label_Usernamepassword is inco'), 0)
 

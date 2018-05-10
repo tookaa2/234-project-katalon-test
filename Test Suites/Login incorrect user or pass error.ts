@@ -4,7 +4,7 @@
    <name>Login incorrect user or pass error</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-04-28T23:46:11</lastRun>
+   <lastRun>2018-05-10T21:10:06</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -18,28 +18,31 @@
       <testCaseId>Test Cases/Navigate to web</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>b4e3a5bf-8889-4161-9881-44d9eb65390a</guid>
+      <guid>7501f98e-a673-48ee-a616-2ff8eeb9d8ac</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login with credentials</testCaseId>
+      <testCaseId>Test Cases/3-Login Error Verification</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>8586e12e-b5f7-4bd0-9089-a8b6916aaa9e</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Incorrect user credentials</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>SCRIPT_VARIABLE</type>
-         <value>&quot;abc&quot;</value>
-         <variableId>d23196c2-519d-4e28-96bb-05a21bdb9cf9</variableId>
+         <testDataLinkId>8586e12e-b5f7-4bd0-9089-a8b6916aaa9e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>ae278a6e-34dc-4889-88ec-efaee47eccff</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>SCRIPT_VARIABLE</type>
-         <value>&quot;abc&quot;</value>
-         <variableId>0bc0a367-2c7b-477e-8476-6d9e80ef7936</variableId>
+         <testDataLinkId>8586e12e-b5f7-4bd0-9089-a8b6916aaa9e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>ca1d5103-59b6-4c63-94e8-e4839b335fac</variableId>
       </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>da21ab84-e0c7-4061-8e3a-a0567b1b911e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Login error verify</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>2984e7cb-31b4-4991-ae4e-326afd3c1848</guid>

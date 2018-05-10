@@ -38,7 +38,7 @@ WebUI.click(findTestObject('Login_Page/button_Login'))
 
 WebUI.waitForElementNotPresent(findTestObject('Product page/Logout Button'), 15)
 
-WebUI.click(findTestObject('Navigation bar/a_Total Transaction'))
+WebUI.click(findTestObject('Navigation bar/Redirect to total transaction'))
 
 WebUI.delay(2)
 
@@ -143,7 +143,7 @@ WebUI.setText(findTestObject('Login_Page/input_password'), 'admin')
 
 WebUI.click(findTestObject('Login_Page/button_Login'))
 
-WebUI.click(findTestObject('Navigation bar/a_Total Transaction'))
+WebUI.click(findTestObject('Navigation bar/Redirect to total transaction'))
 
 String verifyPrice = String.format('%,d', firstprice + priceOfLatestTeansaction)
 

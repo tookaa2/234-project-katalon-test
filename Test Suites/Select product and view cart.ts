@@ -21,7 +21,7 @@
       <guid>122103db-d982-46dd-b759-5bb675c15e28</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login with credentials</testCaseId>
+      <testCaseId>Test Cases/Enter credentials</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>SCRIPT_VARIABLE</type>

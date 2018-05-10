@@ -25,9 +25,9 @@ WebUI.setText(findTestObject('Login_Page/input_password'), password)
 
 WebUI.click(findTestObject('Login_Page/button_Login'))
 
-WebUI.verifyElementText(findTestObject('Navigation bar/a_Products'), 'Products')
+WebUI.verifyElementText(findTestObject('Navigation bar/Redirect to product'), 'Products')
 
-WebUI.verifyElementText(findTestObject('Navigation bar/a_Total Transaction'), 'Total Transaction')
+WebUI.verifyElementText(findTestObject('Navigation bar/Redirect to total transaction'), 'Total Transaction')
 
 WebUI.click(findTestObject('Product page/Logout Button'))
 

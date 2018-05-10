@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Total Transaction</name>
+   <name>Redirect to total transaction</name>
    <tag></tag>
    <elementGuidId>cecbf6e0-e764-41c6-852a-70b5ae714710</elementGuidId>
    <selectorCollection>
