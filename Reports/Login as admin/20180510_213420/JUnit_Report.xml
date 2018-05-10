@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login as admin" time="15" tests="3" failures="0" errors="0">
+   <testsuite name="Login as admin" tests="3" failures="0" errors="0" time="15" timestamp="2018-05-10 21:34:22" hostname="Donut - DESKTOP-IGTTMO3" id="Test Suites/Login as admin">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Login as admin\\20180510_213420"/>
+         <property name="logFiles" value="C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Login as admin\\20180510_213420\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Donut - DESKTOP-IGTTMO3"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="172.20.10.2"/>
+         <property name="sessionId" value="304e5c41cee5d1c22fcae76bfe363780"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Navigate to web" classname="Test Cases/Navigate to web" status="PASSED">
+         <system-out><![CDATA[2018-05-10 21:34:22 - [TEST_CASE][PASSED] - Test Cases/Navigate to web: Test Cases/Navigate to web
+
+2018-05-10 21:34:22 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-10 21:34:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-10 21:34:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.71.80.147:8086/' successfully
+
+2018-05-10 21:34:33 - [MESSAGE][PASSED] - Navigate to 'http://54.71.80.147:8086/' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1-Login as Admin" classname="Test Cases/1-Login as Admin" status="PASSED">
+         <system-out><![CDATA[2018-05-10 21:34:34 - [TEST_CASE][PASSED] - Test Cases/1-Login as Admin: Test Cases/1-Login as Admin
+
+2018-05-10 21:34:34 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Login_Page/input_username'
+
+2018-05-10 21:34:34 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login_Page/input_username'
+
+2018-05-10 21:34:34 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Login_Page/input_password'
+
+2018-05-10 21:34:34 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login_Page/input_password'
+
+2018-05-10 21:34:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_Page/button_Login' is clicked on
+
+2018-05-10 21:34:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/button_Login' is clicked on
+
+2018-05-10 21:34:34 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Navigation bar/Redirect to product' are matched.
+
+2018-05-10 21:34:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Navigation bar/Redirect to product' are matched.
+
+2018-05-10 21:34:36 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Navigation bar/Redirect to total transaction' are matched.
+
+2018-05-10 21:34:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Navigation bar/Redirect to total transaction' are matched.
+
+2018-05-10 21:34:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigation bar/Logout Button' is clicked on
+
+2018-05-10 21:34:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation bar/Logout Button' is clicked on
+
+2018-05-10 21:34:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login_Page/Login Header' is present
+
+2018-05-10 21:34:36 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/Login Header' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Exit browser" classname="Test Cases/Exit browser" status="PASSED">
+         <system-out><![CDATA[2018-05-10 21:34:36 - [TEST_CASE][PASSED] - Test Cases/Exit browser: Test Cases/Exit browser
+
+2018-05-10 21:34:37 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-10 21:34:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-10 21:34:22 - [TEST_SUITE][PASSED] - Login as admin: Test Cases/Exit browser]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

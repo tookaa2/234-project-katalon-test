@@ -36,7 +36,7 @@ WebUI.setText(findTestObject('Login_Page/input_password'), 'admin')
 
 WebUI.click(findTestObject('Login_Page/button_Login'))
 
-WebUI.waitForElementNotPresent(findTestObject('Product page/Logout Button'), 15)
+WebUI.waitForElementNotPresent(findTestObject('Navigation bar/Logout Button'), 15)
 
 WebUI.click(findTestObject('Navigation bar/Redirect to total transaction'))
 
@@ -75,7 +75,7 @@ println(firstprice)
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Product page/Logout Button'))
+WebUI.click(findTestObject('Navigation bar/Logout Button'))
 
 WebUI.verifyElementPresent(findTestObject('Login_Page/Login Header'), 15)
 
@@ -129,11 +129,11 @@ WebUI.click(findTestObject('Cart Page/Confirm purchase button'))
 
 WebUI.acceptAlert()
 
-WebUI.waitForElementPresent(findTestObject('Product page/Logout Button'), 15)
+WebUI.waitForElementPresent(findTestObject('Navigation bar/Logout Button'), 15)
 
-WebUI.click(findTestObject('Product page/Logout Button'))
+WebUI.click(findTestObject('Navigation bar/Logout Button'))
 
-WebUI.waitForElementNotPresent(findTestObject('Product page/Logout Button'), 15)
+WebUI.waitForElementNotPresent(findTestObject('Navigation bar/Logout Button'), 15)
 
 WebUI.delay(1)
 

@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Select product and view cart" time="41" tests="4" failures="0" errors="0">
+   <testsuite name="Select product and view cart" tests="4" failures="0" errors="0" time="41" timestamp="2018-05-10 21:37:02" hostname="Donut - DESKTOP-IGTTMO3" id="Test Suites/Select product and view cart">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Select product and view cart\\20180510_213700"/>
+         <property name="logFiles" value="C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Select product and view cart\\20180510_213700\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Donut - DESKTOP-IGTTMO3"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="172.20.10.2"/>
+         <property name="sessionId" value="11ed5e512236210078b8f6e065fd2fd6"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Navigate to web" classname="Test Cases/Navigate to web" status="PASSED">
+         <system-out><![CDATA[2018-05-10 21:37:02 - [TEST_CASE][PASSED] - Test Cases/Navigate to web: Test Cases/Navigate to web
+
+2018-05-10 21:37:03 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-10 21:37:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-10 21:37:07 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.71.80.147:8086/' successfully
+
+2018-05-10 21:37:14 - [MESSAGE][PASSED] - Navigate to 'http://54.71.80.147:8086/' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4-Selecting product and view cart" classname="Test Cases/4-Selecting product and view cart" status="PASSED">
+         <system-out><![CDATA[2018-05-10 21:37:14 - [TEST_CASE][PASSED] - Test Cases/4-Selecting product and view cart: Test Cases/4-Selecting product and view cart
+
+2018-05-10 21:37:14 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-05-10 21:37:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-05-10 21:37:15 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Login_Page/input_username'
+
+2018-05-10 21:37:15 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Login_Page/input_username'
+
+2018-05-10 21:37:15 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Login_Page/input_password'
+
+2018-05-10 21:37:16 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Login_Page/input_password'
+
+2018-05-10 21:37:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_Page/button_Login' is clicked on
+
+2018-05-10 21:37:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/button_Login' is clicked on
+
+2018-05-10 21:37:16 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Product page/Header_Products' is present
+
+2018-05-10 21:37:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-10 21:37:17 - [MESSAGE][PASSED] - Object 'Object Repository/Product page/Header_Products' is present
+
+2018-05-10 21:37:17 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-10 21:37:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-10 21:37:19 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-05-10 21:37:19 - [TEST_STEP][PASSED] - Statement - Products = driver.findElement(org.openqa.selenium.By.xpath("/html/body/app-root/app-product-list/div/div[2]/div")): null
+
+2018-05-10 21:37:19 - [TEST_STEP][PASSED] - Statement - farmerCards = Products.findElements(org.openqa.selenium.By.className("farmer-card")): null
+
+2018-05-10 21:37:19 - [TEST_STEP][PASSED] - Statement - For ([i = 1, i <= farmerCards.size(), (i++)]): Object: 'Object Repository/Navigation bar/Redirect to product' is clicked on
+
+2018-05-10 21:37:19 - [TEST_STEP][PASSED] - Statement - buttonAddProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-10 21:37:19 - [TEST_STEP][PASSED] - Statement - buttonAddProduct.addProperty("xpath", EQUALS, "/html/body/app-root/app-product-list/div/div[2]/div/div[" + i + "]/a/div[2]/div[2]/button"): null
+
+2018-05-10 21:37:19 - [TEST_STEP][PASSED] - click: Object: '' is clicked on
+
+2018-05-10 21:37:19 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-05-10 21:37:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigation bar/Redirect to cart' is clicked on
+
+2018-05-10 21:37:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation bar/Redirect to cart' is clicked on
+
+2018-05-10 21:37:19 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-05-10 21:37:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-05-10 21:37:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigation bar/Redirect to product' is clicked on
+
+2018-05-10 21:37:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation bar/Redirect to product' is clicked on
+
+2018-05-10 21:37:21 - [TEST_STEP][PASSED] - Statement - buttonAddProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-10 21:37:21 - [TEST_STEP][PASSED] - Statement - buttonAddProduct.addProperty("xpath", EQUALS, "/html/body/app-root/app-product-list/div/div[2]/div/div[" + i + "]/a/div[2]/div[2]/button"): null
+
+2018-05-10 21:37:21 - [TEST_STEP][PASSED] - click: Object: '' is clicked on
+
+2018-05-10 21:37:21 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-05-10 21:37:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigation bar/Redirect to cart' is clicked on
+
+2018-05-10 21:37:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation bar/Redirect to cart' is clicked on
+
+2018-05-10 21:37:21 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-05-10 21:37:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-05-10 21:37:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigation bar/Redirect to product' is clicked on
+
+2018-05-10 21:37:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation bar/Redirect to product' is clicked on
+
+2018-05-10 21:37:22 - [TEST_STEP][PASSED] - Statement - buttonAddProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-10 21:37:22 - [TEST_STEP][PASSED] - Statement - buttonAddProduct.addProperty("xpath", EQUALS, "/html/body/app-root/app-product-list/div/div[2]/div/div[" + i + "]/a/div[2]/div[2]/button"): null
+
+2018-05-10 21:37:22 - [TEST_STEP][PASSED] - click: Object: '' is clicked on
+
+2018-05-10 21:37:22 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-05-10 21:37:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigation bar/Redirect to cart' is clicked on
+
+2018-05-10 21:37:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation bar/Redirect to cart' is clicked on
+
+2018-05-10 21:37:22 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-05-10 21:37:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-05-10 21:37:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigation bar/Redirect to product' is clicked on
+
+2018-05-10 21:37:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation bar/Redirect to product' is clicked on
+
+2018-05-10 21:37:23 - [TEST_STEP][PASSED] - Statement - buttonAddProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-10 21:37:23 - [TEST_STEP][PASSED] - Statement - buttonAddProduct.addProperty("xpath", EQUALS, "/html/body/app-root/app-product-list/div/div[2]/div/div[" + i + "]/a/div[2]/div[2]/button"): null
+
+2018-05-10 21:37:23 - [TEST_STEP][PASSED] - click: Object: '' is clicked on
+
+2018-05-10 21:37:24 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-05-10 21:37:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigation bar/Redirect to cart' is clicked on
+
+2018-05-10 21:37:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation bar/Redirect to cart' is clicked on
+
+2018-05-10 21:37:24 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-05-10 21:37:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-05-10 21:37:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigation bar/Redirect to product' is clicked on
+
+2018-05-10 21:37:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation bar/Redirect to product' is clicked on
+
+2018-05-10 21:37:25 - [TEST_STEP][PASSED] - Statement - buttonAddProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-10 21:37:25 - [TEST_STEP][PASSED] - Statement - buttonAddProduct.addProperty("xpath", EQUALS, "/html/body/app-root/app-product-list/div/div[2]/div/div[" + i + "]/a/div[2]/div[2]/button"): null
+
+2018-05-10 21:37:25 - [TEST_STEP][PASSED] - click: Object: '' is clicked on
+
+2018-05-10 21:37:25 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-05-10 21:37:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigation bar/Redirect to cart' is clicked on
+
+2018-05-10 21:37:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation bar/Redirect to cart' is clicked on
+
+2018-05-10 21:37:25 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-05-10 21:37:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-05-10 21:37:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigation bar/Redirect to product' is clicked on
+
+2018-05-10 21:37:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation bar/Redirect to product' is clicked on
+
+2018-05-10 21:37:26 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-10 21:37:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-10 21:37:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigation bar/Logout Button' is clicked on
+
+2018-05-10 21:37:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation bar/Logout Button' is clicked on
+
+2018-05-10 21:37:28 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login_Page/Login Header' is present
+
+2018-05-10 21:37:28 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/Login Header' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4-Selecting product and view cart" classname="Test Cases/4-Selecting product and view cart" status="PASSED">
+         <system-out><![CDATA[2018-05-10 21:37:28 - [TEST_CASE][PASSED] - Test Cases/4-Selecting product and view cart: Test Cases/4-Selecting product and view cart
+
+2018-05-10 21:37:28 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-05-10 21:37:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-05-10 21:37:29 - [TEST_STEP][PASSED] - setText: Text 'hello' is set on object 'Object Repository/Login_Page/input_username'
+
+2018-05-10 21:37:30 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/Login_Page/input_username'
+
+2018-05-10 21:37:30 - [TEST_STEP][PASSED] - setText: Text 'hello' is set on object 'Object Repository/Login_Page/input_password'
+
+2018-05-10 21:37:30 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/Login_Page/input_password'
+
+2018-05-10 21:37:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_Page/button_Login' is clicked on
+
+2018-05-10 21:37:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/button_Login' is clicked on
+
+2018-05-10 21:37:30 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Product page/Header_Products' is present
+
+2018-05-10 21:37:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-10 21:37:31 - [MESSAGE][PASSED] - Object 'Object Repository/Product page/Header_Products' is present
+
+2018-05-10 21:37:31 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-10 21:37:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-10 21:37:33 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-05-10 21:37:33 - [TEST_STEP][PASSED] - Statement - Products = driver.findElement(org.openqa.selenium.By.xpath("/html/body/app-root/app-product-list/div/div[2]/div")): null
+
+2018-05-10 21:37:33 - [TEST_STEP][PASSED] - Statement - farmerCards = Products.findElements(org.openqa.selenium.By.className("farmer-card")): null
+
+2018-05-10 21:37:33 - [TEST_STEP][PASSED] - Statement - For ([i = 1, i <= farmerCards.size(), (i++)]): Object: 'Object Repository/Navigation bar/Redirect to product' is clicked on
+
+2018-05-10 21:37:33 - [TEST_STEP][PASSED] - Statement - buttonAddProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-10 21:37:33 - [TEST_STEP][PASSED] - Statement - buttonAddProduct.addProperty("xpath", EQUALS, "/html/body/app-root/app-product-list/div/div[2]/div/div[" + i + "]/a/div[2]/div[2]/button"): null
+
+2018-05-10 21:37:33 - [TEST_STEP][PASSED] - click: Object: '' is clicked on
+
+2018-05-10 21:37:33 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-05-10 21:37:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigation bar/Redirect to cart' is clicked on
+
+2018-05-10 21:37:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation bar/Redirect to cart' is clicked on
+
+2018-05-10 21:37:33 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-05-10 21:37:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-05-10 21:37:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigation bar/Redirect to product' is clicked on
+
+2018-05-10 21:37:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation bar/Redirect to product' is clicked on
+
+2018-05-10 21:37:35 - [TEST_STEP][PASSED] - Statement - buttonAddProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-10 21:37:35 - [TEST_STEP][PASSED] - Statement - buttonAddProduct.addProperty("xpath", EQUALS, "/html/body/app-root/app-product-list/div/div[2]/div/div[" + i + "]/a/div[2]/div[2]/button"): null
+
+2018-05-10 21:37:35 - [TEST_STEP][PASSED] - click: Object: '' is clicked on
+
+2018-05-10 21:37:35 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-05-10 21:37:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigation bar/Redirect to cart' is clicked on
+
+2018-05-10 21:37:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation bar/Redirect to cart' is clicked on
+
+2018-05-10 21:37:35 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-05-10 21:37:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-05-10 21:37:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigation bar/Redirect to product' is clicked on
+
+2018-05-10 21:37:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation bar/Redirect to product' is clicked on
+
+2018-05-10 21:37:36 - [TEST_STEP][PASSED] - Statement - buttonAddProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-10 21:37:36 - [TEST_STEP][PASSED] - Statement - buttonAddProduct.addProperty("xpath", EQUALS, "/html/body/app-root/app-product-list/div/div[2]/div/div[" + i + "]/a/div[2]/div[2]/button"): null
+
+2018-05-10 21:37:36 - [TEST_STEP][PASSED] - click: Object: '' is clicked on
+
+2018-05-10 21:37:36 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-05-10 21:37:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigation bar/Redirect to cart' is clicked on
+
+2018-05-10 21:37:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation bar/Redirect to cart' is clicked on
+
+2018-05-10 21:37:36 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-05-10 21:37:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-05-10 21:37:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigation bar/Redirect to product' is clicked on
+
+2018-05-10 21:37:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation bar/Redirect to product' is clicked on
+
+2018-05-10 21:37:37 - [TEST_STEP][PASSED] - Statement - buttonAddProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-10 21:37:37 - [TEST_STEP][PASSED] - Statement - buttonAddProduct.addProperty("xpath", EQUALS, "/html/body/app-root/app-product-list/div/div[2]/div/div[" + i + "]/a/div[2]/div[2]/button"): null
+
+2018-05-10 21:37:37 - [TEST_STEP][PASSED] - click: Object: '' is clicked on
+
+2018-05-10 21:37:37 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-05-10 21:37:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigation bar/Redirect to cart' is clicked on
+
+2018-05-10 21:37:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation bar/Redirect to cart' is clicked on
+
+2018-05-10 21:37:38 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-05-10 21:37:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-05-10 21:37:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigation bar/Redirect to product' is clicked on
+
+2018-05-10 21:37:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation bar/Redirect to product' is clicked on
+
+2018-05-10 21:37:39 - [TEST_STEP][PASSED] - Statement - buttonAddProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+2018-05-10 21:37:39 - [TEST_STEP][PASSED] - Statement - buttonAddProduct.addProperty("xpath", EQUALS, "/html/body/app-root/app-product-list/div/div[2]/div/div[" + i + "]/a/div[2]/div[2]/button"): null
+
+2018-05-10 21:37:39 - [TEST_STEP][PASSED] - click: Object: '' is clicked on
+
+2018-05-10 21:37:39 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-05-10 21:37:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigation bar/Redirect to cart' is clicked on
+
+2018-05-10 21:37:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation bar/Redirect to cart' is clicked on
+
+2018-05-10 21:37:39 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-05-10 21:37:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-05-10 21:37:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigation bar/Redirect to product' is clicked on
+
+2018-05-10 21:37:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation bar/Redirect to product' is clicked on
+
+2018-05-10 21:37:40 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-10 21:37:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-10 21:37:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigation bar/Logout Button' is clicked on
+
+2018-05-10 21:37:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation bar/Logout Button' is clicked on
+
+2018-05-10 21:37:42 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login_Page/Login Header' is present
+
+2018-05-10 21:37:42 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/Login Header' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Exit browser" classname="Test Cases/Exit browser" status="PASSED">
+         <system-out><![CDATA[2018-05-10 21:37:42 - [TEST_CASE][PASSED] - Test Cases/Exit browser: Test Cases/Exit browser
+
+2018-05-10 21:37:42 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-10 21:37:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-10 21:37:02 - [TEST_SUITE][PASSED] - Select product and view cart: Test Cases/Exit browser]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

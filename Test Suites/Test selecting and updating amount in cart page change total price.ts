@@ -4,13 +4,19 @@
    <name>Test selecting and updating amount in cart page change total price</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-05-09T12:37:32</lastRun>
+   <lastRun>2018-05-10T21:59:44</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>bc150048-327d-45d6-8803-6215d68d0ae0</testSuiteGuid>
+   <testCaseLink>
+      <guid>d045731b-7755-41f5-8e6a-049479ac0d80</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Navigate to web</testCaseId>
+   </testCaseLink>
    <testCaseLink>
       <guid>ad97a5c6-abd0-4e74-9371-679371a5cd19</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -67,5 +73,11 @@
          <value>item5amount</value>
          <variableId>31406c64-5dee-42bb-b4ea-fcfdea60dca2</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1d4ed43c-fa2b-4a47-aa9b-a32c4e5a6604</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Exit browser</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Selecting products updates the number in carts,Chrome 66.0.3359.139,,2018-05-10 21:37:59,2018-05-10 21:38:41,42.168s,PASSED
+,,,,,,
+Test Cases/Navigate to web,Chrome 66.0.3359.139,Use to navigate to certain urls,2018-05-10 21:37:59,2018-05-10 21:38:12,12.475s,PASSED
+openBrowser,Chrome 66.0.3359.139,,2018-05-10 21:38:00,2018-05-10 21:38:04,4.219s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-10 21:38:04,2018-05-10 21:38:12,7.819s,PASSED
+,,,,,,
+Test Cases/5-Selecting product updates the lable,Chrome 66.0.3359.139,,2018-05-10 21:38:12,2018-05-10 21:38:26,14.862s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-10 21:38:12,2018-05-10 21:38:13,1.029s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-10 21:38:13,2018-05-10 21:38:13,0.344s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-10 21:38:13,2018-05-10 21:38:14,0.234s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-10 21:38:14,2018-05-10 21:38:14,0.210s,PASSED
+waitForElementPresent,Chrome 66.0.3359.139,,2018-05-10 21:38:14,2018-05-10 21:38:15,1.616s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-10 21:38:15,2018-05-10 21:38:17,2.000s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 66.0.3359.139,,2018-05-10 21:38:17,2018-05-10 21:38:17,0.003s,PASSED
+"Statement - Products = driver.findElement(org.openqa.selenium.By.xpath(""/html/body/app-root/app-product-list/div/div[2]/div""))",Chrome 66.0.3359.139,,2018-05-10 21:38:17,2018-05-10 21:38:17,0.091s,PASSED
+"Statement - farmerCards = Products.findElements(org.openqa.selenium.By.className(""farmer-card""))",Chrome 66.0.3359.139,,2018-05-10 21:38:17,2018-05-10 21:38:17,0.032s,PASSED
+"Statement - For ([i = 1, i <= farmerCards.size(), (i++)])",Chrome 66.0.3359.139,,2018-05-10 21:38:17,2018-05-10 21:38:24,6.734s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-10 21:38:24,2018-05-10 21:38:26,2.002s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-10 21:38:26,2018-05-10 21:38:26,0.179s,PASSED
+verifyElementPresent,Chrome 66.0.3359.139,,2018-05-10 21:38:26,2018-05-10 21:38:26,0.041s,PASSED
+,,,,,,
+Test Cases/5-Selecting product updates the lable,Chrome 66.0.3359.139,,2018-05-10 21:38:26,2018-05-10 21:38:40,13.430s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-10 21:38:26,2018-05-10 21:38:27,1.000s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-10 21:38:27,2018-05-10 21:38:28,0.202s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-10 21:38:28,2018-05-10 21:38:28,0.188s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-10 21:38:28,2018-05-10 21:38:28,0.144s,PASSED
+waitForElementPresent,Chrome 66.0.3359.139,,2018-05-10 21:38:28,2018-05-10 21:38:29,1.063s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-10 21:38:29,2018-05-10 21:38:31,2.002s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 66.0.3359.139,,2018-05-10 21:38:31,2018-05-10 21:38:31,0.000s,PASSED
+"Statement - Products = driver.findElement(org.openqa.selenium.By.xpath(""/html/body/app-root/app-product-list/div/div[2]/div""))",Chrome 66.0.3359.139,,2018-05-10 21:38:31,2018-05-10 21:38:31,0.042s,PASSED
+"Statement - farmerCards = Products.findElements(org.openqa.selenium.By.className(""farmer-card""))",Chrome 66.0.3359.139,,2018-05-10 21:38:31,2018-05-10 21:38:31,0.032s,PASSED
+"Statement - For ([i = 1, i <= farmerCards.size(), (i++)])",Chrome 66.0.3359.139,,2018-05-10 21:38:31,2018-05-10 21:38:38,6.553s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-10 21:38:38,2018-05-10 21:38:40,2.002s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-10 21:38:40,2018-05-10 21:38:40,0.159s,PASSED
+verifyElementPresent,Chrome 66.0.3359.139,,2018-05-10 21:38:40,2018-05-10 21:38:40,0.022s,PASSED
+,,,,,,
+Test Cases/Exit browser,Chrome 66.0.3359.139,use to terminate browser when testcase is done,2018-05-10 21:38:40,2018-05-10 21:38:41,0.841s,PASSED
+closeBrowser,Chrome 66.0.3359.139,,2018-05-10 21:38:40,2018-05-10 21:38:41,0.669s,PASSED

@@ -29,7 +29,7 @@ WebUI.verifyElementText(findTestObject('Navigation bar/Redirect to product'), 'P
 
 WebUI.verifyElementText(findTestObject('Navigation bar/Redirect to cart'), 'Carts')
 
-WebUI.click(findTestObject('Product page/Logout Button'))
+WebUI.click(findTestObject('Navigation bar/Logout Button'))
 
 WebUI.verifyElementPresent(findTestObject('Login_Page/Login Header'), 15)
 

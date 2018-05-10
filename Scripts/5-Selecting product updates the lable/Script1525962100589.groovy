@@ -63,7 +63,7 @@ for (int i = 1; i <= farmerCards.size(); i++) {
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Product page/Logout Button'))
+WebUI.click(findTestObject('Navigation bar/Logout Button'))
 
 WebUI.verifyElementPresent(findTestObject('Login_Page/Login Header'), 15)
 

@@ -26,10 +26,6 @@ import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.By as By
 import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('http://54.71.80.147:8086/')
-
 WebUI.setText(findTestObject('Login_Page/input_username'), 'user')
 
 WebUI.setText(findTestObject('Login_Page/input_password'), 'user')
@@ -76,7 +72,8 @@ WebElement items = driver.findElement(By.xpath('/html/body/app-root/app-cart-lis
 
 List<WebElement> itemInTable = items.findElements(By.tagName('tr'))
 
-int[] prices = new int[]
+//int[] prices = new int[]
+ArrayList<Integer> prices = new ArrayList<Integer>()
 
 for (int i = 1; i < itemInTable.size; i++) {
     TestObject product = new TestObject()
@@ -84,9 +81,9 @@ for (int i = 1; i < itemInTable.size; i++) {
     product.addProperty('xpath', ConditionType.EQUALS, ('//*[@id="add-row"]/div/table/tbody/tr[' + i) + ']/td[2]')
 
     //	WebUI.verifyElementText(product, '20,000 THB')
-    (prices[i]) = Integer.parseInt(WebUI.getText(product).replace(' THB', '').replace(',', ''))
+    prices.add(Integer.parseInt(WebUI.getText(product).replace(' THB', '').replace(',', '')))
 
-    println((('No:' + i) + 'price') + (prices[i]))
+    println((('No:' + i) + 'price') + prices.get(i - 1))
 }
 
 WebUI.setText(findTestObject('Cart Page/item1'), '' + item_1_amount)
@@ -99,15 +96,15 @@ WebUI.setText(findTestObject('Cart Page/item4'), '' + item_4_amount)
 
 WebUI.setText(findTestObject('Cart Page/item5'), '' + item_5_amount)
 
-int finalPrice = finalPrice + (Integer.parseInt(item_1_amount) * (prices[1]))
+int finalPrice = Integer.parseInt(item_1_amount) * prices.get(0)
 
-finalPrice = (finalPrice + (Integer.parseInt(item_2_amount) * (prices[2])))
+finalPrice = (finalPrice + (Integer.parseInt(item_2_amount) * prices.get(1)))
 
-finalPrice = (finalPrice + (Integer.parseInt(item_3_amount) * (prices[3])))
+finalPrice = (finalPrice + (Integer.parseInt(item_3_amount) * prices.get(2)))
 
-finalPrice = (finalPrice + (Integer.parseInt(item_4_amount) * (prices[4])))
+finalPrice = (finalPrice + (Integer.parseInt(item_4_amount) * prices.get(3)))
 
-finalPrice = (finalPrice + (Integer.parseInt(item_5_amount) * (prices[5])))
+finalPrice = (finalPrice + (Integer.parseInt(item_5_amount) * prices.get(4)))
 
 String priceInString = String.format('%,d', finalPrice)
 
@@ -117,5 +114,9 @@ WebUI.delay(5)
 
 WebUI.verifyElementText(findTestObject('Cart Page/Total price  label'), ('Total price: ' + priceInString) + ' THB')
 
-WebUI.delay(5)
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Navigation bar/Logout Button'))
+
+WebUI.verifyElementPresent(findTestObject('Login_Page/Login Header'), 15)
 

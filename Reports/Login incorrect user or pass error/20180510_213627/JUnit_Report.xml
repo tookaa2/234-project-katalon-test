@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login incorrect user or pass error" time="25" tests="7" failures="0" errors="0">
+   <testsuite name="Login incorrect user or pass error" tests="7" failures="0" errors="0" time="25" timestamp="2018-05-10 21:36:29" hostname="Donut - DESKTOP-IGTTMO3" id="Test Suites/Login incorrect user or pass error">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Login incorrect user or pass error\\20180510_213627"/>
+         <property name="logFiles" value="C:\\Users\\Donut\\git\\234-project-katalon-test\\Reports\\Login incorrect user or pass error\\20180510_213627\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Donut - DESKTOP-IGTTMO3"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="172.20.10.2"/>
+         <property name="sessionId" value="956f2b5d4c78b293b8930296bf526779"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Navigate to web" classname="Test Cases/Navigate to web" status="PASSED">
+         <system-out><![CDATA[2018-05-10 21:36:29 - [TEST_CASE][PASSED] - Test Cases/Navigate to web: Test Cases/Navigate to web
+
+2018-05-10 21:36:30 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-10 21:36:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-10 21:36:34 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.71.80.147:8086/' successfully
+
+2018-05-10 21:36:40 - [MESSAGE][PASSED] - Navigate to 'http://54.71.80.147:8086/' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/3-Login Error Verification" classname="Test Cases/3-Login Error Verification" status="PASSED">
+         <system-out><![CDATA[2018-05-10 21:36:40 - [TEST_CASE][PASSED] - Test Cases/3-Login Error Verification: Test Cases/3-Login Error Verification
+
+2018-05-10 21:36:40 - [TEST_STEP][PASSED] - setText: Text 'hello' is set on object 'Object Repository/Login_Page/input_username'
+
+2018-05-10 21:36:41 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/Login_Page/input_username'
+
+2018-05-10 21:36:41 - [TEST_STEP][PASSED] - setText: Text 'world' is set on object 'Object Repository/Login_Page/input_password'
+
+2018-05-10 21:36:41 - [MESSAGE][PASSED] - Text 'world' is set on object 'Object Repository/Login_Page/input_password'
+
+2018-05-10 21:36:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_Page/button_Login' is clicked on
+
+2018-05-10 21:36:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/button_Login' is clicked on
+
+2018-05-10 21:36:41 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-10 21:36:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-10 21:36:43 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login_Page/label_Usernamepassword is inco' is present
+
+2018-05-10 21:36:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-10 21:36:43 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/label_Usernamepassword is inco' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/3-Login Error Verification" classname="Test Cases/3-Login Error Verification" status="PASSED">
+         <system-out><![CDATA[2018-05-10 21:36:43 - [TEST_CASE][PASSED] - Test Cases/3-Login Error Verification: Test Cases/3-Login Error Verification
+
+2018-05-10 21:36:43 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Login_Page/input_username'
+
+2018-05-10 21:36:43 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Login_Page/input_username'
+
+2018-05-10 21:36:43 - [TEST_STEP][PASSED] - setText: Text 'notuser' is set on object 'Object Repository/Login_Page/input_password'
+
+2018-05-10 21:36:44 - [MESSAGE][PASSED] - Text 'notuser' is set on object 'Object Repository/Login_Page/input_password'
+
+2018-05-10 21:36:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_Page/button_Login' is clicked on
+
+2018-05-10 21:36:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/button_Login' is clicked on
+
+2018-05-10 21:36:44 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-10 21:36:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-10 21:36:46 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login_Page/label_Usernamepassword is inco' is present
+
+2018-05-10 21:36:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-10 21:36:46 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/label_Usernamepassword is inco' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/3-Login Error Verification" classname="Test Cases/3-Login Error Verification" status="PASSED">
+         <system-out><![CDATA[2018-05-10 21:36:46 - [TEST_CASE][PASSED] - Test Cases/3-Login Error Verification: Test Cases/3-Login Error Verification
+
+2018-05-10 21:36:46 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Login_Page/input_username'
+
+2018-05-10 21:36:46 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login_Page/input_username'
+
+2018-05-10 21:36:46 - [TEST_STEP][PASSED] - setText: Text 'minad' is set on object 'Object Repository/Login_Page/input_password'
+
+2018-05-10 21:36:46 - [MESSAGE][PASSED] - Text 'minad' is set on object 'Object Repository/Login_Page/input_password'
+
+2018-05-10 21:36:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_Page/button_Login' is clicked on
+
+2018-05-10 21:36:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/button_Login' is clicked on
+
+2018-05-10 21:36:46 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-10 21:36:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-10 21:36:48 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login_Page/label_Usernamepassword is inco' is present
+
+2018-05-10 21:36:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-10 21:36:48 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/label_Usernamepassword is inco' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/3-Login Error Verification" classname="Test Cases/3-Login Error Verification" status="PASSED">
+         <system-out><![CDATA[2018-05-10 21:36:48 - [TEST_CASE][PASSED] - Test Cases/3-Login Error Verification: Test Cases/3-Login Error Verification
+
+2018-05-10 21:36:48 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Login_Page/input_username'
+
+2018-05-10 21:36:48 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Login_Page/input_username'
+
+2018-05-10 21:36:48 - [TEST_STEP][PASSED] - setText: Text 'rseru' is set on object 'Object Repository/Login_Page/input_password'
+
+2018-05-10 21:36:48 - [MESSAGE][PASSED] - Text 'rseru' is set on object 'Object Repository/Login_Page/input_password'
+
+2018-05-10 21:36:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_Page/button_Login' is clicked on
+
+2018-05-10 21:36:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/button_Login' is clicked on
+
+2018-05-10 21:36:49 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-10 21:36:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-10 21:36:51 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login_Page/label_Usernamepassword is inco' is present
+
+2018-05-10 21:36:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-10 21:36:51 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/label_Usernamepassword is inco' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/3-Login Error Verification" classname="Test Cases/3-Login Error Verification" status="PASSED">
+         <system-out><![CDATA[2018-05-10 21:36:51 - [TEST_CASE][PASSED] - Test Cases/3-Login Error Verification: Test Cases/3-Login Error Verification
+
+2018-05-10 21:36:51 - [TEST_STEP][PASSED] - setText: Text 'jimin' is set on object 'Object Repository/Login_Page/input_username'
+
+2018-05-10 21:36:51 - [MESSAGE][PASSED] - Text 'jimin' is set on object 'Object Repository/Login_Page/input_username'
+
+2018-05-10 21:36:51 - [TEST_STEP][PASSED] - setText: Text '1234' is set on object 'Object Repository/Login_Page/input_password'
+
+2018-05-10 21:36:51 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/Login_Page/input_password'
+
+2018-05-10 21:36:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_Page/button_Login' is clicked on
+
+2018-05-10 21:36:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/button_Login' is clicked on
+
+2018-05-10 21:36:51 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-10 21:36:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-10 21:36:53 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login_Page/label_Usernamepassword is inco' is present
+
+2018-05-10 21:36:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-10 21:36:53 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/label_Usernamepassword is inco' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Exit browser" classname="Test Cases/Exit browser" status="PASSED">
+         <system-out><![CDATA[2018-05-10 21:36:53 - [TEST_CASE][PASSED] - Test Cases/Exit browser: Test Cases/Exit browser
+
+2018-05-10 21:36:53 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-10 21:36:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-10 21:36:29 - [TEST_SUITE][PASSED] - Login incorrect user or pass error: Test Cases/Exit browser]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
