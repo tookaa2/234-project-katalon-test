@@ -4,13 +4,19 @@
    <name>Test transaction update</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-05-09T20:50:44</lastRun>
+   <lastRun>2018-05-10T22:10:15</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>3dd5ad15-aadb-4735-8445-99d921a26329</testSuiteGuid>
+   <testCaseLink>
+      <guid>f99572fd-ec1d-4173-9fd4-bdf68cd27d7f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Navigate to web</testCaseId>
+   </testCaseLink>
    <testCaseLink>
       <guid>634987e1-b740-431d-a159-49473ba74ca5</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -67,5 +73,11 @@
          <value>Password</value>
          <variableId>2bd5e8ef-ae22-4f5a-8b0d-63f80c34e1f7</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>96189bbe-7d25-43d7-8c73-71bba602a582</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Exit browser</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

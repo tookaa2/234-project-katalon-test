@@ -26,17 +26,13 @@ import org.junit.After as After
 import org.openqa.selenium.By as By
 import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('http://54.71.80.147:8086/')
-
 WebUI.setText(findTestObject('Login_Page/input_username'), 'admin')
 
 WebUI.setText(findTestObject('Login_Page/input_password'), 'admin')
 
 WebUI.click(findTestObject('Login_Page/button_Login'))
 
-WebUI.waitForElementNotPresent(findTestObject('Navigation bar/Logout Button'), 15)
+WebUI.waitForElementPresent(findTestObject('Navigation bar/Logout Button'), 15)
 
 WebUI.click(findTestObject('Navigation bar/Redirect to total transaction'))
 
@@ -160,4 +156,8 @@ WebUI.delay(2)
 WebUI.verifyEqual(transactionSizeBefore, transactionSizeAfter - 1)
 
 WebUI.delay(1)
+
+WebUI.click(findTestObject('Navigation bar/Logout Button'))
+
+WebUI.verifyElementPresent(findTestObject('Login_Page/Login Header'), 15)
 
