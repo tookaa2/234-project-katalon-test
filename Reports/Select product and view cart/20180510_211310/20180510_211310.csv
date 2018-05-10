@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Select product and view cart,Chrome 66.0.3359.139,,2018-05-10 21:13:12,2018-05-10 21:14:12,59.419s,ERROR
+,,,,,,
+Test Cases/Navigate to web,Chrome 66.0.3359.139,Use to navigate to certain urls,2018-05-10 21:13:13,2018-05-10 21:13:34,21.314s,PASSED
+openBrowser,Chrome 66.0.3359.139,,2018-05-10 21:13:13,2018-05-10 21:13:18,4.248s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-10 21:13:18,2018-05-10 21:13:34,16.615s,PASSED
+,,,,,,
+Test Cases/4-Selecting product and view cart,Chrome 66.0.3359.139,,2018-05-10 21:13:34,2018-05-10 21:13:37,3.158s,ERROR
+delay,Chrome 66.0.3359.139,,2018-05-10 21:13:35,2018-05-10 21:13:37,2.033s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-10 21:13:37,2018-05-10 21:13:37,0.281s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-10 21:13:37,2018-05-10 21:13:37,0.219s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-10 21:13:37,2018-05-10 21:13:37,0.189s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 66.0.3359.139,,2018-05-10 21:13:37,2018-05-10 21:13:37,0.015s,PASSED
+"Statement - Products = driver.findElement(org.openqa.selenium.By.xpath(""/html/body/app-root/app-product-list/div/div[2]/div""))",Chrome 66.0.3359.139,,2018-05-10 21:13:37,2018-05-10 21:13:37,0.092s,PASSED
+,,,,,,
+Test Cases/4-Selecting product and view cart,Chrome 66.0.3359.139,,2018-05-10 21:13:37,2018-05-10 21:14:11,33.576s,FAILED
+delay,Chrome 66.0.3359.139,,2018-05-10 21:13:37,2018-05-10 21:13:39,2.003s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-10 21:13:39,2018-05-10 21:14:11,31.550s,FAILED
+,,,,,,
+Test Cases/Exit browser,Chrome 66.0.3359.139,use to terminate browser when testcase is done,2018-05-10 21:14:11,2018-05-10 21:14:12,0.810s,PASSED
+closeBrowser,Chrome 66.0.3359.139,,2018-05-10 21:14:11,2018-05-10 21:14:12,0.624s,PASSED

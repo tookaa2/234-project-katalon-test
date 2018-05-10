@@ -24,6 +24,16 @@ import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.By as By
 
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('Login_Page/input_username'), username)
+
+WebUI.setText(findTestObject('Login_Page/input_password'), password)
+
+WebUI.click(findTestObject('Login_Page/button_Login'))
+
+WebUI.waitForElementPresent(findTestObject('Product page/Header_Products'), 0)
+
 WebUI.delay(2)
 
 WebDriver driver = DriverFactory.getWebDriver()
@@ -40,7 +50,7 @@ for (int i = 1; i <= farmerCards.size(); i++) {
 
     WebUI.click(buttonAddProduct)
 
-    WebUI.click(findTestObject('Cart page/Redirect to cart'))
+    WebUI.click(findTestObject('Navigation bar/Redirect to cart'))
 
     WebUI.delay(1)
 
@@ -48,4 +58,8 @@ for (int i = 1; i <= farmerCards.size(); i++) {
 }
 
 WebUI.delay(2)
+
+WebUI.click(findTestObject('Product page/Logout Button'))
+
+WebUI.verifyElementPresent(findTestObject('Login_Page/Login Header'), 15)
 
