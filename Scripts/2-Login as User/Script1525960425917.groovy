@@ -19,7 +19,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.setText(findTestObject('Login_Page/input_username'), username)
+
+WebUI.setText(findTestObject('Login_Page/input_password'), password)
+
+WebUI.click(findTestObject('Login_Page/button_Login'))
+
 WebUI.verifyElementText(findTestObject('Navigation bar/a_Products'), 'Products')
 
-WebUI.verifyElementText(findTestObject('Navigation bar/a_Total Transaction'), 'Total Transaction')
+WebUI.verifyElementText(findTestObject('Navigation bar/Redirect to cart'), 'Carts')
+
+WebUI.click(findTestObject('Product page/Logout Button'))
+
+WebUI.verifyElementPresent(findTestObject('Login_Page/Login Header'), 15)
 

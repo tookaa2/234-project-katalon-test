@@ -4,7 +4,7 @@
    <name>Login as user</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-04-28T23:34:40</lastRun>
+   <lastRun>2018-05-10T20:58:46</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -18,28 +18,31 @@
       <testCaseId>Test Cases/Navigate to web</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>9eb6c5e1-a711-4bae-83f4-5cc263126226</guid>
+      <guid>3c8dc20b-9f9e-479c-800b-7bf09b3b9c23</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login with credentials</testCaseId>
+      <testCaseId>Test Cases/2-Login as User</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>096a5fbb-b0ef-4930-b8b7-c649b1ce126c</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/User role</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>SCRIPT_VARIABLE</type>
-         <value>&quot;user&quot;</value>
-         <variableId>d23196c2-519d-4e28-96bb-05a21bdb9cf9</variableId>
+         <testDataLinkId>096a5fbb-b0ef-4930-b8b7-c649b1ce126c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>5576fb47-bd68-4b60-9793-0fbfd0568140</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>SCRIPT_VARIABLE</type>
-         <value>&quot;user&quot;</value>
-         <variableId>0bc0a367-2c7b-477e-8476-6d9e80ef7936</variableId>
+         <testDataLinkId>096a5fbb-b0ef-4930-b8b7-c649b1ce126c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>52369b79-fee1-4b58-b489-61f610dfecf1</variableId>
       </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>30215dd4-9f03-4586-a7b7-d993a9d59908</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Verify user landing page</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>ccf7f5ed-6289-4321-b18f-66f3eb30e224</guid>

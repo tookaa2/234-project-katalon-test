@@ -72,7 +72,9 @@ int firstprice = Integer.parseInt(WebUI.getText(totalPrice1).replace(' THB', '')
         ''))
 
 println(firstprice)
+
 WebUI.delay(1)
+
 WebUI.click(findTestObject('Product page/Logout Button'))
 
 WebUI.verifyElementPresent(findTestObject('Login_Page/Login Header'), 15)
@@ -102,8 +104,10 @@ for (int i = 1; i <= farmerCards.size(); i++) {
     WebUI.delay(1)
 }
 
-WebUI.click(findTestObject('Navigation bar/Link to Carts'))
+WebUI.click(findTestObject('Navigation bar/Redirect to cart'))
+
 WebUI.delay(1)
+
 WebUI.setText(findTestObject('Cart Page/item1'), '' + item_1_amount)
 
 WebUI.setText(findTestObject('Cart Page/item2'), '' + item_2_amount)
@@ -118,8 +122,6 @@ int priceOfLatestTeansaction = Integer.parseInt(WebUI.getText(findTestObject('Ca
         '').replace(',', '').replace('Total price: ', ''))
 
 println(priceOfLatestTeansaction)
-
-
 
 WebUI.delay(2)
 

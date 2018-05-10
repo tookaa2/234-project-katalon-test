@@ -62,12 +62,13 @@ for (int i = 1; i <= farmerCards.size(); i++) {
 
     println(buttonAddProduct)
 
-    WebUI.verifyElementText(findTestObject('Product page/cart amount label'), '' + i) //    WebUI.delay(1)
+    WebUI.verifyElementText(findTestObject('Product page/cart amount label'), '' + i //    WebUI.delay(1)
+        )
 }
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Navigation bar/Link to Carts'))
+WebUI.click(findTestObject('Navigation bar/Redirect to cart'))
 
 WebUI.delay(2)
 
@@ -75,7 +76,7 @@ WebElement items = driver.findElement(By.xpath('/html/body/app-root/app-cart-lis
 
 List<WebElement> itemInTable = items.findElements(By.tagName('tr'))
 
-int[] prices = new int[6]
+int[] prices = new int[]
 
 for (int i = 1; i < itemInTable.size; i++) {
     TestObject product = new TestObject()
@@ -98,7 +99,7 @@ WebUI.setText(findTestObject('Cart Page/item4'), '' + item_4_amount)
 
 WebUI.setText(findTestObject('Cart Page/item5'), '' + item_5_amount)
 
-int finalPrice = finalPrice + (Integer.parseInt(item_1_amount)  * (prices[1]))
+int finalPrice = finalPrice + (Integer.parseInt(item_1_amount) * (prices[1]))
 
 finalPrice = (finalPrice + (Integer.parseInt(item_2_amount) * (prices[2])))
 
@@ -114,8 +115,7 @@ println(priceInString)
 
 WebUI.delay(5)
 
-WebUI.verifyElementText(findTestObject('Cart Page/Total price  label'), ('Total price: ' + priceInString) + 
-    ' THB')
+WebUI.verifyElementText(findTestObject('Cart Page/Total price  label'), ('Total price: ' + priceInString) + ' THB')
 
 WebUI.delay(5)
 
